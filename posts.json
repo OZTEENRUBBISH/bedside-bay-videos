@@ -47,5 +47,91 @@
   ],
   "hook": "Broke intern to ED Director",
   "buffer_id": "6af52d1b8a1a2f52b51c8d02"
+ },
+ {
+  "date": "2026-11-14",
+  "slot": "06:00",
+  "model": "Full Game",
+  "format": "video",
+  "files": [
+   "posts/2026-11-14/full-game-02-163-patients.mp4"
+  ],
+  "hook": "163 patients. One doctor.",
+  "script": "kit/variants/fullgame_02.py",
+  "music": "upbeat",
+  "buffer_id": "6af541688a1a2f52b5229182"
+ },
+ {
+  "date": "2026-11-14",
+  "slot": "14:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-14/broke-to-rich-02-rewind.mp4"
+  ],
+  "hook": "How did he afford this? (rewind to Day 1)",
+  "script": "kit/variants/b2r_variants.py rewind",
+  "music": "bright",
+  "buffer_id": "6af54169bfa789f6210b1e78"
+ },
+ {
+  "date": "2026-11-14",
+  "slot": "22:00",
+  "model": "Case",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-14/case-megan-lewis-photo-1.jpg",
+   "posts/2026-11-14/case-megan-lewis-photo-2.jpg",
+   "posts/2026-11-14/case-megan-lewis-photo-3.jpg",
+   "posts/2026-11-14/case-megan-lewis-photo-4.jpg",
+   "posts/2026-11-14/case-megan-lewis-photo-5.jpg"
+  ],
+  "hook": "\"Why does it smell of burning in here?\"",
+  "case_id": "megan-lewis",
+  "script": "kit/variants/case_photos.py",
+  "buffer_id": "6af5416a3d8c751bfd150a9c"
+ },
+ {
+  "date": "2026-11-15",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-15/broke-to-rich-03-two-futures.mp4"
+  ],
+  "hook": "Same doctor. Two futures. (split screen)",
+  "script": "kit/variants/b2r_variants.py split",
+  "music": "upbeat",
+  "buffer_id": "6af5416a8a1a2f52b5229253"
+ },
+ {
+  "date": "2026-11-15",
+  "slot": "14:00",
+  "model": "Case",
+  "format": "video",
+  "files": [
+   "posts/2026-11-15/case-priya-sharma.mp4"
+  ],
+  "hook": "Your next patient",
+  "case_id": "priya-sharma",
+  "music": "tense",
+  "buffer_id": "6af5416bcb4c7286fd13d994"
+ },
+ {
+  "date": "2026-11-15",
+  "slot": "22:00",
+  "model": "Full Game",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-15/full-game-03-four-swipes-1.jpg",
+   "posts/2026-11-15/full-game-03-four-swipes-2.jpg",
+   "posts/2026-11-15/full-game-03-four-swipes-3.jpg",
+   "posts/2026-11-15/full-game-03-four-swipes-4.jpg",
+   "posts/2026-11-15/full-game-03-four-swipes-5.jpg",
+   "posts/2026-11-15/full-game-03-four-swipes-6.jpg"
+  ],
+  "hook": "New here? The whole game in 4 swipes.",
+  "script": "kit/variants/fullgame_02.py photos",
+  "buffer_id": "6af5416cbc9f3773a1bee3ef"
  }
 ]
