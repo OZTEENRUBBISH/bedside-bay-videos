@@ -3,7 +3,7 @@
 This repo holds the media and the drawing kit for the TikTok account **bedside.bay** (game: Bedside Bay, https://bedsidebay.com, an emergency-medicine career game by Max). Posts are published by Buffer, which downloads each file from this repo's raw URL.
 
 ## Fixed facts
-- Buffer organization id `6af52943363c789ae7ff8d6b` ("My organization"), TikTok channel id `6af529bb62b70b94b000c995` (bedside.bay). Buffer free plan: at most **10 scheduled posts** in the queue, 5 hashtags per TikTok post, about 1,000 API requests a month (keep calls lean).
+- Buffer organization id `6af52943363c789ae7ff8d6b` ("My organization"), TikTok channel id `6af529bb62b70b94b000c995` (bedside.bay). Buffer free plan: at most **10 scheduled posts per channel** in the queue (the organization also has the startup.legacy channel `6af5369662b70b94b0016dc6`; always call `list_posts` with `channelIds: ["6af529bb62b70b94b000c995"]` so its posts are not counted or touched), 5 hashtags per TikTok post, about 1,000 API requests a month (keep calls lean).
 - Three posts every day at **6:00am, 2:00pm and 10:00pm Australia/Sydney**. Create posts with `mode: customScheduled`, `schedulingType: automatic`, and `dueAt` in Sydney local time with the correct UTC offset (take it from Buffer `get_account` `currentTime`; never assume the offset).
 - Raw URL format: `https://raw.githubusercontent.com/OZTEENRUBBISH/bedside-bay-videos/main/posts/<YYYY-MM-DD>/<file>`. Files must be pushed to `main` and return HTTP 200 before a post is created. Never rename or delete a file whose post is still queued.
 
