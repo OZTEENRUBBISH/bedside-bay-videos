@@ -37,3 +37,6 @@ This repo holds the media and the drawing kit for the TikTok account **bedside.b
 5. **Weekly review (first run on or after each Monday, Sydney time):** `list_posts` with `includeMetrics: true` for the last 7 days of sent posts, record views per post in `posts.json`, write the ranking to `performance.md`, and for the following 7 days make one or two extra posts modelled on the best performers (same model and hook style, new content), replacing the weakest model's slots on those days.
 6. Buffer `edit_post` re-validates the whole post: resend `assets`, `text` and `metadata` or it is rejected.
 7. If Buffer tools are unavailable, a push fails, or a post errors, do not retry in a loop and do not delete or recreate posts: stop and report what happened and what is still queued.
+
+## Startup Legacy (separate account)
+`startup-legacy/` holds the media, kit and playbook for the TikTok account **startup.legacy** (Max's game Startup Legacy). It follows `startup-legacy/PLAYBOOK.md`, not this file. Never mix the two accounts.

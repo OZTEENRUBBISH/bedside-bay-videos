@@ -6,3 +6,5 @@ Media for Bedside Bay social posts (TikTok: bedside.bay), published through Buff
 - `kit/` — the drawing kit used to make them (Python, skia-python, ffmpeg): brand bar, career HUD, the Dr John Smith character and the illustrated scenes. Fonts: Figtree (SIL Open Font License).
 
 Style rules: fully illustrated (no screenshots or screen recordings), brand visible from the first frame, career-mode story, and the doctor is always Dr John Smith.
+
+- `startup-legacy/`: media, kit and playbook for the separate TikTok account startup.legacy (Startup Legacy game). See `startup-legacy/PLAYBOOK.md`.

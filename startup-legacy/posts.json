@@ -1,0 +1,196 @@
+[
+ {
+  "date": "2026-11-12",
+  "slot": "22:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "spec": "specs/2026-11-12-2200-btr-day1.json",
+  "files": [
+   "posts/2026-11-12/btr-day1.mp4"
+  ],
+  "hook": "Day 1. $2,000 to my name.",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6af53a8d2f7f0a6952ece1a8"
+ },
+ {
+  "date": "2026-11-13",
+  "slot": "06:00",
+  "model": "Luxury Unlocks",
+  "format": "photos",
+  "spec": "specs/2026-11-13-0600-lux-photos.json",
+  "files": [
+   "posts/2026-11-13/lux-photos/slide-1.jpg",
+   "posts/2026-11-13/lux-photos/slide-2.jpg",
+   "posts/2026-11-13/lux-photos/slide-3.jpg",
+   "posts/2026-11-13/lux-photos/slide-4.jpg",
+   "posts/2026-11-13/lux-photos/slide-5.jpg",
+   "posts/2026-11-13/lux-photos/slide-6.jpg"
+  ],
+  "hook": "What I bought when my startup took off",
+  "scenes": [
+   "broke",
+   "watch",
+   "cars",
+   "yacht",
+   "jet",
+   "cta"
+  ],
+  "buffer_id": "6af53aacbfa789f6210933f4"
+ },
+ {
+  "date": "2026-11-13",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "video",
+  "spec": "specs/2026-11-13-1400-game-yourrules.json",
+  "files": [
+   "posts/2026-11-13/game-yourrules.mp4"
+  ],
+  "hook": "Start with almost nothing.",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "trading",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6af53aadcb4c7286fd11de6e"
+ },
+ {
+  "date": "2026-11-13",
+  "slot": "22:00",
+  "model": "Luxury Unlocks",
+  "format": "video",
+  "spec": "specs/2026-11-13-2200-lux-pov.json",
+  "files": [
+   "posts/2026-11-13/lux-pov.mp4"
+  ],
+  "hook": "POV: 5 years ago you were broke.",
+  "scenes": [
+   "broke",
+   "watch",
+   "cars",
+   "yacht",
+   "jet",
+   "cta"
+  ],
+  "buffer_id": "6af53aae3d8c751bfd133941"
+ },
+ {
+  "date": "2026-11-14",
+  "slot": "06:00",
+  "model": "Full Game",
+  "format": "video",
+  "spec": "specs/2026-11-14-0600-game-ceo.json",
+  "files": [
+   "posts/2026-11-14/game-ceo.mp4"
+  ],
+  "hook": "Rent overdue. $2,000 left.",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "trading",
+   "jet",
+   "cta"
+  ],
+  "buffer_id": "6af53aaebfa789f6210934fb"
+ },
+ {
+  "date": "2026-11-14",
+  "slot": "14:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "spec": "specs/2026-11-14-1400-btr-photos.json",
+  "files": [
+   "posts/2026-11-14/btr-photos/slide-1.jpg",
+   "posts/2026-11-14/btr-photos/slide-2.jpg",
+   "posts/2026-11-14/btr-photos/slide-3.jpg",
+   "posts/2026-11-14/btr-photos/slide-4.jpg",
+   "posts/2026-11-14/btr-photos/slide-5.jpg",
+   "posts/2026-11-14/btr-photos/slide-6.jpg"
+  ],
+  "hook": "Age 22: broke, rent overdue",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "trading",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6af53aafcb4c7286fd11e032"
+ },
+ {
+  "date": "2026-11-14",
+  "slot": "22:00",
+  "model": "Luxury Unlocks",
+  "format": "video",
+  "spec": "specs/2026-11-14-2200-lux-wedding.json",
+  "files": [
+   "posts/2026-11-14/lux-wedding.mp4"
+  ],
+  "hook": "Broke at 22.",
+  "scenes": [
+   "broke",
+   "office",
+   "wedding",
+   "yacht",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6af53ab0cb4c7286fd11e084"
+ },
+ {
+  "date": "2026-11-15",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "spec": "specs/2026-11-15-0600-btr-noodles.json",
+  "files": [
+   "posts/2026-11-15/btr-noodles.mp4"
+  ],
+  "hook": "Instant noodles for dinner.",
+  "scenes": [
+   "broke",
+   "garage",
+   "trading",
+   "cars",
+   "jet",
+   "cta"
+  ],
+  "buffer_id": "6af53ab0bc9f3773a1bce29c"
+ },
+ {
+  "date": "2026-11-15",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "photos",
+  "spec": "specs/2026-11-15-1400-game-photos.json",
+  "files": [
+   "posts/2026-11-15/game-photos/slide-1.jpg",
+   "posts/2026-11-15/game-photos/slide-2.jpg",
+   "posts/2026-11-15/game-photos/slide-3.jpg",
+   "posts/2026-11-15/game-photos/slide-4.jpg",
+   "posts/2026-11-15/game-photos/slide-5.jpg",
+   "posts/2026-11-15/game-photos/slide-6.jpg"
+  ],
+  "hook": "Can you go from broke to billionaire?",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "trading",
+   "yacht",
+   "cta"
+  ],
+  "buffer_id": "6af53ab1bfa789f621093696"
+ }
+]
