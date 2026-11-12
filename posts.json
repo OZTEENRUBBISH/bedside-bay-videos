@@ -5,7 +5,7 @@
   "model": "Broke to Rich",
   "format": "video",
   "files": [
-   "posts/2026-11-12/ad001-career-climb.mp4"
+   "posts/2026-11-12/broke-to-rich-01-voice.mp4"
   ],
   "hook": "Day 1. Broke intern.",
   "buffer_id": "6af52d1abc9f3773a1b8921b"
@@ -16,7 +16,7 @@
   "model": "Case",
   "format": "video",
   "files": [
-   "posts/2026-11-13/case-graham-peters.mp4"
+   "posts/2026-11-13/case-graham-peters-voice.mp4"
   ],
   "hook": "Your next patient",
   "case_id": "graham-peters",
@@ -28,7 +28,7 @@
   "model": "Full Game",
   "format": "video",
   "files": [
-   "posts/2026-11-13/full-game-01.mp4"
+   "posts/2026-11-13/full-game-01-voice.mp4"
   ],
   "hook": "Run your own emergency room.",
   "buffer_id": "6af52fb9bc9f3773a1b98121"

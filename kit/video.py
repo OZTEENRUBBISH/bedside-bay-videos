@@ -1,4 +1,5 @@
-"""Bedside Bay ad 001 — 'Broke intern to ED Director'. Usage: video.py preview | render"""
+"""Model "Broke to Rich" — Dr John Smith from broke intern to ED Director.
+Usage: python3 video.py <out.mp4>   |   python3 video.py preview <sheet.jpg>"""
 import sys, os, subprocess, math, skia
 from lib import *
 import scenes
@@ -65,36 +66,18 @@ def frame(i, t):
     s = new_surface(); compose(s.getCanvas(), i, t); return s
 
 
-def preview():
-    os.makedirs('prev', exist_ok=True)
-    for n, (i, t) in enumerate([(0, 0.0), (0, 1.8), (1, 1.1), (1, 3.4), (2, 2.3), (3, 2.6), (4, 2.5)]):
-        frame(i, t).makeImageSnapshot().save(f'prev/p{n}.png', skia.kPNG)
-    # contact sheet
-    from PIL import Image
-    ims = [Image.open(f'prev/p{n}.png').resize((432, 768)) for n in range(7)]
-    sh = Image.new('RGB', (432 * 4, 768 * 2), '#222')
-    for n, im in enumerate(ims): sh.paste(im, ((n % 4) * 432, (n // 4) * 768))
-    sh.save('prev/sheet.jpg', quality=85)
-
-
-def render():
-    os.makedirs('out', exist_ok=True)
-    parts = []
-    for i, sc in enumerate(SC):
-        d = sc[1]
-        tmp, fin = f'out/tmp_s{i}.mp4', f'out/s{i}.mp4'
-        p = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{W}x{H}',
-                              '-r', str(FPS), '-i', '-', '-c:v', 'libx264', '-crf', '18', '-preset', 'veryfast',
-                              '-pix_fmt', 'yuv420p', tmp], stdin=subprocess.PIPE)
-        s = new_surface(); c = s.getCanvas()
-        for f in range(int(round(d * FPS))):
-            compose(c, i, f / FPS); p.stdin.write(to_rgba(s))
-        p.stdin.close()
-        assert p.wait() == 0
-        os.rename(tmp, fin); parts.append(fin); print('scene', i, 'done', flush=True)
-    open('out/list.txt', 'w').write(''.join(f"file '{os.path.basename(x)}'\n" for x in parts))
-    subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', 'out/list.txt', '-c', 'copy', 'out/silent.mp4'])
+def soundtrack(wav):
+    import sound
+    return sound.build(wav, sum(s[1] for s in SC), 'upbeat', drop=3.0, lift=10.4, cta=14.6,
+        cues=[(2.75, 'whoosh'), (3.45, 'ding'), (4.6, 'ding'), (5.9, 'cash'), (6.95, 'whoosh'), (7.7, 'ding'), (8.95, 'cash'), (10.15, 'whoosh'),
+              (10.9, 'pop'), (11.7, 'pop'), (12.5, 'cash'), (13.4, 'riser'), (14.6, 'impact')],
+        voice=[(0.15, "Day one. You're a broke intern.", 2.7), (3.2, "Solve real E.R. cases.", 3.5), (7.4, "Take on the big surgeries.", 2.8),
+               (10.6, "And live like an E.D. Director.", 3.6), (14.9, "Bedside Bay. Play free.", 2.9)])
 
 
 if __name__ == '__main__':
-    preview() if sys.argv[1] == 'preview' else render()
+    if sys.argv[1] == 'preview':
+        contact_sheet([frame(i, t) for i, t in [(0, 0.0), (0, 1.8), (1, 1.1), (1, 3.4), (2, 2.3), (3, 2.6), (4, 2.5)]], sys.argv[2], 7)
+    else:
+        out = sys.argv[1]; wav = out[:-4] + '.wav'; soundtrack(wav)
+        render_video([((lambda c, t, i=i: compose(c, i, t)), s[1]) for i, s in enumerate(SC)], out, wav); os.remove(wav)

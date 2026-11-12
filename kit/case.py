@@ -2,7 +2,7 @@
 Usage: python3 case.py <case-id> <out.mp4> [preview]   (case ids are in cases.json)"""
 import sys, os, json, math, skia
 from lib import *
-import scenes, music
+import scenes
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RED = '#e5484d'
@@ -137,6 +137,18 @@ def build(case_id):
     return K, [(s_intro(K), 3.6), (s_move(K), 3.9), (s_call(K), 3.8), (s_cta(K), 3.5)]
 
 
+def soundtrack(K, SC, wav):
+    import sound
+    first = K['name'].split()[0]; age = K['age'] if K['age'].isdigit() else ''
+    import re
+    q1 = re.split(r'(?<=[.!?])\s+', K['quote'])[0]  # first sentence only, so the line fits the scene
+    intro = f"{first}{', ' + age if age else ''}. {q1}"
+    cues = [(.05, 'beep')] + [(.6 + i * .09, 'tick') for i in range(20)] + [(3.35, 'whoosh'), (7.25, 'whoosh'), (11.05, 'riser'), (11.3, 'impact')]
+    cues += [(3.85 + i * .32, 'pop') for i in range(4)] + [(9.2, 'ding'), (9.6, 'beep')]
+    return sound.build(wav, sum(d for _, d in SC), 'tense', drop=3.6, lift=7.5, cta=11.3, cues=cues,
+        voice=[(0.2, intro, 3.3), (3.8, 'Your move, doctor.', 3.0), (7.7, 'One call. Get it right.', 3.2), (11.6, f'{first} is waiting. Play free.', 3.0)])
+
+
 if __name__ == '__main__':
     K, SC = build(sys.argv[1]); out = sys.argv[2]
     if len(sys.argv) > 3:
@@ -145,6 +157,5 @@ if __name__ == '__main__':
             s = new_surface(); SC[i][0](s.getCanvas(), t); fr.append(s)
         contact_sheet(fr, out, 5)
     else:
-        D = sum(d for _, d in SC); wav = out[:-4] + '.wav'
-        music.make(wav, D, 'tense', cta=3.5, dings=(3.6, 7.5))
+        wav = out[:-4] + '.wav'; soundtrack(K, SC, wav)
         render_video(SC, out, wav); os.remove(wav)

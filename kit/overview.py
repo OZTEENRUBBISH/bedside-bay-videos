@@ -2,7 +2,7 @@
 Usage: python3 overview.py <out.mp4> [preview]"""
 import sys, os, json, math, skia
 from lib import *
-import scenes, music
+import scenes
 from case import bg, card, chip
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -85,6 +85,16 @@ def s_modes(c, t):
 
 SC = [(s_hook, 2.8), (s_patients, 3.2), (s_play, 3.4), (s_ladder, 3.6), (s_modes, 3.2), (scenes.cta, 3.4)]
 
+def soundtrack(wav):
+    import sound
+    cues = [(2.55, 'whoosh'), (5.75, 'whoosh'), (9.15, 'whoosh'), (12.75, 'whoosh'), (15.0, 'riser'), (16.2, 'impact')]
+    cues += [(3.1 + i * .09, 'pop') for i in range(12)] + [(6.0 + i * .55, 'pop') for i in range(4)]
+    cues += [(9.6 + i * .42, f'step:{i}') for i in range(5)] + [(13.2 + i * .3, 'pop') for i in range(4)]
+    return sound.build(wav, sum(d for _, d in SC), 'bright', drop=0.0, lift=9.4, cta=16.2, cues=cues,
+        voice=[(0.15, 'Run your own emergency room.', 2.5), (3.0, 'One hundred and sixty-three patients to treat.', 3.0), (6.2, 'Talk. Examine. Test. Treat.', 3.0),
+               (9.6, 'Climb five ranks, from intern to E.D. Director.', 3.3), (13.2, 'Four ways to play.', 2.8), (16.5, 'Bedside Bay. Play free.', 2.9)])
+
+
 if __name__ == '__main__':
     out = sys.argv[1]
     if len(sys.argv) > 2:
@@ -93,6 +103,5 @@ if __name__ == '__main__':
             s = new_surface(); SC[i][0](s.getCanvas(), t); fr.append(s)
         contact_sheet(fr, out, 6)
     else:
-        D = sum(d for _, d in SC); wav = out[:-4] + '.wav'
-        music.make(wav, D, 'bright', cta=3.4, dings=(2.8, 6.0, 9.4, 13.0))
+        wav = out[:-4] + '.wav'; soundtrack(wav)
         render_video(SC, out, wav); os.remove(wav)
