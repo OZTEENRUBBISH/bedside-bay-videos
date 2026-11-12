@@ -1,0 +1,72 @@
+{
+ "model": "Club Owner",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {
+   "scene": "stadium",
+   "dur": 3.6,
+   "head": [
+    "I bought a",
+    "football club."
+   ],
+   "hud": [
+    3,
+    9000000,
+    3,
+    9000000
+   ],
+   "voice": "I bought a football club."
+  },
+  {
+   "scene": "clubmoney",
+   "dur": 3.4,
+   "head": [
+    "Set the wages,",
+    "tickets and coach."
+   ],
+   "hud": [
+    3,
+    9000000,
+    3,
+    9400000
+   ],
+   "voice": "Set the wages, tickets and coach."
+  },
+  {
+   "scene": "club",
+   "dur": 3.4,
+   "head": [
+    "Ran it like",
+    "a business."
+   ],
+   "hud": [
+    3,
+    9400000,
+    4,
+    16000000
+   ],
+   "voice": "Ran it like a business."
+  },
+  {
+   "scene": "trophy",
+   "dur": 3.2,
+   "head": [
+    "League champions."
+   ],
+   "hud": [
+    4,
+    16000000,
+    4,
+    21000000
+   ],
+   "voice": "League champions."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "Buy a club, set the wage bill and ticket prices, sign a star and chase the title. Free on the App Store: Startup Legacy. #football #sportsbusiness #entrepreneur #owner #simulationgame"
+}

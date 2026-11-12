@@ -14,8 +14,10 @@ Scene names: see sl.SCENES."""
 import sys, os, json, math, skia
 from sl import *  # noqa
 import sl
+from sl2 import SCENES2, LIGHT2
+SCENES = dict(SCENES, **SCENES2)
 
-LIGHT = {'office', 'wedding'}
+LIGHT = {'office', 'wedding'} | LIGHT2
 FPS = 30
 
 
@@ -29,8 +31,9 @@ def hud_at(sc, t):
 
 def compose(c, sc, t, first=False):
     name = sc['scene']; fn = SCENES[name]
-    if name == 'mansion': fn(c, t, car_in=sc.get('car_in', True))
-    else: fn(c, t)
+    kw = dict(sc.get('args', {}))
+    if name == 'mansion' and 'car_in' in sc: kw['car_in'] = sc['car_in']
+    fn(c, t, **kw)
     if name == 'cta':
         brand_top = False
     else:

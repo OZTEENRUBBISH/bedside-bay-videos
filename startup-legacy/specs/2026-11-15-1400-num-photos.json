@@ -1,0 +1,87 @@
+{
+ "model": "The Numbers",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "marketing",
+   "dur": 3,
+   "head": [
+    "How my business",
+    "makes money"
+   ],
+   "hud": [
+    1,
+    40000,
+    1,
+    40000
+   ],
+   "photo_t": 0.4
+  },
+  {
+   "scene": "marketing",
+   "dur": 3,
+   "head": [
+    "1. Spend on",
+    "marketing"
+   ],
+   "hud": [
+    2,
+    380000,
+    2,
+    380000
+   ],
+   "photo_t": 2.9
+  },
+  {
+   "scene": "unit",
+   "dur": 3,
+   "head": [
+    "2. Know your cost",
+    "per customer"
+   ],
+   "hud": [
+    2,
+    870000,
+    2,
+    870000
+   ],
+   "photo_t": 2.9
+  },
+  {
+   "scene": "pricing",
+   "dur": 3,
+   "head": [
+    "3. Find the",
+    "right price"
+   ],
+   "hud": [
+    2,
+    1200000,
+    2,
+    1200000
+   ],
+   "photo_t": 1.2
+  },
+  {
+   "scene": "pnl",
+   "dur": 3,
+   "head": [
+    "4. Profit after",
+    "wages and tax"
+   ],
+   "hud": [
+    3,
+    2900000,
+    3,
+    2900000
+   ],
+   "photo_t": 2.9
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "caption": "Four numbers every founder should know. Swipe through them. Free on the App Store: Startup Legacy. #entrepreneur #marketing #finance #businesstips #simulationgame"
+}

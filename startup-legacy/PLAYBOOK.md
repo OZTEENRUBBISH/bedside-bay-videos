@@ -13,10 +13,20 @@ This folder holds the media and drawing kit for the TikTok account **startup.leg
 - Professional look. Brand (the white "Startup Legacy" pill with the green suit icon) visible from the very first frame; the idea lands in the first two seconds; keep it engaging.
 - No real brands, companies, car makes, watch makers or logos. Stock tickers are coined (see `TICKERS` in `kit/sl.py`). No App Store/Apple logo: the end card uses a generic download badge and the words "Free on the App Store".
 
-## The three ad models
+## The six ad models
+Style 1 is illustrated story scenes (`kit/sl.py`). Style 2, added at Max's request, goes into the money side: clean finance-app dashboards, job offers and running a sports club (`kit/sl2.py`). Keep both styles in every day's mix.
+
+Style 1:
 1. **Broke to Rich**: the climb, from the broke room to garage startup, company, shares and the dream life. Age or day timeline hooks ("Day 1.", "Age 22:", "Instant noodles for dinner").
 2. **Luxury Unlocks**: what the money buys. Watch, supercars, superyacht, private jet, wedding, mansion. POV and list hooks ("POV: 5 years ago you were broke", "What I bought when my startup took off").
 3. **Full Game**: what the game really lets you do, told as the same rags-to-riches arc: 29 industries, setting prices and marketing spend, hiring staff, a share market that reacts to news, buying established businesses, film studios, phone companies, insurers and sports clubs, moral choices, a superyacht and private jet in the shop, a full life report at the end, four difficulty levels.
+
+Real game features you may claim (from the game code): price and monthly marketing spend per business; customer acquisition cost, lifetime value, LTV:CAC, payback and break-even in a unit-economics panel; wages with 12% super, rent, company tax; job offers including headhunters offering CEO roles once you have proven yourself, and roles that require a phone, laptop, car or private jet/jet charter; buying sports clubs (22 invented teams across football, cricket, rugby, basketball, ice hockey, baseball, esports) and setting the wage bill, ticket prices, coach level and star signings, with a league table, fans, ticket/sponsor/merch/TV income and league titles.
+
+Style 2:
+4. **The Numbers**: the financial side of running the business. Marketing spend vs customers and revenue (`marketing`), cost per customer, lifetime value, payback and LTV:CAC (`unit`), a monthly profit and loss with wages + super, rent, marketing and tax (`pnl`), and a price test showing demand falling as price rises (`pricing`). Hooks like "I spent $20k on marketing. Here's what came back."
+5. **Job Offer**: offers arriving on a phone (`offer`, with `args` title / pay / who / tag_), the ladder of accepted offers from Junior Analyst to CEO (`ladder`), being headhunted as CEO, roles that need a suit, car or private jet.
+6. **Club Owner**: buying and running a sports club. Match night at the stadium (`stadium`, `args` score / opp), wage bill, ticket price, coach and a star signing (`clubmoney`), revenue from tickets, sponsors, merch and TV plus the league table (`club`), lifting the title (`trophy`). Use the game's own invented clubs (e.g. Ashkettle Rovers, Brammerholt Bulldogs, Sandrevale Strikers, Corvenhall United); never real clubs or leagues.
 
 ## Truth rules
 - Only claim features listed under Full Game above. The game has **no marriage or spouse feature**: the wedding/wife scenes are lifestyle story only, so never say in a caption or headline that you can marry in the game.
@@ -25,7 +35,8 @@ This folder holds the media and drawing kit for the TikTok account **startup.leg
 
 ## How to make a post
 - Kit: `kit/sl.py` (brand, founder character, partner, career card, scenes) and `kit/ad.py` (renders a JSON spec). Shared helpers and the sound engine come from `../kit/lib.py` and `../kit/sound.py`.
-- Scenes available: `broke`, `garage`, `office`, `trading`, `mansion` (`car_in: false` for a parked car), `cars`, `watch`, `yacht`, `jet`, `wedding`, `cta`. New scenes go in `kit/sl.py` and are added to `SCENES`.
+- Style 2 scenes (`kit/sl2.py`): `marketing`, `unit`, `pnl`, `pricing`, `offer`, `ladder`, `stadium`, `clubmoney`, `club`, `trophy`. Pass scene options with `"args": {...}`.
+- Style 1 scenes available: `broke`, `garage`, `office`, `trading`, `mansion` (`car_in: false` for a parked car), `cars`, `watch`, `yacht`, `jet`, `wedding`, `cta`. New scenes go in `kit/sl.py` and are added to `SCENES`.
 - Write a spec in `specs/<date>-<HHMM>-<name>.json` (copy an existing one). Fields: `model`, `format` (`video` or `photos`), `style` (`upbeat`, `tense` or `bright`; vary it), `scenes`, `caption`.
 - `python3 kit/ad.py preview specs/X.json prev/X.jpg` and **look at it** (text inside the frame, nothing hidden by the card or headline) before rendering.
 - Video: `python3 kit/ad.py video specs/X.json posts/<date>/<name>.mp4`. 1080x1920, 30 fps, 15 to 20 s, 5 to 6 scenes, ending on `cta`. It prints each voice line's timing and refuses to render if a line overruns its scene. Check the result with ffprobe and a frame sheet.
@@ -36,7 +47,8 @@ This folder holds the media and drawing kit for the TikTok account **startup.leg
 ## Variety (every post must be different)
 - Never reuse a file. Every new ad needs a new hook and a different scene order, style or headline set from the last 6 posts on this account (check `posts.json`).
 - Each day: two videos and one photo set.
-- Slot rotation from 2026-11-16: with d = days since 2026-11-16, the slot order [6am, 2pm, 10pm] is [Broke to Rich, Full Game, Luxury Unlocks] rotated left by d mod 3. The photo set that day is the model at position (d mod 3) of [Luxury Unlocks, Broke to Rich, Full Game].
+- Slot rotation from 2026-11-16: list M = [Broke to Rich, The Numbers, Luxury Unlocks, Job Offer, Full Game, Club Owner]. With d = days since 2026-11-16, the 6am, 2pm and 10pm slots take M[(3d) mod 6], M[(3d+1) mod 6], M[(3d+2) mod 6], so every day mixes both styles and each model comes round every two days. The photo set that day is the slot at position (d mod 3) (6am, 2pm or 10pm).
+- Spare files: `posts/2026-11-13/game-yourrules.mp4`, `posts/2026-11-14/game-ceo.mp4`, `posts/2026-11-15/btr-noodles.mp4` and `posts/2026-11-15/game-photos/` were made but swapped out for style-2 posts before publishing. They have never been posted, so a run may use them once (log them in posts.json when used).
 
 ## Daily run (scheduled task)
 1. `pip install --break-system-packages skia-python fonttools numpy pillow scipy kokoro-onnx soundfile` if missing; ffmpeg must exist.

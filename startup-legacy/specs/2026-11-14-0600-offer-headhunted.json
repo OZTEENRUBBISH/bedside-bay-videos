@@ -1,0 +1,67 @@
+{
+ "model": "Job Offer",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {
+   "scene": "offer",
+   "dur": 3.6,
+   "head": [
+    "I got headhunted",
+    "as CEO."
+   ],
+   "voice": "I got headhunted as C.E.O."
+  },
+  {
+   "scene": "ladder",
+   "dur": 3.4,
+   "head": [
+    "Every offer",
+    "that got me here."
+   ],
+   "hud": [
+    1,
+    3900,
+    2,
+    1900000
+   ],
+   "voice": "Every offer that got me here."
+  },
+  {
+   "scene": "office",
+   "dur": 3.0,
+   "head": [
+    "First day",
+    "in the corner office."
+   ],
+   "hud": [
+    2,
+    1900000,
+    2,
+    3400000
+   ],
+   "voice": "First day in the corner office."
+  },
+  {
+   "scene": "jet",
+   "dur": 3.0,
+   "head": [
+    "The job needed",
+    "a private jet."
+   ],
+   "hud": [
+    2,
+    3400000,
+    3,
+    9800000
+   ],
+   "voice": "The job needed a private jet."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "From junior analyst to CEO, one offer at a time. Some jobs even need a suit, a car or a jet. Free on the App Store: Startup Legacy. #entrepreneur #career #ceo #success #simulationgame"
+}

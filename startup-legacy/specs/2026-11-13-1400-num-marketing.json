@@ -1,0 +1,72 @@
+{
+ "model": "The Numbers",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {
+   "scene": "marketing",
+   "dur": 3.6,
+   "head": [
+    "I spent $20k",
+    "on marketing."
+   ],
+   "hud": [
+    1,
+    40000,
+    2,
+    380000
+   ],
+   "voice": "I spent twenty grand on marketing."
+  },
+  {
+   "scene": "unit",
+   "dur": 3.4,
+   "head": [
+    "Here's what",
+    "came back."
+   ],
+   "hud": [
+    2,
+    380000,
+    2,
+    870000
+   ],
+   "voice": "Here's what came back."
+  },
+  {
+   "scene": "pnl",
+   "dur": 3.4,
+   "head": [
+    "The real numbers."
+   ],
+   "hud": [
+    2,
+    870000,
+    2,
+    1200000
+   ],
+   "voice": "Wages, rent, tax. Still profit."
+  },
+  {
+   "scene": "pricing",
+   "dur": 3.2,
+   "head": [
+    "Then I found",
+    "the perfect price."
+   ],
+   "hud": [
+    2,
+    1200000,
+    3,
+    2900000
+   ],
+   "voice": "Then I found the perfect price."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Run the numbers yourself. Startup Legacy."
+  }
+ ],
+ "caption": "Marketing spend, cost per customer, lifetime value, break-even. Could you run the numbers? Free on the App Store: Startup Legacy. #entrepreneur #marketing #business #finance #simulationgame"
+}

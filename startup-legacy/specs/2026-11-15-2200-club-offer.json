@@ -1,0 +1,79 @@
+{
+ "model": "Club Owner",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {
+   "scene": "ladder",
+   "dur": 3.2,
+   "head": [
+    "Started on",
+    "$3,900 a month."
+   ],
+   "hud": [
+    1,
+    3900,
+    2,
+    2400000
+   ],
+   "voice": "Started on thirty nine hundred a month."
+  },
+  {
+   "scene": "offer",
+   "dur": 3.4,
+   "head": [
+    "Turned down",
+    "nothing."
+   ],
+   "voice": "Turned down nothing.",
+   "args": {
+    "title": "Operations Director",
+    "pay": "$16,500 / month",
+    "who": "Recruiter",
+    "tag_": "NEW OFFER"
+   }
+  },
+  {
+   "scene": "stadium",
+   "dur": 3.2,
+   "head": [
+    "Then bought",
+    "my own club."
+   ],
+   "hud": [
+    3,
+    9000000,
+    3,
+    9000000
+   ],
+   "voice": "Then bought my own club.",
+   "args": {
+    "score": [
+     3,
+     0
+    ],
+    "opp": "Sandrevale"
+   }
+  },
+  {
+   "scene": "trophy",
+   "dur": 3.2,
+   "head": [
+    "And won the league."
+   ],
+   "hud": [
+    4,
+    16000000.0,
+    4,
+    22000000.0
+   ],
+   "voice": "And won the league."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "$3,900 a month to owning a championship club. How would you climb? Free on the App Store: Startup Legacy. #entrepreneur #career #football #success #simulationgame"
+}
