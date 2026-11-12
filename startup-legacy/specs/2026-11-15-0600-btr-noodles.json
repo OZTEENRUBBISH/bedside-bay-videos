@@ -1,0 +1,86 @@
+{
+ "model": "Broke to Rich",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3.0,
+   "head": [
+    "Instant noodles",
+    "for dinner."
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "voice": "Instant noodles for dinner."
+  },
+  {
+   "scene": "garage",
+   "dur": 3.2,
+   "head": [
+    "One idea.",
+    "One laptop."
+   ],
+   "hud": [
+    0,
+    2000,
+    1,
+    38000
+   ],
+   "voice": "One idea. One laptop."
+  },
+  {
+   "scene": "trading",
+   "dur": 3.4,
+   "head": [
+    "Every dollar",
+    "reinvested."
+   ],
+   "hud": [
+    1,
+    38000,
+    3,
+    8800000
+   ],
+   "voice": "Every dollar, reinvested."
+  },
+  {
+   "scene": "cars",
+   "dur": 3.0,
+   "head": [
+    "Supercars."
+   ],
+   "hud": [
+    3,
+    8800000,
+    4,
+    26000000.0
+   ],
+   "voice": "Supercars."
+  },
+  {
+   "scene": "jet",
+   "dur": 3.4,
+   "head": [
+    "Private jet."
+   ],
+   "hud": [
+    4,
+    26000000.0,
+    4,
+    96000000.0
+   ],
+   "voice": "Private jet."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "Instant noodles to a private jet. One decision at a time. Free on the App Store: Startup Legacy. #entrepreneur #startup #grind #success #simulationgame"
+}

@@ -1,0 +1,88 @@
+{
+ "model": "Broke to Rich",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3,
+   "head": [
+    "Age 22:",
+    "broke, rent overdue"
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "photo_t": 1.8
+  },
+  {
+   "scene": "garage",
+   "dur": 3,
+   "head": [
+    "Age 24:",
+    "first business"
+   ],
+   "hud": [
+    1,
+    48000,
+    1,
+    48000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "office",
+   "dur": 3,
+   "head": [
+    "Age 28:",
+    "the company takes off"
+   ],
+   "hud": [
+    2,
+    2400000,
+    2,
+    2400000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "trading",
+   "dur": 3,
+   "head": [
+    "Age 32:",
+    "first $10M"
+   ],
+   "hud": [
+    3,
+    10000000.0,
+    3,
+    10000000.0
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "mansion",
+   "dur": 3,
+   "head": [
+    "Age 35:",
+    "the dream life"
+   ],
+   "hud": [
+    4,
+    48000000.0,
+    4,
+    48000000.0
+   ],
+   "car_in": false,
+   "photo_t": 2.6
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "caption": "Broke at 22, mansion at 35. Swipe through the climb. Free on the App Store: Startup Legacy. #entrepreneur #startup #success #businesstok #simulationgame"
+}

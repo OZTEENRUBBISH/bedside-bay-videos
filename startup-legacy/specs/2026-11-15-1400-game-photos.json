@@ -1,0 +1,87 @@
+{
+ "model": "Full Game",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3,
+   "head": [
+    "Can you go from",
+    "broke to billionaire?"
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "photo_t": 1.8
+  },
+  {
+   "scene": "garage",
+   "dur": 3,
+   "head": [
+    "Launch businesses in",
+    "29 industries"
+   ],
+   "hud": [
+    1,
+    46000,
+    1,
+    46000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "office",
+   "dur": 3,
+   "head": [
+    "Set prices and",
+    "marketing spend"
+   ],
+   "hud": [
+    2,
+    2400000,
+    2,
+    2400000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "trading",
+   "dur": 3,
+   "head": [
+    "Trade shares in a",
+    "living market"
+   ],
+   "hud": [
+    3,
+    8600000,
+    3,
+    8600000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "yacht",
+   "dur": 3,
+   "head": [
+    "Spend it on",
+    "the good life"
+   ],
+   "hud": [
+    4,
+    42000000.0,
+    4,
+    42000000.0
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "caption": "Your business, your money, your legacy. Swipe to see how it works. Free on the App Store: Startup Legacy. #entrepreneur #startup #businessgame #stocks #simulationgame"
+}

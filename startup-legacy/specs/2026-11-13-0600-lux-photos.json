@@ -1,0 +1,82 @@
+{
+ "model": "Luxury Unlocks",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3,
+   "head": [
+    "What I bought when",
+    "my startup took off"
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "photo_t": 1.8
+  },
+  {
+   "scene": "watch",
+   "dur": 3,
+   "head": [
+    "1. A gold watch."
+   ],
+   "hud": [
+    3,
+    3000000.0,
+    3,
+    3000000.0
+   ]
+  },
+  {
+   "scene": "cars",
+   "dur": 3,
+   "head": [
+    "2. Three supercars."
+   ],
+   "hud": [
+    3,
+    9000000.0,
+    3,
+    9000000.0
+   ],
+   "car_in": false,
+   "photo_t": 2.5
+  },
+  {
+   "scene": "yacht",
+   "dur": 3,
+   "head": [
+    "3. A superyacht."
+   ],
+   "hud": [
+    4,
+    41000000.0,
+    4,
+    41000000.0
+   ]
+  },
+  {
+   "scene": "jet",
+   "dur": 3,
+   "head": [
+    "4. A private jet."
+   ],
+   "hud": [
+    4,
+    96000000.0,
+    4,
+    96000000.0
+   ],
+   "photo_t": 2.5
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "caption": "From instant noodles to a private jet. Which would you buy first? Free on the App Store: Startup Legacy. #entrepreneur #luxurylifestyle #startup #businesstok #simulationgame"
+}

@@ -1,0 +1,99 @@
+{
+ "model": "Luxury Unlocks",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 2.8,
+   "head": [
+    "Broke at 22."
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "voice": "Broke at twenty two."
+  },
+  {
+   "scene": "office",
+   "dur": 3.2,
+   "head": [
+    "CEO at 30."
+   ],
+   "hud": [
+    0,
+    2000,
+    2,
+    3100000
+   ],
+   "voice": "C.E.O. at thirty."
+  },
+  {
+   "scene": "wedding",
+   "dur": 3.6,
+   "head": [
+    "Married the love",
+    "of my life."
+   ],
+   "hud": [
+    2,
+    3100000,
+    3,
+    9500000
+   ],
+   "voice": "Married the love of my life."
+  },
+  {
+   "scene": "yacht",
+   "dur": 3.2,
+   "head": [
+    "Honeymoon on",
+    "our own yacht."
+   ],
+   "hud": [
+    3,
+    9500000,
+    4,
+    41000000.0
+   ],
+   "voice": "Honeymoon on our own yacht."
+  },
+  {
+   "scene": "mansion",
+   "dur": 3.4,
+   "head": [
+    "Then the dream home."
+   ],
+   "hud": [
+    4,
+    41000000.0,
+    4,
+    62000000.0
+   ],
+   "tags": [
+    [
+     0.6,
+     "Mansion",
+     300,
+     578
+    ],
+    [
+     1.3,
+     "Supercar",
+     330,
+     1044
+    ]
+   ],
+   "voice": "Then the dream home."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "Broke at 22, CEO at 30. What does your story look like? Free on the App Store: Startup Legacy. #entrepreneur #startup #success #couplegoals #simulationgame"
+}

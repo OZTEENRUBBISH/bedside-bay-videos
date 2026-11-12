@@ -1,0 +1,109 @@
+{
+ "model": "Full Game",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 2.8,
+   "head": [
+    "Start with almost",
+    "nothing."
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "voice": "Start with almost nothing."
+  },
+  {
+   "scene": "garage",
+   "dur": 3.4,
+   "head": [
+    "Pick from",
+    "29 industries."
+   ],
+   "hud": [
+    0,
+    2000,
+    1,
+    30000
+   ],
+   "voice": "Pick from twenty nine industries."
+  },
+  {
+   "scene": "office",
+   "dur": 3.4,
+   "head": [
+    "Set your prices.",
+    "Spend on marketing."
+   ],
+   "hud": [
+    1,
+    30000,
+    2,
+    1800000
+   ],
+   "toasts": [
+    [
+     0.7,
+     2.0,
+     "New customers",
+     "+$96,000"
+    ]
+   ],
+   "voice": "Set your prices. Spend on marketing."
+  },
+  {
+   "scene": "trading",
+   "dur": 3.2,
+   "head": [
+    "Trade shares as",
+    "the market moves."
+   ],
+   "hud": [
+    2,
+    1800000,
+    3,
+    7600000
+   ],
+   "voice": "Trade shares as the market moves."
+  },
+  {
+   "scene": "mansion",
+   "dur": 3.4,
+   "head": [
+    "Build a legacy."
+   ],
+   "hud": [
+    3,
+    7600000,
+    4,
+    32000000
+   ],
+   "tags": [
+    [
+     0.6,
+     "Mansion",
+     300,
+     578
+    ],
+    [
+     1.2,
+     "Supercar",
+     330,
+     1044
+    ]
+   ],
+   "voice": "Build a legacy."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "29 industries, a living share market and your own empire to build. Free on the App Store: Startup Legacy. #entrepreneur #startup #businessgame #stocks #simulationgame"
+}

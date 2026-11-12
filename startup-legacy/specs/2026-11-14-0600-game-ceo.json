@@ -1,0 +1,88 @@
+{
+ "model": "Full Game",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 2.8,
+   "head": [
+    "Rent overdue.",
+    "$2,000 left."
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "voice": "Rent overdue. Two thousand dollars left."
+  },
+  {
+   "scene": "garage",
+   "dur": 3.2,
+   "head": [
+    "Quit the job.",
+    "Bet on yourself."
+   ],
+   "hud": [
+    0,
+    2000,
+    1,
+    24000
+   ],
+   "voice": "Quit the job. Bet on yourself."
+  },
+  {
+   "scene": "office",
+   "dur": 3.4,
+   "head": [
+    "Hire staff.",
+    "Watch the numbers."
+   ],
+   "hud": [
+    1,
+    24000,
+    2,
+    950000
+   ],
+   "voice": "Hire staff. Watch the numbers."
+  },
+  {
+   "scene": "trading",
+   "dur": 3.2,
+   "head": [
+    "Buy businesses",
+    "and shares."
+   ],
+   "hud": [
+    2,
+    950000,
+    3,
+    6200000
+   ],
+   "voice": "Buy businesses and shares."
+  },
+  {
+   "scene": "jet",
+   "dur": 3.2,
+   "head": [
+    "Run it all",
+    "from the jet."
+   ],
+   "hud": [
+    3,
+    6200000,
+    4,
+    58000000
+   ],
+   "voice": "Run it all from the jet."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "Rent overdue, $2,000 left. Do you quit and bet on yourself? Free on the App Store: Startup Legacy. #entrepreneur #startup #businesstok #mindset #simulationgame"
+}

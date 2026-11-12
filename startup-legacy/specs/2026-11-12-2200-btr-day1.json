@@ -1,0 +1,107 @@
+{
+ "model": "Broke to Rich",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3.0,
+   "head": [
+    "Day 1.",
+    "$2,000 to my name."
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "voice": "Day one. Two thousand dollars to my name."
+  },
+  {
+   "scene": "garage",
+   "dur": 3.6,
+   "head": [
+    "Started a business",
+    "in my garage."
+   ],
+   "hud": [
+    0,
+    2000,
+    1,
+    46000
+   ],
+   "toasts": [
+    [
+     0.6,
+     1.7,
+     "First customer",
+     "+$1,200"
+    ],
+    [
+     1.9,
+     3.3,
+     "Business launched",
+     "+$44,800"
+    ]
+   ],
+   "voice": "Started a business in my garage."
+  },
+  {
+   "scene": "office",
+   "dur": 3.4,
+   "head": [
+    "Grew it into",
+    "a real company."
+   ],
+   "hud": [
+    1,
+    46000,
+    2,
+    2400000
+   ],
+   "voice": "Grew it into a real company."
+  },
+  {
+   "scene": "mansion",
+   "dur": 4.2,
+   "head": [
+    "Then I bought",
+    "the dream life."
+   ],
+   "hud": [
+    3,
+    2400000,
+    4,
+    48000000
+   ],
+   "tags": [
+    [
+     0.6,
+     "Mansion",
+     300,
+     578
+    ],
+    [
+     1.3,
+     "Supercar",
+     330,
+     1044
+    ],
+    [
+     2.0,
+     "Gold watch",
+     780,
+     590
+    ]
+   ],
+   "voice": "Then I bought the dream life."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "Day 1: $2,000 and a garage. How far would you take it? Startup Legacy is free on the App Store. #entrepreneur #startup #businesstok #success #simulationgame"
+}
