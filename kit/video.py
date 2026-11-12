@@ -72,7 +72,7 @@ def soundtrack(wav):
         cues=[(2.75, 'whoosh'), (3.45, 'ding'), (4.6, 'ding'), (5.9, 'cash'), (6.95, 'whoosh'), (7.7, 'ding'), (8.95, 'cash'), (10.15, 'whoosh'),
               (10.9, 'pop'), (11.7, 'pop'), (12.5, 'cash'), (13.4, 'riser'), (14.6, 'impact')],
         voice=[(0.15, "Day one. You're a broke intern.", 2.7), (3.2, "Solve real E.R. cases.", 3.5), (7.4, "Take on the big surgeries.", 2.8),
-               (10.6, "And live like an E.D. Director.", 3.6), (14.9, "Bedside Bay. Play free.", 2.9)])
+               (10.6, "End up living like an E.D. Director.", 3.6), (14.9, "Bedside Bay. Play free.", 2.9)])
 
 
 if __name__ == '__main__':

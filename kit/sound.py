@@ -119,6 +119,11 @@ def _kokoro():
     return _k
 
 
+def phonemes(text):
+    """How the voice will pronounce a line (IPA). Check every new script: 'live' is read as 'alive' -> write 'living'."""
+    return _kokoro().tokenizer.phonemize(text, 'en-us')
+
+
 def say(text, max_s=None, speed=1.0):
     """Speak one line; returns 44.1k mono. Speeds up (to 1.3x at most) if it would overrun max_s."""
     def synth(sp):

@@ -27,6 +27,7 @@ This repo holds the media and the drawing kit for the TikTok account **bedside.b
 - Every video gets an engaging soundtrack from `kit/sound.py` `build(...)`: a music bed with drums and bass, sound effects on the cuts and pop-ins (whoosh, pop, ding, cash, riser, impact), and a short **AI voiceover** (Kokoro open model, voice `am_michael`; the model files download themselves from GitHub on first use, about 350 MB, and need `pip install kokoro-onnx soundfile scipy`).
 - One short spoken line per scene, starting just after the cut, in plain punchy words that match the on-screen headline; end with "Bedside Bay. Play free." Check the report `build` returns: every line must finish before its scene ends and the last line before the video ends. Vary the music style (`upbeat`, `tense`, `bright`), cues and script between posts.
 - Each model script has a `soundtrack(...)` function to copy and adapt.
+- **Check pronunciation before rendering:** print `sound.phonemes(line)` for every new spoken line. The voice misreads words with two pronunciations (it says "live" as in "alive"; use "living" instead) — also watch read, lead, wind, close, tear, minute, object, present, record. Reword until the phonemes are right.
 
 ## How a run works
 1. `pip install --break-system-packages skia-python fonttools numpy pillow scipy kokoro-onnx soundfile` if missing; ffmpeg is required.
