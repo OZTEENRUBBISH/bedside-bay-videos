@@ -46,19 +46,18 @@
  {
   "date": "2026-11-13",
   "slot": "14:00",
-  "model": "Full Game",
+  "model": "The Numbers",
   "format": "video",
-  "spec": "specs/2026-11-13-1400-game-yourrules.json",
+  "spec": "specs/2026-11-13-1400-num-marketing.json",
   "files": [
-   "posts/2026-11-13/game-yourrules.mp4"
+   "posts/2026-11-13/num-marketing.mp4"
   ],
-  "hook": "Start with almost nothing.",
+  "hook": "I spent $20k on marketing.",
   "scenes": [
-   "broke",
-   "garage",
-   "office",
-   "trading",
-   "mansion",
+   "marketing",
+   "unit",
+   "pnl",
+   "pricing",
    "cta"
   ],
   "buffer_id": "6af53aadcb4c7286fd11de6e"
@@ -86,18 +85,17 @@
  {
   "date": "2026-11-14",
   "slot": "06:00",
-  "model": "Full Game",
+  "model": "Job Offer",
   "format": "video",
-  "spec": "specs/2026-11-14-0600-game-ceo.json",
+  "spec": "specs/2026-11-14-0600-offer-headhunted.json",
   "files": [
-   "posts/2026-11-14/game-ceo.mp4"
+   "posts/2026-11-14/offer-headhunted.mp4"
   ],
-  "hook": "Rent overdue. $2,000 left.",
+  "hook": "I got headhunted as CEO.",
   "scenes": [
-   "broke",
-   "garage",
+   "offer",
+   "ladder",
    "office",
-   "trading",
    "jet",
    "cta"
   ],
@@ -151,19 +149,18 @@
  {
   "date": "2026-11-15",
   "slot": "06:00",
-  "model": "Broke to Rich",
+  "model": "Club Owner",
   "format": "video",
-  "spec": "specs/2026-11-15-0600-btr-noodles.json",
+  "spec": "specs/2026-11-15-0600-club-bought.json",
   "files": [
-   "posts/2026-11-15/btr-noodles.mp4"
+   "posts/2026-11-15/club-bought.mp4"
   ],
-  "hook": "Instant noodles for dinner.",
+  "hook": "I bought a football club.",
   "scenes": [
-   "broke",
-   "garage",
-   "trading",
-   "cars",
-   "jet",
+   "stadium",
+   "clubmoney",
+   "club",
+   "trophy",
    "cta"
   ],
   "buffer_id": "6af53ab0bc9f3773a1bce29c"
@@ -171,26 +168,45 @@
  {
   "date": "2026-11-15",
   "slot": "14:00",
-  "model": "Full Game",
+  "model": "The Numbers",
   "format": "photos",
-  "spec": "specs/2026-11-15-1400-game-photos.json",
+  "spec": "specs/2026-11-15-1400-num-photos.json",
   "files": [
-   "posts/2026-11-15/game-photos/slide-1.jpg",
-   "posts/2026-11-15/game-photos/slide-2.jpg",
-   "posts/2026-11-15/game-photos/slide-3.jpg",
-   "posts/2026-11-15/game-photos/slide-4.jpg",
-   "posts/2026-11-15/game-photos/slide-5.jpg",
-   "posts/2026-11-15/game-photos/slide-6.jpg"
+   "posts/2026-11-15/num-photos/slide-1.jpg",
+   "posts/2026-11-15/num-photos/slide-2.jpg",
+   "posts/2026-11-15/num-photos/slide-3.jpg",
+   "posts/2026-11-15/num-photos/slide-4.jpg",
+   "posts/2026-11-15/num-photos/slide-5.jpg",
+   "posts/2026-11-15/num-photos/slide-6.jpg"
   ],
-  "hook": "Can you go from broke to billionaire?",
+  "hook": "How my business makes money",
   "scenes": [
-   "broke",
-   "garage",
-   "office",
-   "trading",
-   "yacht",
+   "marketing",
+   "marketing",
+   "unit",
+   "pricing",
+   "pnl",
    "cta"
   ],
   "buffer_id": "6af53ab1bfa789f621093696"
+ },
+ {
+  "date": "2026-11-15",
+  "slot": "22:00",
+  "model": "Club Owner",
+  "format": "video",
+  "spec": "specs/2026-11-15-2200-club-offer.json",
+  "files": [
+   "posts/2026-11-15/club-offer.mp4"
+  ],
+  "hook": "Started on $3,900 a month.",
+  "scenes": [
+   "ladder",
+   "offer",
+   "stadium",
+   "trophy",
+   "cta"
+  ],
+  "buffer_id": "6af53e6bbfa789f6210a4cb4"
  }
 ]
