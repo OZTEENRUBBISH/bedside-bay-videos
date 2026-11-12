@@ -1,6 +1,51 @@
 [
- {"date":"2026-11-12","slot":"22:00","model":"Broke to Rich","format":"video","files":["posts/2026-11-12/ad001-career-climb.mp4"],"hook":"Day 1. Broke intern.","buffer_id":"6af52d1abc9f3773a1b8921b"},
- {"date":"2026-11-13","slot":"06:00","model":"Case","format":"video","files":["posts/2026-11-13/case-graham-peters.mp4"],"hook":"Your next patient","case_id":"graham-peters","buffer_id":null},
- {"date":"2026-11-13","slot":"14:00","model":"Full Game","format":"video","files":["posts/2026-11-13/full-game-01.mp4"],"hook":"Run your own emergency room.","buffer_id":null},
- {"date":"2026-11-13","slot":"22:00","model":"Broke to Rich","format":"photos","files":["posts/2026-11-12/photo001-career-climb-1.jpg","posts/2026-11-12/photo001-career-climb-2.jpg","posts/2026-11-12/photo001-career-climb-3.jpg","posts/2026-11-12/photo001-career-climb-4.jpg","posts/2026-11-12/photo001-career-climb-5.jpg"],"hook":"Broke intern to ED Director","buffer_id":"6af52d1b8a1a2f52b51c8d02"}
+ {
+  "date": "2026-11-12",
+  "slot": "22:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-12/ad001-career-climb.mp4"
+  ],
+  "hook": "Day 1. Broke intern.",
+  "buffer_id": "6af52d1abc9f3773a1b8921b"
+ },
+ {
+  "date": "2026-11-13",
+  "slot": "06:00",
+  "model": "Case",
+  "format": "video",
+  "files": [
+   "posts/2026-11-13/case-graham-peters.mp4"
+  ],
+  "hook": "Your next patient",
+  "case_id": "graham-peters",
+  "buffer_id": "6af52fb92f7f0a6952e9f3b1"
+ },
+ {
+  "date": "2026-11-13",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "video",
+  "files": [
+   "posts/2026-11-13/full-game-01.mp4"
+  ],
+  "hook": "Run your own emergency room.",
+  "buffer_id": "6af52fb9bc9f3773a1b98121"
+ },
+ {
+  "date": "2026-11-13",
+  "slot": "22:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-12/photo001-career-climb-1.jpg",
+   "posts/2026-11-12/photo001-career-climb-2.jpg",
+   "posts/2026-11-12/photo001-career-climb-3.jpg",
+   "posts/2026-11-12/photo001-career-climb-4.jpg",
+   "posts/2026-11-12/photo001-career-climb-5.jpg"
+  ],
+  "hook": "Broke intern to ED Director",
+  "buffer_id": "6af52d1b8a1a2f52b51c8d02"
+ }
 ]
