@@ -265,3 +265,127 @@ def new_surface():
 
 def to_rgba(s):
     return s.toarray(colorType=skia.kRGBA_8888_ColorType).tobytes()
+
+
+# ---------------------------------------------------------------- shared extras (patients, icons, text, render)
+def wrap(s, size, wt, maxw):
+    words, lines, cur = s.split(), [], ''
+    for w in words:
+        t = (cur + ' ' + w).strip()
+        if tw(t, size, wt) <= maxw: cur = t
+        else: lines.append(cur); cur = w
+    if cur: lines.append(cur)
+    return lines
+
+
+def face(c, cx, cy, r, skin='#f0c29b', hair='#3b2a20', style='short', mood='pain', t=0.0, gown=True):
+    """Original flat-style patient portrait inside a circle of radius r. style: short|long|bob|bald|curly|child."""
+    c.save(); c.translate(cx, cy); s = r / 100.0; c.scale(s, s)
+    clip = skia.Path(); clip.addCircle(0, 0, 100); c.save(); c.clipPath(clip, doAntiAlias=True)
+    c.drawRect(skia.Rect.MakeXYWH(-100, -100, 200, 200), grad(0, -100, 0, 100, ['#dff1f4', '#b9dfe6']))
+    if gown:
+        rr(c, -78, 58, 156, 90, 40, P('#cfe6f2'))
+        for gx in (-48, -16, 16, 48):
+            c.drawCircle(gx, 84, 4, P('#9cc5dc'))
+        v = skia.Path(); v.moveTo(-20, 58); v.lineTo(0, 78); v.lineTo(20, 58); v.close(); c.drawPath(v, P(skin))
+    rr(c, -14, 30, 28, 40, 10, P(skin))
+    if style in ('long', 'bob'):
+        hl = 118 if style == 'long' else 78
+        rr(c, -62, -44, 30, hl, 15, P(hair)); rr(c, 32, -44, 30, hl, 15, P(hair))
+    c.drawCircle(-50, 2, 9, P(skin)); c.drawCircle(50, 2, 9, P(skin))
+    c.drawCircle(0, -4, 50, P(skin))
+    if style != 'bald':
+        h = skia.Path(); h.moveTo(-52, -6)
+        if style == 'curly':
+            for i in range(7): c.drawCircle(-42 + i * 14, -44 - (6 if i % 2 else 0), 16, P(hair))
+        else:
+            h.cubicTo(-60, -70, 40, -80, 53, -22); h.cubicTo(30, -42, -10, -44, -34, -36); h.cubicTo(-44, -30, -48, -20, -52, -6); h.close()
+            c.drawPath(h, P(hair))
+    else:
+        c.drawArc(skia.Rect.MakeXYWH(-52, -30, 20, 40), 90, 180, False, P(hair, stroke=8)); c.drawArc(skia.Rect.MakeXYWH(32, -30, 20, 40), 270, 180, False, P(hair, stroke=8))
+    blink = (t % 2.6) < .1
+    for ex in (-20, 20):
+        if mood == 'pain':
+            c.drawLine(ex - 9, -12 + (4 if ex < 0 else -4) * -1, ex + 9, -12 + (4 if ex > 0 else -4) * -1, P('#2a1d16', stroke=5))
+            a = skia.Path(); a.moveTo(ex - 8, 2); a.quadTo(ex, -6, ex + 8, 2); c.drawPath(a, P('#2a1d16', stroke=5))
+        else:
+            if blink: c.drawLine(ex - 7, -2, ex + 7, -2, P('#2a1d16', stroke=4))
+            else: c.drawOval(skia.Rect.MakeXYWH(ex - 6, -10, 12, 16), P('#2a1d16'))
+            c.drawArc(skia.Rect.MakeXYWH(ex - 12, -26, 24, 12), 200, 140, False, P(hair if style != 'bald' else '#6b5a4e', stroke=4))
+    if mood == 'pain':
+        m = skia.Path(); m.moveTo(-14, 26); m.quadTo(-6, 18, 0, 24); m.quadTo(8, 30, 14, 22); c.drawPath(m, P('#8a4b3a', stroke=5))
+        k = (t * .8) % 1; d = skia.Path(); d.moveTo(40, -34 + k * 26); d.quadTo(48, -22 + k * 26, 40, -16 + k * 26); d.quadTo(32, -22 + k * 26, 40, -34 + k * 26)
+        c.drawPath(d, P('#7fd0f2', 255 * (1 - k)))
+    else:
+        c.drawArc(skia.Rect.MakeXYWH(-16, 8, 32, 22), 20, 140, False, P('#8a4b3a', stroke=5))
+    c.restore(); c.restore()
+    c.drawCircle(cx, cy, r, P('#ffffff', stroke=max(4, r * .06)))
+
+
+def icon(c, kind, cx, cy, s, col='#ffffff'):
+    """Simple line icons: talk|look|examine|tests|treat|career|shift|practice|firstaid."""
+    w = s * .11; p = P(col, stroke=w)
+    if kind == 'talk':
+        b = skia.Path(); b.addRRect(skia.RRect.MakeRectXY(skia.Rect.MakeXYWH(cx - s * .42, cy - s * .36, s * .84, s * .58), s * .14, s * .14))
+        c.drawPath(b, p); t = skia.Path(); t.moveTo(cx - s * .18, cy + s * .22); t.lineTo(cx - s * .26, cy + s * .42); t.lineTo(cx + s * .02, cy + s * .22); c.drawPath(t, p)
+    elif kind == 'look':
+        e = skia.Path(); e.moveTo(cx - s * .46, cy); e.quadTo(cx, cy - s * .44, cx + s * .46, cy); e.quadTo(cx, cy + s * .44, cx - s * .46, cy); c.drawPath(e, p); c.drawCircle(cx, cy, s * .13, P(col))
+    elif kind == 'examine':
+        u = skia.Path(); u.moveTo(cx - s * .28, cy - s * .4); u.lineTo(cx - s * .28, cy - s * .05); u.cubicTo(cx - s * .28, cy + s * .3, cx + s * .12, cy + s * .3, cx + s * .12, cy - s * .05)
+        u.lineTo(cx + s * .12, cy - s * .4); c.drawPath(u, p); c.drawLine(cx - s * .08, cy + s * .2, cx - s * .08, cy + s * .3, p)
+        q = skia.Path(); q.moveTo(cx - s * .08, cy + s * .3); q.quadTo(cx + s * .1, cy + s * .5, cx + s * .32, cy + s * .26); c.drawPath(q, p); c.drawCircle(cx + s * .36, cy + s * .16, s * .1, p)
+    elif kind == 'tests':
+        f = skia.Path(); f.moveTo(cx - s * .12, cy - s * .42); f.lineTo(cx - s * .12, cy - s * .1); f.lineTo(cx - s * .38, cy + s * .34); f.quadTo(cx - s * .42, cy + s * .44, cx - s * .3, cy + s * .44)
+        f.lineTo(cx + s * .3, cy + s * .44); f.quadTo(cx + s * .42, cy + s * .44, cx + s * .38, cy + s * .34); f.lineTo(cx + s * .12, cy - s * .1); f.lineTo(cx + s * .12, cy - s * .42)
+        c.drawPath(f, p); c.drawLine(cx - s * .2, cy - s * .42, cx + s * .2, cy - s * .42, p); c.drawLine(cx - s * .24, cy + s * .16, cx + s * .24, cy + s * .16, p)
+    elif kind in ('treat', 'firstaid'):
+        c.drawLine(cx, cy - s * .38, cx, cy + s * .38, P(col, stroke=w * 1.6)); c.drawLine(cx - s * .38, cy, cx + s * .38, cy, P(col, stroke=w * 1.6))
+    elif kind == 'career':
+        for i in range(4):
+            h = s * (.2 + i * .2); c.drawLine(cx - s * .36 + i * s * .24, cy + s * .4, cx - s * .36 + i * s * .24, cy + s * .4 - h, P(col, stroke=w * 1.5))
+    elif kind == 'shift':
+        c.drawCircle(cx, cy, s * .4, p); c.drawLine(cx, cy, cx, cy - s * .24, p); c.drawLine(cx, cy, cx + s * .18, cy + s * .1, p)
+    elif kind == 'practice':
+        rr(c, cx - s * .4, cy - s * .08, s * .8, s * .3, s * .08, p); c.drawCircle(cx - s * .22, cy - s * .24, s * .12, p); c.drawLine(cx - s * .4, cy + s * .22, cx - s * .4, cy + s * .42, p); c.drawLine(cx + s * .4, cy + s * .22, cx + s * .4, cy + s * .42, p)
+
+
+def render_video(scenes, out_path, music_path=None, fps=30):
+    """scenes: list of (draw_fn(canvas, t), seconds). One encoded file per scene, concat, then add music."""
+    import subprocess, os
+    d = os.path.dirname(out_path) or '.'; os.makedirs(d, exist_ok=True); base = os.path.splitext(os.path.basename(out_path))[0]
+    parts = []
+    for i, (fn, dur) in enumerate(scenes):
+        tmp, fin = f'{d}/tmp_{base}_{i}.mp4', f'{d}/part_{base}_{i}.mp4'
+        p = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{W}x{H}', '-r', str(fps), '-i', '-',
+                              '-c:v', 'libx264', '-crf', '18', '-preset', 'veryfast', '-pix_fmt', 'yuv420p', tmp], stdin=subprocess.PIPE)
+        s = new_surface(); c = s.getCanvas()
+        for f in range(int(round(dur * fps))):
+            fn(c, f / fps); p.stdin.write(to_rgba(s))
+        p.stdin.close(); assert p.wait() == 0
+        os.rename(tmp, fin); parts.append(fin)
+    lst = f'{d}/list_{base}.txt'; open(lst, 'w').write(''.join(f"file '{os.path.basename(x)}'\n" for x in parts))
+    silent = f'{d}/silent_{base}.mp4'
+    subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', lst, '-c', 'copy', silent])
+    if music_path:
+        tmp = f'{d}/tmp_{base}.mp4'
+        subprocess.check_call(['ffmpeg', '-y', '-loglevel', 'error', '-i', silent, '-i', music_path, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '160k', '-shortest', tmp])
+        os.rename(tmp, out_path); os.remove(silent)
+    else:
+        os.rename(silent, out_path)
+    for x in parts + [lst]: os.remove(x)
+
+
+def save_jpg(surface, path):
+    from PIL import Image
+    import numpy as np
+    a = surface.toarray(colorType=skia.kRGBA_8888_ColorType)
+    Image.fromarray(a[:, :, :3]).save(path, quality=92)
+
+
+def contact_sheet(frames, path, cols=4):
+    from PIL import Image
+    import numpy as np
+    ims = [Image.fromarray(f.toarray(colorType=skia.kRGBA_8888_ColorType)[:, :, :3]).resize((378, 672)) for f in frames]
+    rows = (len(ims) + cols - 1) // cols; sh = Image.new('RGB', (378 * cols, 672 * rows), '#222')
+    for n, im in enumerate(ims): sh.paste(im, ((n % cols) * 378, (n // cols) * 672))
+    sh.save(path, quality=85)
