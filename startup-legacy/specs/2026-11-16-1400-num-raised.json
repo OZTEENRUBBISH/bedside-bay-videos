@@ -1,0 +1,73 @@
+{
+ "model": "The Numbers",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {
+   "scene": "pricing",
+   "dur": 3.2,
+   "head": [
+    "I raised",
+    "my price."
+   ],
+   "hud": [
+    2,
+    640000,
+    2,
+    640000
+   ],
+   "voice": "I raised my price."
+  },
+  {
+   "scene": "unit",
+   "dur": 3.6,
+   "head": [
+    "Fewer customers.",
+    "Each worth more."
+   ],
+   "hud": [
+    2,
+    640000,
+    2,
+    910000
+   ],
+   "voice": "Fewer customers. Each one worth more."
+  },
+  {
+   "scene": "marketing",
+   "dur": 3.4,
+   "head": [
+    "So I put the extra",
+    "into ads."
+   ],
+   "hud": [
+    2,
+    910000,
+    2,
+    1500000
+   ],
+   "voice": "So I put the extra into ads."
+  },
+  {
+   "scene": "pnl",
+   "dur": 3.6,
+   "head": [
+    "Profit after wages,",
+    "rent and tax."
+   ],
+   "hud": [
+    2,
+    1500000,
+    3,
+    3400000
+   ],
+   "voice": "Profit, after wages, rent and tax."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Would you raise prices? Startup Legacy."
+  }
+ ],
+ "caption": "Raise the price or chase more customers? Test it and watch the profit and loss. Free on the App Store: Startup Legacy. #entrepreneur #pricing #business #finance #simulationgame"
+}

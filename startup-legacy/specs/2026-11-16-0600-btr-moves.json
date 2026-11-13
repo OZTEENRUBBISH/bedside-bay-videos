@@ -1,0 +1,88 @@
+{
+ "model": "Broke to Rich",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3,
+   "head": [
+    "$2,000 to $50M:",
+    "the 4 moves"
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "photo_t": 1.8
+  },
+  {
+   "scene": "garage",
+   "dur": 3,
+   "head": [
+    "1. Start small,",
+    "in a garage"
+   ],
+   "hud": [
+    1,
+    35000,
+    1,
+    35000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "office",
+   "dur": 3,
+   "head": [
+    "2. Hire the",
+    "right people"
+   ],
+   "hud": [
+    2,
+    1600000,
+    2,
+    1600000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "trading",
+   "dur": 3,
+   "head": [
+    "3. Buy shares",
+    "when news hits"
+   ],
+   "hud": [
+    3,
+    14000000.0,
+    3,
+    14000000.0
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "mansion",
+   "dur": 3,
+   "head": [
+    "4. Then enjoy",
+    "the view"
+   ],
+   "hud": [
+    4,
+    50000000.0,
+    4,
+    50000000.0
+   ],
+   "car_in": false,
+   "photo_t": 2.6
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "caption": "Start small, hire well, buy shares when the news hits. Which move would you make first? Free on the App Store: Startup Legacy. #entrepreneur #startup #investing #success #simulationgame"
+}

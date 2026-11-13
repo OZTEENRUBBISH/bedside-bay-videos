@@ -1,0 +1,86 @@
+{
+ "model": "Luxury Unlocks",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {
+   "scene": "watch",
+   "dur": 2.8,
+   "head": [
+    "Rate my buys,",
+    "1 to 10."
+   ],
+   "hud": [
+    3,
+    6000000.0,
+    3,
+    6000000.0
+   ],
+   "voice": "Rate my buys. One to ten."
+  },
+  {
+   "scene": "cars",
+   "dur": 2.8,
+   "head": [
+    "A garage",
+    "of supercars."
+   ],
+   "hud": [
+    3,
+    6000000.0,
+    3,
+    12000000.0
+   ],
+   "voice": "A garage of supercars."
+  },
+  {
+   "scene": "jet",
+   "dur": 2.8,
+   "head": [
+    "My own jet."
+   ],
+   "hud": [
+    3,
+    12000000.0,
+    4,
+    38000000.0
+   ],
+   "voice": "My own private jet."
+  },
+  {
+   "scene": "yacht",
+   "dur": 2.8,
+   "head": [
+    "Weekends at sea."
+   ],
+   "hud": [
+    4,
+    38000000.0,
+    4,
+    61000000.0
+   ],
+   "voice": "Weekends at sea."
+  },
+  {
+   "scene": "mansion",
+   "dur": 3.2,
+   "head": [
+    "And a home to",
+    "park it all."
+   ],
+   "hud": [
+    4,
+    61000000.0,
+    4,
+    84000000.0
+   ],
+   "voice": "And a home to park it all."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Which one's a ten? Startup Legacy."
+  }
+ ],
+ "caption": "Watch, supercars, jet, yacht, mansion. Rate them 1 to 10 in the comments. Free on the App Store: Startup Legacy. #luxurylifestyle #entrepreneur #richlife #success #simulationgame"
+}
