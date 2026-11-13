@@ -229,5 +229,69 @@
    "cta"
   ],
   "buffer_id": "6af53e6bbfa789f6210a4cb4"
+ },
+ {
+  "date": "2026-11-16",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "spec": "specs/2026-11-16-0600-btr-moves.json",
+  "files": [
+   "posts/2026-11-16/btr-moves/slide-1.jpg",
+   "posts/2026-11-16/btr-moves/slide-2.jpg",
+   "posts/2026-11-16/btr-moves/slide-3.jpg",
+   "posts/2026-11-16/btr-moves/slide-4.jpg",
+   "posts/2026-11-16/btr-moves/slide-5.jpg",
+   "posts/2026-11-16/btr-moves/slide-6.jpg"
+  ],
+  "hook": "$2,000 to $50M: the 4 moves",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "trading",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6af6a481e1d8eff610a2ca03"
+ },
+ {
+  "date": "2026-11-16",
+  "slot": "14:00",
+  "model": "The Numbers",
+  "format": "video",
+  "spec": "specs/2026-11-16-1400-num-raised.json",
+  "files": [
+   "posts/2026-11-16/num-raised.mp4"
+  ],
+  "hook": "I raised my price.",
+  "scenes": [
+   "pricing",
+   "unit",
+   "marketing",
+   "pnl",
+   "cta"
+  ],
+  "buffer_id": "6af6a482ba218f32637f0efc"
+ },
+ {
+  "date": "2026-11-16",
+  "slot": "22:00",
+  "model": "Luxury Unlocks",
+  "format": "video",
+  "spec": "specs/2026-11-16-2200-lux-rate.json",
+  "files": [
+   "posts/2026-11-16/lux-rate.mp4"
+  ],
+  "hook": "Rate my buys, 1 to 10.",
+  "scenes": [
+   "watch",
+   "cars",
+   "jet",
+   "yacht",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6af6a482ba218f32637f0f27"
  }
 ]
