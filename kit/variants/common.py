@@ -54,3 +54,15 @@ def save_slides(fns, prefix):
     for i, fn in enumerate(fns):
         s = new_surface(); fn(s.getCanvas()); save_jpg(s, f'{prefix}-{i + 1}.jpg'); out.append(s)
     return out
+
+
+def fit(s, size, maxw=980, wt=900):
+    """Largest size <= size at which s fits maxw."""
+    while tw(s, size, wt) > maxw and size > 30: size -= 2
+    return size
+
+
+def title2(c, top, sub, y=356, col='#ffffff', top_col=GOLD, a=255, dy=0, shadow=.35, size=96, sub_size=76):
+    """Two-line headline: a coloured lead line and a plain second line (each shrinks to fit)."""
+    s1 = fit(top, size); text(c, top, W / 2, y + dy, s1, top_col, 900, 'c', a=a, shadow=shadow)
+    s2 = fit(sub, sub_size); text(c, sub, W / 2, y + dy + 98, s2, col, 900, 'c', a=a, shadow=shadow)
