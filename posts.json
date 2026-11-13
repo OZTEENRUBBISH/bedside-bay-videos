@@ -133,5 +133,49 @@
   "hook": "New here? The whole game in 4 swipes.",
   "script": "kit/variants/fullgame_02.py photos",
   "buffer_id": "6af5416cbc9f3773a1bee3ef"
+ },
+ {
+  "date": "2026-11-16",
+  "slot": "06:00",
+  "model": "Case",
+  "format": "video",
+  "files": [
+   "posts/2026-11-16/case-chloe-marsh-quiz.mp4"
+  ],
+  "hook": "Quote first: \"My heart suddenly started racing...\" then \"What do you do first?\" (A-D quiz)",
+  "case_id": "chloe-marsh",
+  "script": "kit/variants/case_02.py",
+  "music": "tense",
+  "buffer_id": "6af69149c1a0010a5bfa25ce"
+ },
+ {
+  "date": "2026-11-16",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "video",
+  "files": [
+   "posts/2026-11-16/full-game-04-four-ways.mp4"
+  ],
+  "hook": "4 ways to play doctor. (the game mode by mode)",
+  "script": "kit/variants/fullgame_04.py",
+  "music": "bright",
+  "buffer_id": "6af6914afb90ccefdd1b0522"
+ },
+ {
+  "date": "2026-11-16",
+  "slot": "22:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-16/broke-to-rich-04-five-ranks-1.jpg",
+   "posts/2026-11-16/broke-to-rich-04-five-ranks-2.jpg",
+   "posts/2026-11-16/broke-to-rich-04-five-ranks-3.jpg",
+   "posts/2026-11-16/broke-to-rich-04-five-ranks-4.jpg",
+   "posts/2026-11-16/broke-to-rich-04-five-ranks-5.jpg",
+   "posts/2026-11-16/broke-to-rich-04-five-ranks-6.jpg"
+  ],
+  "hook": "One doctor. Five ranks. (staircase, one slide per rank)",
+  "script": "kit/variants/b2r_ranks_photos.py",
+  "buffer_id": "6af6914be1d8eff6109e3351"
  }
 ]
