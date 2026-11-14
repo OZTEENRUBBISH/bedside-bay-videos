@@ -1,0 +1,17 @@
+{
+ "model": "Club Owner",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {"scene": "stadium", "dur": 3.2, "head": ["I own this club.", "We're losing."],
+   "args": {"score": [1, 2], "opp": "Corvenhall"}, "voice": "I own this club. And we're losing."},
+  {"scene": "clubmoney", "dur": 3.2, "head": ["New coach.", "Star signing."], "hud": [3, 9200000, 3, 8700000],
+   "voice": "New coach. Star signing."},
+  {"scene": "club", "dur": 3.2, "head": ["Seventh", "to first."], "hud": [3, 8700000, 4, 14500000],
+   "voice": "Seventh to first."},
+  {"scene": "trophy", "dur": 3.0, "head": ["Title won."], "hud": [4, 14500000, 4, 19000000],
+   "voice": "Title won."},
+  {"scene": "cta", "dur": 3.6, "voice": "Could you turn a club around? Startup Legacy."}
+ ],
+ "caption": "Losing at home, so I hired an elite coach, signed a star and chased the title. Free on the App Store: Startup Legacy. #football #sportsbusiness #clubowner #entrepreneur #simulationgame"
+}

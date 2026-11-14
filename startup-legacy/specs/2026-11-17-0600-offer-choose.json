@@ -1,0 +1,21 @@
+{
+ "model": "Job Offer",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {"scene": "offer", "dur": 3.2, "head": ["Would you take", "this job?"],
+   "args": {"title": "Junior Analyst", "pay": "$3,900 / month", "who": "Your first offer", "tag_": "JOB OFFER"},
+   "voice": "Would you take this job?"},
+  {"scene": "office", "dur": 3.2, "head": ["I said yes.", "Then kept climbing."],
+   "voice": "I said yes. Then kept climbing."},
+  {"scene": "offer", "dur": 3.0, "head": ["Then a better", "offer came in."],
+   "args": {"title": "Account Manager", "pay": "$7,200 / month", "who": "Recruiter", "tag_": "BETTER OFFER"},
+   "voice": "Then a better offer came in."},
+  {"scene": "cars", "dur": 3.0, "head": ["This role", "needed a car."], "hud": [2, 240000, 3, 2600000],
+   "voice": "This role needed a car."},
+  {"scene": "ladder", "dur": 3.2, "head": ["Four offers.", "Junior to CEO."],
+   "voice": "Four offers. Junior to C.E.O."},
+  {"scene": "cta", "dur": 3.4, "voice": "Which offer would you take? Startup Legacy."}
+ ],
+ "caption": "Every job offer is a choice, and some roles need a car before you can take them. Free on the App Store: Startup Legacy. #career #jobs #ceo #entrepreneur #simulationgame"
+}
