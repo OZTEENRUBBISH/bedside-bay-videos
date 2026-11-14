@@ -48,7 +48,7 @@ Style 2:
 - Never reuse a file. Every new ad needs a new hook and a different scene order, style or headline set from the last 6 posts on this account (check `posts.json`).
 - Each day: two videos and one photo set.
 - Slot rotation from 2026-11-16: list M = [Broke to Rich, The Numbers, Luxury Unlocks, Job Offer, Full Game, Club Owner]. With d = days since 2026-11-16, the 6am, 2pm and 10pm slots take M[(3d) mod 6], M[(3d+1) mod 6], M[(3d+2) mod 6], so every day mixes both styles and each model comes round every two days. The photo set that day is the slot at position (d mod 3) (6am, 2pm or 10pm).
-- Spare files: `posts/2026-11-13/game-yourrules.mp4`, `posts/2026-11-14/game-ceo.mp4`, `posts/2026-11-15/btr-noodles.mp4` and `posts/2026-11-15/game-photos/` were made but swapped out for style-2 posts before publishing. They have never been posted, so a run may use them once (log them in posts.json when used).
+- Spare files: `posts/2026-11-13/game-yourrules.mp4`, `posts/2026-11-14/game-ceo.mp4` and `posts/2026-11-15/btr-noodles.mp4` were (`posts/2026-11-15/game-photos/` was used on 17 Nov 14:00) made but swapped out for style-2 posts before publishing. They have never been posted, so a run may use them once (log them in posts.json when used).
 
 ## Daily run (scheduled task)
 1. `pip install --break-system-packages skia-python fonttools numpy pillow scipy kokoro-onnx soundfile` if missing; ffmpeg must exist.

@@ -320,5 +320,73 @@
    "cta"
   ],
   "buffer_id": "6af6a482ba218f32637f0f27"
+ },
+ {
+  "date": "2026-11-17",
+  "slot": "06:00",
+  "model": "Job Offer",
+  "format": "video",
+  "spec": "specs/2026-11-17-0600-offer-choose.json",
+  "files": [
+   "posts/2026-11-17/offer-choose.mp4"
+  ],
+  "hook": "Would you take this job?",
+  "buffer_id": "6af7f618bb36d00909edd483",
+  "scenes": [
+   "offer",
+   "office",
+   "offer",
+   "cars",
+   "ladder",
+   "cta"
+  ],
+  "caption": "Every job offer is a choice, and some roles need a car before you can take them. Free on the App Store: Startup Legacy. #career #jobs #ceo #entrepreneur #simulationgame"
+ },
+ {
+  "date": "2026-11-17",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "photos",
+  "spec": "specs/2026-11-15-1400-game-photos.json",
+  "files": [
+   "posts/2026-11-15/game-photos/slide-1.jpg",
+   "posts/2026-11-15/game-photos/slide-2.jpg",
+   "posts/2026-11-15/game-photos/slide-3.jpg",
+   "posts/2026-11-15/game-photos/slide-4.jpg",
+   "posts/2026-11-15/game-photos/slide-5.jpg",
+   "posts/2026-11-15/game-photos/slide-6.jpg"
+  ],
+  "hook": "Can you go from broke to billionaire?",
+  "buffer_id": "6af7f6184b28296eb1393005",
+  "note": "spare set made 12 Nov, first use",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "trading",
+   "yacht",
+   "cta"
+  ],
+  "caption": "Your business, your money, your legacy. Swipe to see how it works. Free on the App Store: Startup Legacy. #entrepreneur #startup #businessgame #stocks #simulationgame"
+ },
+ {
+  "date": "2026-11-17",
+  "slot": "22:00",
+  "model": "Club Owner",
+  "format": "video",
+  "spec": "specs/2026-11-17-2200-club-comeback.json",
+  "files": [
+   "posts/2026-11-17/club-comeback.mp4"
+  ],
+  "hook": "I own this club. We're losing.",
+  "buffer_id": "6af7f61978196a0a9742da04",
+  "scenes": [
+   "stadium",
+   "clubmoney",
+   "club",
+   "trophy",
+   "cta"
+  ],
+  "caption": "Losing at home, so I hired an elite coach, signed a star and chased the title. Free on the App Store: Startup Legacy. #football #sportsbusiness #clubowner #entrepreneur #simulationgame"
  }
 ]
