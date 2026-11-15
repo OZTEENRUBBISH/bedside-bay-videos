@@ -22,8 +22,8 @@
    "likes": 1,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 2.89,
-   "checked": "2026-11-14T16:44+11:00"
+   "avg_watch_s": 2.56,
+   "checked": "2026-11-15T16:44+11:00"
   }
  },
  {
@@ -52,11 +52,11 @@
   "buffer_id": "6af53aacbfa789f6210933f4",
   "metrics": {
    "views": 2,
-   "likes": 1,
+   "likes": 2,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 6.46,
-   "checked": "2026-11-14T16:44+11:00"
+   "avg_watch_s": 5.36,
+   "checked": "2026-11-15T16:44+11:00"
   }
  },
  {
@@ -79,11 +79,11 @@
   "buffer_id": "6af53aadcb4c7286fd11de6e",
   "metrics": {
    "views": 0,
-   "likes": 0,
+   "likes": 1,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 0,
-   "checked": "2026-11-14T16:44+11:00"
+   "avg_watch_s": 1.0,
+   "checked": "2026-11-15T16:44+11:00"
   }
  },
  {
@@ -107,11 +107,11 @@
   "buffer_id": "6af53aae3d8c751bfd133941",
   "metrics": {
    "views": 0,
-   "likes": 0,
+   "likes": 1,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 0,
-   "checked": "2026-11-14T16:44+11:00"
+   "avg_watch_s": 0.96,
+   "checked": "2026-11-15T16:44+11:00"
   }
  },
  {
@@ -133,12 +133,12 @@
   ],
   "buffer_id": "6af53aaebfa789f6210934fb",
   "metrics": {
-   "views": 91,
-   "likes": 0,
+   "views": 106,
+   "likes": 2,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 1.53,
-   "checked": "2026-11-14T16:44+11:00"
+   "avg_watch_s": 1.5,
+   "checked": "2026-11-15T16:44+11:00"
   }
  },
  {
@@ -166,13 +166,14 @@
   ],
   "buffer_id": "6af53aafcb4c7286fd11e032",
   "metrics": {
-   "views": 0,
-   "likes": 0,
+   "views": 341,
+   "likes": 3,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 0,
-   "checked": "2026-11-14T16:44+11:00"
-  }
+   "avg_watch_s": 4.48,
+   "checked": "2026-11-15T16:44+11:00"
+  },
+  "followed_up": "6af947bab9a106584c8d568d"
  },
  {
   "date": "2026-11-14",
@@ -192,7 +193,15 @@
    "mansion",
    "cta"
   ],
-  "buffer_id": "6af53ab0cb4c7286fd11e084"
+  "buffer_id": "6af53ab0cb4c7286fd11e084",
+  "metrics": {
+   "views": 106,
+   "likes": 2,
+   "comments": 0,
+   "shares": 0,
+   "avg_watch_s": 2.56,
+   "checked": "2026-11-15T16:44+11:00"
+  }
  },
  {
   "date": "2026-11-15",
@@ -211,7 +220,15 @@
    "trophy",
    "cta"
   ],
-  "buffer_id": "6af53ab0bc9f3773a1bce29c"
+  "buffer_id": "6af53ab0bc9f3773a1bce29c",
+  "metrics": {
+   "views": 85,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "avg_watch_s": 3.56,
+   "checked": "2026-11-15T16:44+11:00"
+  }
  },
  {
   "date": "2026-11-15",
@@ -236,7 +253,16 @@
    "pnl",
    "cta"
   ],
-  "buffer_id": "6af53ab1bfa789f621093696"
+  "buffer_id": "6af53ab1bfa789f621093696",
+  "metrics": {
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "avg_watch_s": 0,
+   "checked": "2026-11-15T16:44+11:00",
+   "note": "posted 3 h before check; metrics not refreshed yet"
+  }
  },
  {
   "date": "2026-11-15",
@@ -388,5 +414,73 @@
    "cta"
   ],
   "caption": "Losing at home, so I hired an elite coach, signed a star and chased the title. Free on the App Store: Startup Legacy. #football #sportsbusiness #clubowner #entrepreneur #simulationgame"
+ },
+ {
+  "date": "2026-11-18",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "spec": "specs/2026-11-18-0600-btr-years.json",
+  "files": [
+   "posts/2026-11-18/btr-years/slide-1.jpg",
+   "posts/2026-11-18/btr-years/slide-2.jpg",
+   "posts/2026-11-18/btr-years/slide-3.jpg",
+   "posts/2026-11-18/btr-years/slide-4.jpg",
+   "posts/2026-11-18/btr-years/slide-5.jpg",
+   "posts/2026-11-18/btr-years/slide-6.jpg"
+  ],
+  "hook": "Age 21: $2,000 in the bank",
+  "buffer_id": "6af947bab9a106584c8d568d",
+  "follow_up_of": "6af53aafcb4c7286fd11e032",
+  "scenes": [
+   "broke",
+   "garage",
+   "trading",
+   "office",
+   "yacht",
+   "cta"
+  ],
+  "caption": "Broke at 21, superyacht at 33. Swipe through the years. Free on the App Store: Startup Legacy. #entrepreneur #startup #success #moneytok #simulationgame"
+ },
+ {
+  "date": "2026-11-18",
+  "slot": "14:00",
+  "model": "The Numbers",
+  "format": "video",
+  "spec": "specs/2026-11-18-1400-num-kept.json",
+  "files": [
+   "posts/2026-11-18/num-kept.mp4"
+  ],
+  "hook": "$91,400 came in. Here's what I kept.",
+  "buffer_id": "6af947ba918fe79d2ec46b93",
+  "scenes": [
+   "pnl",
+   "unit",
+   "marketing",
+   "pricing",
+   "cta"
+  ],
+  "caption": "Revenue in, wages, rent, ads and tax out. What's left is yours. Free on the App Store: Startup Legacy. #entrepreneur #smallbusiness #finance #profit #simulationgame"
+ },
+ {
+  "date": "2026-11-18",
+  "slot": "22:00",
+  "model": "Luxury Unlocks",
+  "format": "video",
+  "spec": "specs/2026-11-18-2200-lux-week.json",
+  "files": [
+   "posts/2026-11-18/lux-week.mp4"
+  ],
+  "hook": "A rich week. Monday: my jet.",
+  "buffer_id": "6af947bbc5b364e0623824b0",
+  "scenes": [
+   "jet",
+   "yacht",
+   "cars",
+   "watch",
+   "mansion",
+   "cta"
+  ],
+  "caption": "Jet on Monday, yacht on Tuesday, supercars on Wednesday. First you have to build the business. Free on the App Store: Startup Legacy. #luxurylifestyle #entrepreneur #richlife #motivation #simulationgame"
  }
 ]
