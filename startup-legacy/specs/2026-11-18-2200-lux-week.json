@@ -1,0 +1,88 @@
+{
+ "model": "Luxury Unlocks",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {
+   "scene": "jet",
+   "dur": 3.0,
+   "head": [
+    "A rich week.",
+    "Monday: my jet."
+   ],
+   "hud": [
+    4,
+    72000000.0,
+    4,
+    72000000.0
+   ],
+   "voice": "A rich week. Monday, my jet."
+  },
+  {
+   "scene": "yacht",
+   "dur": 2.8,
+   "head": [
+    "Tuesday:",
+    "out on the yacht."
+   ],
+   "hud": [
+    4,
+    72000000.0,
+    4,
+    74000000.0
+   ],
+   "voice": "Tuesday, out on the yacht."
+  },
+  {
+   "scene": "cars",
+   "dur": 2.8,
+   "head": [
+    "Wednesday:",
+    "pick a supercar."
+   ],
+   "hud": [
+    4,
+    74000000.0,
+    4,
+    76000000.0
+   ],
+   "voice": "Wednesday, pick a supercar."
+  },
+  {
+   "scene": "watch",
+   "dur": 2.8,
+   "head": [
+    "Thursday:",
+    "new gold watch."
+   ],
+   "hud": [
+    4,
+    76000000.0,
+    4,
+    77000000.0
+   ],
+   "voice": "Thursday, a new gold watch."
+  },
+  {
+   "scene": "mansion",
+   "dur": 3.0,
+   "head": [
+    "Friday:",
+    "home sweet home."
+   ],
+   "hud": [
+    4,
+    77000000.0,
+    4,
+    80000000.0
+   ],
+   "voice": "Friday. Home sweet home."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Earn it from zero. Startup Legacy."
+  }
+ ],
+ "caption": "Jet on Monday, yacht on Tuesday, supercars on Wednesday. First you have to build the business. Free on the App Store: Startup Legacy. #luxurylifestyle #entrepreneur #richlife #motivation #simulationgame"
+}

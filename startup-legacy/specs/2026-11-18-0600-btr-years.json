@@ -1,0 +1,104 @@
+{
+ "model": "Broke to Rich",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3,
+   "head": [
+    "Age 21:",
+    "$2,000 in the bank"
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "tags": [
+    [
+     0.5,
+     "Instant noodles",
+     300,
+     1120
+    ]
+   ],
+   "photo_t": 1.8
+  },
+  {
+   "scene": "garage",
+   "dur": 3,
+   "head": [
+    "Age 23:",
+    "a garage startup"
+   ],
+   "hud": [
+    1,
+    31000,
+    1,
+    31000
+   ],
+   "toasts": [
+    [
+     0.6,
+     3.0,
+     "First customer",
+     "+$49"
+    ]
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "trading",
+   "dur": 3,
+   "head": [
+    "Age 27:",
+    "my shares take off"
+   ],
+   "hud": [
+    2,
+    3900000,
+    2,
+    3900000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "office",
+   "dur": 3,
+   "head": [
+    "Age 30:",
+    "$18M net worth"
+   ],
+   "hud": [
+    3,
+    18000000.0,
+    3,
+    18000000.0
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "yacht",
+   "dur": 3,
+   "head": [
+    "Age 33:",
+    "weekends on my yacht"
+   ],
+   "hud": [
+    4,
+    57000000.0,
+    4,
+    57000000.0
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "follow_up_of": "6af53aafcb4c7286fd11e032",
+ "caption": "Broke at 21, superyacht at 33. Swipe through the years. Free on the App Store: Startup Legacy. #entrepreneur #startup #success #moneytok #simulationgame"
+}

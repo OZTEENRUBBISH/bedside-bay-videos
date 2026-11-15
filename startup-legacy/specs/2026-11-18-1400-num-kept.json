@@ -1,0 +1,13 @@
+{
+ "model": "The Numbers",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {"scene": "pnl", "dur": 3.4, "head": ["$91,400 came in.", "Here's what I kept."], "hud": [2, 860000, 2, 860000], "voice": "Ninety one grand came in. Here's what I kept."},
+  {"scene": "unit", "dur": 3.2, "head": ["Each customer", "costs $38."], "hud": [2, 860000, 2, 1100000], "voice": "Each customer costs thirty eight dollars."},
+  {"scene": "marketing", "dur": 3.2, "head": ["More ads,", "more customers."], "hud": [2, 1100000, 2, 1700000], "voice": "More ads. More customers."},
+  {"scene": "pricing", "dur": 3.4, "head": ["Then find", "the sweet spot."], "hud": [2, 1700000, 3, 3600000], "voice": "Then find the sweet spot."},
+  {"scene": "cta", "dur": 3.4, "voice": "How much would you keep? Startup Legacy."}
+ ],
+ "caption": "Revenue in, wages, rent, ads and tax out. What's left is yours. Free on the App Store: Startup Legacy. #entrepreneur #smallbusiness #finance #profit #simulationgame"
+}
