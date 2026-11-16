@@ -1,0 +1,78 @@
+{
+ "model": "Job Offer",
+ "format": "photos",
+ "style": "upbeat",
+ "scenes": [
+  {
+   "scene": "offer",
+   "dur": 3.0,
+   "head": [
+    "Every job asked",
+    "for something."
+   ],
+   "args": {
+    "title": "Junior Analyst",
+    "pay": "$3,900 / month",
+    "who": "Requires: a phone",
+    "tag_": "JOB 1"
+   },
+   "photo_t": 0.9
+  },
+  {
+   "scene": "offer",
+   "dur": 3.0,
+   "head": [
+    "Job 2:",
+    "bring a laptop."
+   ],
+   "args": {
+    "title": "Account Manager",
+    "pay": "$7,200 / month",
+    "who": "Requires: a laptop",
+    "tag_": "JOB 2"
+   },
+   "photo_t": 0.9
+  },
+  {
+   "scene": "cars",
+   "dur": 3.0,
+   "head": [
+    "Job 3:",
+    "you need a car."
+   ]
+  },
+  {
+   "scene": "jet",
+   "dur": 3.0,
+   "head": [
+    "The CEO job?",
+    "A private jet."
+   ],
+   "hud": [
+    3,
+    9800000,
+    3,
+    9800000
+   ]
+  },
+  {
+   "scene": "office",
+   "dur": 3.0,
+   "head": [
+    "Worth every",
+    "purchase."
+   ],
+   "hud": [
+    4,
+    21000000,
+    4,
+    21000000
+   ]
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4
+  }
+ ],
+ "caption": "Some roles need a phone, some a car, and the top ones a private jet. Swipe through the offers. Free on the App Store: Startup Legacy. #career #jobs #ceo #careergoals #simulationgame"
+}
