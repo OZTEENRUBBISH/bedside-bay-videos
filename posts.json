@@ -8,7 +8,11 @@
    "posts/2026-11-12/broke-to-rich-01-voice2.mp4"
   ],
   "hook": "Day 1. Broke intern.",
-  "buffer_id": "6af52d1abc9f3773a1b8921b"
+  "buffer_id": "6af52d1abc9f3773a1b8921b",
+  "views": 38,
+  "likes": 5,
+  "avg_watch_s": 3.94,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-13",
@@ -20,7 +24,11 @@
   ],
   "hook": "Your next patient",
   "case_id": "graham-peters",
-  "buffer_id": "6af52fb92f7f0a6952e9f3b1"
+  "buffer_id": "6af52fb92f7f0a6952e9f3b1",
+  "views": 233,
+  "likes": 5,
+  "avg_watch_s": 3.3,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-13",
@@ -31,7 +39,11 @@
    "posts/2026-11-13/full-game-01-voice.mp4"
   ],
   "hook": "Run your own emergency room.",
-  "buffer_id": "6af52fb9bc9f3773a1b98121"
+  "buffer_id": "6af52fb9bc9f3773a1b98121",
+  "views": 134,
+  "likes": 6,
+  "avg_watch_s": 3.22,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-13",
@@ -46,7 +58,11 @@
    "posts/2026-11-12/photo001-career-climb-5.jpg"
   ],
   "hook": "Broke intern to ED Director",
-  "buffer_id": "6af52d1b8a1a2f52b51c8d02"
+  "buffer_id": "6af52d1b8a1a2f52b51c8d02",
+  "views": 221,
+  "likes": 4,
+  "avg_watch_s": 10.11,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-14",
@@ -59,7 +75,11 @@
   "hook": "163 patients. One doctor.",
   "script": "kit/variants/fullgame_02.py",
   "music": "upbeat",
-  "buffer_id": "6af541688a1a2f52b5229182"
+  "buffer_id": "6af541688a1a2f52b5229182",
+  "views": 242,
+  "likes": 5,
+  "avg_watch_s": 5.93,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-14",
@@ -72,7 +92,11 @@
   "hook": "How did he afford this? (rewind to Day 1)",
   "script": "kit/variants/b2r_variants.py rewind",
   "music": "bright",
-  "buffer_id": "6af54169bfa789f6210b1e78"
+  "buffer_id": "6af54169bfa789f6210b1e78",
+  "views": 169,
+  "likes": 2,
+  "avg_watch_s": 3.29,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-14",
@@ -89,7 +113,11 @@
   "hook": "\"Why does it smell of burning in here?\"",
   "case_id": "megan-lewis",
   "script": "kit/variants/case_photos.py",
-  "buffer_id": "6af5416a3d8c751bfd150a9c"
+  "buffer_id": "6af5416a3d8c751bfd150a9c",
+  "views": 222,
+  "likes": 2,
+  "avg_watch_s": 5.7,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-15",
@@ -102,7 +130,11 @@
   "hook": "Same doctor. Two futures. (split screen)",
   "script": "kit/variants/b2r_variants.py split",
   "music": "upbeat",
-  "buffer_id": "6af5416a8a1a2f52b5229253"
+  "buffer_id": "6af5416a8a1a2f52b5229253",
+  "views": 236,
+  "likes": 10,
+  "avg_watch_s": 7.0,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-15",
@@ -115,7 +147,11 @@
   "hook": "Your next patient",
   "case_id": "priya-sharma",
   "music": "tense",
-  "buffer_id": "6af5416bcb4c7286fd13d994"
+  "buffer_id": "6af5416bcb4c7286fd13d994",
+  "views": 197,
+  "likes": 1,
+  "avg_watch_s": 4.24,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-15",
@@ -132,7 +168,11 @@
   ],
   "hook": "New here? The whole game in 4 swipes.",
   "script": "kit/variants/fullgame_02.py photos",
-  "buffer_id": "6af5416cbc9f3773a1bee3ef"
+  "buffer_id": "6af5416cbc9f3773a1bee3ef",
+  "views": 89,
+  "likes": 0,
+  "avg_watch_s": 2.46,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-16",
@@ -146,7 +186,11 @@
   "case_id": "chloe-marsh",
   "script": "kit/variants/case_02.py",
   "music": "tense",
-  "buffer_id": "6af69149c1a0010a5bfa25ce"
+  "buffer_id": "6af69149c1a0010a5bfa25ce",
+  "views": 41,
+  "likes": 1,
+  "avg_watch_s": 4.27,
+  "metrics_as_of": "2026-11-15T22:55Z"
  },
  {
   "date": "2026-11-16",
@@ -264,5 +308,49 @@
   "hook": "Now hiring: Emergency doctor. (the game as a job ad: workload, the job, career path, shifts)",
   "script": "kit/variants/fullgame_06_hiring_photos.py",
   "buffer_id": "6af9347d918fe79d2ebfd48e"
+ },
+ {
+  "date": "2026-11-19",
+  "slot": "06:00",
+  "model": "Case",
+  "format": "video",
+  "files": [
+   "posts/2026-11-19/case-jack-thompson-doors.mp4"
+  ],
+  "hook": "Incoming. (emergency doors slide open on the patient, then the quote fills the screen, four moves as a numbered path)",
+  "case_id": "jack-thompson",
+  "script": "kit/variants/case_04_doors.py",
+  "music": "tense",
+  "buffer_id": "6afa866c8e87c256a3b0d866"
+ },
+ {
+  "date": "2026-11-19",
+  "slot": "14:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-19/broke-to-rich-07-mattress-or-mansion.mp4"
+  ],
+  "hook": "Same doctor. Mattress or mansion? (slanted split screen panning item against item: noodles vs supercar, rent notice vs gold watch, then the divider slides away as the rank ladder climbs)",
+  "script": "kit/variants/b2r_07_versus.py",
+  "music": "bright",
+  "buffer_id": "6afa866c06e1675856c75fda",
+  "note": "Weekly-review extra modelled on 'Same doctor. Two futures.'; takes the Full Game slot for this day"
+ },
+ {
+  "date": "2026-11-19",
+  "slot": "22:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-19/broke-to-rich-08-starter-pack-1.jpg",
+   "posts/2026-11-19/broke-to-rich-08-starter-pack-2.jpg",
+   "posts/2026-11-19/broke-to-rich-08-starter-pack-3.jpg",
+   "posts/2026-11-19/broke-to-rich-08-starter-pack-4.jpg",
+   "posts/2026-11-19/broke-to-rich-08-starter-pack-5.jpg"
+  ],
+  "hook": "Broke intern starter pack vs ED Director starter pack (2x2 item grids, then the 3 ranks in between)",
+  "script": "kit/variants/b2r_starter_pack_photos.py",
+  "buffer_id": "6afa866d06e1675856c76027"
  }
 ]
