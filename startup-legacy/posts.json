@@ -23,7 +23,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 2.56,
-   "checked": "2026-11-16T16:43+11:00"
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   }
  },
  {
@@ -51,12 +52,13 @@
   ],
   "buffer_id": "6af53aacbfa789f6210933f4",
   "metrics": {
-   "views": 2,
+   "views": 3,
    "likes": 2,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 5.36,
-   "checked": "2026-11-16T16:43+11:00"
+   "avg_watch_s": 4.68,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   }
  },
  {
@@ -82,8 +84,9 @@
    "likes": 1,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 1.0,
-   "checked": "2026-11-16T16:43+11:00"
+   "avg_watch_s": 1,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   }
  },
  {
@@ -111,7 +114,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 0.96,
-   "checked": "2026-11-16T16:43+11:00"
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   }
  },
  {
@@ -138,7 +142,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 1.49,
-   "checked": "2026-11-16T16:43+11:00"
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   }
  },
  {
@@ -166,12 +171,13 @@
   ],
   "buffer_id": "6af53aafcb4c7286fd11e032",
   "metrics": {
-   "views": 515,
+   "views": 518,
    "likes": 4,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 5.73,
-   "checked": "2026-11-16T16:43+11:00"
+   "avg_watch_s": 5.72,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   },
   "followed_up": "6af947bab9a106584c8d568d"
  },
@@ -195,15 +201,17 @@
   ],
   "buffer_id": "6af53ab0cb4c7286fd11e084",
   "metrics": {
-   "views": 521,
-   "likes": 7,
+   "views": 540,
+   "likes": 9,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 5.12,
-   "checked": "2026-11-16T16:43+11:00"
+   "avg_watch_s": 5.21,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   },
   "winner": "2026-11-16 (521 views, 4.8x median 109)",
-  "follow_up_planned": "2026-11-20 22:00 Luxury Unlocks slot (19 Nov already had one follow-up; 17-18 Nov were full)"
+  "follow_up_planned": "2026-11-20 22:00 Luxury Unlocks slot (19 Nov already had one follow-up; 17-18 Nov were full)",
+  "followed_up": "6afbea744b26315855c4ab4a"
  },
  {
   "date": "2026-11-15",
@@ -224,12 +232,13 @@
   ],
   "buffer_id": "6af53ab0bc9f3773a1bce29c",
   "metrics": {
-   "views": 259,
-   "likes": 4,
+   "views": 490,
+   "likes": 7,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 3.23,
-   "checked": "2026-11-16T16:43+11:00"
+   "avg_watch_s": 3.57,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   },
   "followed_up": "6afa98e98e87c256a3b60bfa"
  },
@@ -258,12 +267,13 @@
   ],
   "buffer_id": "6af53ab1bfa789f621093696",
   "metrics": {
-   "views": 133,
-   "likes": 1,
+   "views": 162,
+   "likes": 3,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 3.66,
-   "checked": "2026-11-16T16:43+11:00"
+   "avg_watch_s": 4.02,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   }
  },
  {
@@ -285,13 +295,13 @@
   ],
   "buffer_id": "6af53e6bbfa789f6210a4cb4",
   "metrics": {
-   "views": 89,
+   "views": 90,
    "likes": 0,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 1.9,
-   "checked": "2026-11-16T16:43+11:00",
-   "note": "live under 24 h at check (or metrics not refreshed yet)"
+   "avg_watch_s": 1.88,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   }
  },
  {
@@ -324,8 +334,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 0,
-   "checked": "2026-11-16T16:43+11:00",
-   "note": "live under 24 h at check (or metrics not refreshed yet)"
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   }
  },
  {
@@ -347,13 +357,13 @@
   ],
   "buffer_id": "6af6a482ba218f32637f0efc",
   "metrics": {
-   "views": 0,
-   "likes": 0,
+   "views": 90,
+   "likes": 1,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 0,
-   "checked": "2026-11-16T16:43+11:00",
-   "note": "live under 24 h at check (or metrics not refreshed yet)"
+   "avg_watch_s": 2.98,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
   }
  },
  {
@@ -374,7 +384,16 @@
    "mansion",
    "cta"
   ],
-  "buffer_id": "6af6a482ba218f32637f0f27"
+  "buffer_id": "6af6a482ba218f32637f0f27",
+  "metrics": {
+   "views": 87,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "avg_watch_s": 2.84,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
+  }
  },
  {
   "date": "2026-11-17",
@@ -395,7 +414,16 @@
    "ladder",
    "cta"
   ],
-  "caption": "Every job offer is a choice, and some roles need a car before you can take them. Free on the App Store: Startup Legacy. #career #jobs #ceo #entrepreneur #simulationgame"
+  "caption": "Every job offer is a choice, and some roles need a car before you can take them. Free on the App Store: Startup Legacy. #career #jobs #ceo #entrepreneur #simulationgame",
+  "metrics": {
+   "views": 43,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "avg_watch_s": 1.92,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-16T22:51:06.459Z"
+  }
  },
  {
   "date": "2026-11-17",
@@ -422,7 +450,16 @@
    "yacht",
    "cta"
   ],
-  "caption": "Your business, your money, your legacy. Swipe to see how it works. Free on the App Store: Startup Legacy. #entrepreneur #startup #businessgame #stocks #simulationgame"
+  "caption": "Your business, your money, your legacy. Swipe to see how it works. Free on the App Store: Startup Legacy. #entrepreneur #startup #businessgame #stocks #simulationgame",
+  "metrics": {
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "avg_watch_s": 0,
+   "checked": "2026-11-17T16:44+11:00",
+   "metrics_updated": "2026-11-14T05:48:08.781Z"
+  }
  },
  {
   "date": "2026-11-17",
@@ -581,5 +618,49 @@
   "buffer_id": "6afa98e98e87c256a3b60bfa",
   "follow_up_of": "6af53ab0bc9f3773a1bce29c",
   "caption": "Ticket, sponsor, merch and TV money, then a star signing and a title run. Free on the App Store: Startup Legacy. #football #sportsbusiness #clubowner #entrepreneur #simulationgame"
+ },
+ {
+  "date": "2026-11-20",
+  "slot": "14:00",
+  "model": "The Numbers",
+  "format": "photos",
+  "spec": "specs/2026-11-20-1400-num-buy.json",
+  "files": [
+   "posts/2026-11-20/num-buy/slide-1.jpg",
+   "posts/2026-11-20/num-buy/slide-2.jpg",
+   "posts/2026-11-20/num-buy/slide-3.jpg",
+   "posts/2026-11-20/num-buy/slide-4.jpg",
+   "posts/2026-11-20/num-buy/slide-5.jpg"
+  ],
+  "hook": "Would you buy this business?",
+  "scenes": [
+   "unit",
+   "pnl",
+   "marketing",
+   "pricing",
+   "cta"
+  ],
+  "buffer_id": "6afbea73df36f4d825708cbd"
+ },
+ {
+  "date": "2026-11-20",
+  "slot": "22:00",
+  "model": "Luxury Unlocks",
+  "format": "video",
+  "spec": "specs/2026-11-20-2200-lux-broke24.json",
+  "files": [
+   "posts/2026-11-20/lux-broke24.mp4"
+  ],
+  "hook": "Broke at 24.",
+  "scenes": [
+   "broke",
+   "trading",
+   "wedding",
+   "jet",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6afbea744b26315855c4ab4a",
+  "follow_up_of": "6af53ab0cb4c7286fd11e084"
  }
 ]
