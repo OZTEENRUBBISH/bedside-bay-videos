@@ -1,0 +1,15 @@
+{
+ "model": "Luxury Unlocks",
+ "format": "video",
+ "style": "bright",
+ "follow_up_of": "6af53ab0cb4c7286fd11e084",
+ "scenes": [
+  {"scene": "broke", "dur": 2.8, "head": ["Broke at 24."], "hud": [0, 2000, 0, 2000], "voice": "Broke at twenty four."},
+  {"scene": "trading", "dur": 3.2, "head": ["Millionaire at 29."], "hud": [0, 2000, 2, 1400000], "voice": "A millionaire at twenty nine."},
+  {"scene": "wedding", "dur": 3.6, "head": ["Then I married", "my best friend."], "hud": [2, 1400000, 3, 8200000], "voice": "Then I married my best friend."},
+  {"scene": "jet", "dur": 3.2, "head": ["Honeymoon by", "private jet."], "hud": [3, 8200000, 4, 36000000.0], "voice": "Honeymoon by private jet."},
+  {"scene": "mansion", "dur": 3.4, "head": ["Our forever", "home at 34."], "hud": [4, 36000000.0, 4, 54000000.0], "tags": [[0.6, "Mansion", 300, 578], [1.3, "Supercar", 330, 1044]], "voice": "Our forever home, at thirty four."},
+  {"scene": "cta", "dur": 3.4, "voice": "Startup Legacy. Free on the App Store."}
+ ],
+ "caption": "Broke at 24, millionaire at 29. Where would your story go? Free on the App Store: Startup Legacy. #entrepreneur #startup #success #luxurylifestyle #simulationgame"
+}

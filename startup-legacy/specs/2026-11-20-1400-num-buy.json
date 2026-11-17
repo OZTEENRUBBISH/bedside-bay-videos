@@ -1,0 +1,12 @@
+{
+ "model": "The Numbers",
+ "format": "photos",
+ "scenes": [
+  {"scene": "unit", "dur": 3, "head": ["Would you buy", "this business?"], "hud": [2, 1300000, 2, 1300000], "photo_t": 2.6},
+  {"scene": "pnl", "dur": 3, "head": ["$22,700 profit", "every month"], "hud": [2, 1300000, 2, 1300000], "photo_t": 2.9},
+  {"scene": "marketing", "dur": 3, "head": ["Ads keep the", "customers coming"], "hud": [2, 1300000, 2, 1300000], "photo_t": 2.9},
+  {"scene": "pricing", "dur": 3, "head": ["And the price", "can still rise"], "hud": [2, 1300000, 2, 1300000], "photo_t": 2.55},
+  {"scene": "cta", "dur": 3, "photo_t": 2.5}
+ ],
+ "caption": "Monthly profit, cost per customer, ads and price. Would you buy it? Free on the App Store: Startup Legacy. #entrepreneur #business #finance #smallbusiness #simulationgame"
+}
