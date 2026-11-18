@@ -1,0 +1,14 @@
+{
+ "model": "Job Offer",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {"scene": "offer", "dur": 3.2, "head": ["Age 23:", "my first offer."], "args": {"title": "Junior Analyst", "pay": "$3,900 / month", "who": "Requires: a phone", "tag_": "AGE 23"}, "voice": "Age twenty three. My first offer."},
+  {"scene": "offer", "dur": 3.0, "head": ["Age 26:", "double the pay."], "args": {"title": "Marketing Manager", "pay": "$9,800 / month", "who": "Requires: a laptop", "tag_": "AGE 26"}, "voice": "Age twenty six. Double the pay."},
+  {"scene": "cars", "dur": 2.8, "head": ["Age 28:", "this one needed a car."], "voice": "Age twenty eight. This one needed a car."},
+  {"scene": "offer", "dur": 3.2, "head": ["Age 31:", "headhunted as CEO."], "args": {"title": "Chief Executive Officer", "pay": "$48,500 / month", "who": "Executive search firm", "tag_": "AGE 31"}, "voice": "Age thirty one. Headhunted as C E O."},
+  {"scene": "jet", "dur": 3.0, "head": ["The CEO job", "came with a jet."], "hud": [4, 12000000, 4, 15000000], "voice": "The C E O job came with a jet."},
+  {"scene": "cta", "dur": 3.4, "voice": "Startup Legacy. Free on the App Store."}
+ ],
+ "caption": "First offer at 23, headhunted as CEO at 31. Which offer would you accept? Free on the App Store: Startup Legacy. #career #jobs #ceo #careergoals #simulationgame"
+}

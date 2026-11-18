@@ -1,0 +1,102 @@
+{
+ "model": "Broke to Rich",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {
+   "scene": "garage",
+   "dur": 3.0,
+   "head": [
+    "They laughed at",
+    "my garage startup."
+   ],
+   "hud": [
+    0,
+    2000,
+    1,
+    24000
+   ],
+   "voice": "They laughed at my garage startup."
+  },
+  {
+   "scene": "office",
+   "dur": 3.0,
+   "head": [
+    "Year 2:",
+    "14 staff."
+   ],
+   "hud": [
+    1,
+    24000,
+    2,
+    900000
+   ],
+   "voice": "Year two. Fourteen staff."
+  },
+  {
+   "scene": "trading",
+   "dur": 3.0,
+   "head": [
+    "Year 4:",
+    "my shares took off."
+   ],
+   "hud": [
+    2,
+    900000,
+    3,
+    7400000
+   ],
+   "voice": "Year four. My shares took off."
+  },
+  {
+   "scene": "watch",
+   "dur": 2.8,
+   "head": [
+    "Year 6:",
+    "the gold watch."
+   ],
+   "hud": [
+    3,
+    7400000,
+    4,
+    19000000
+   ],
+   "voice": "Year six. The gold watch."
+  },
+  {
+   "scene": "mansion",
+   "dur": 3.2,
+   "head": [
+    "Year 8:",
+    "who's laughing now?"
+   ],
+   "hud": [
+    4,
+    19000000,
+    4,
+    41000000
+   ],
+   "tags": [
+    [
+     0.6,
+     "Mansion",
+     300,
+     578
+    ],
+    [
+     1.2,
+     "Supercar",
+     330,
+     1044
+    ]
+   ],
+   "voice": "Year eight. Who's laughing now?"
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "They laughed at the garage. Then came the staff, the shares and the mansion. Free on the App Store: Startup Legacy. #entrepreneur #startup #success #motivation #simulationgame"
+}

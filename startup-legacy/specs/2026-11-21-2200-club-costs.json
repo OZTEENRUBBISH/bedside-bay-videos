@@ -1,0 +1,12 @@
+{
+ "model": "Club Owner",
+ "format": "photos",
+ "scenes": [
+  {"scene": "clubmoney", "dur": 3.0, "head": ["What it costs to", "run a football club"], "hud": [3, 8400000, 3, 8400000], "photo_t": 2.0},
+  {"scene": "club", "dur": 3.0, "head": ["What it", "brings in"], "photo_t": 2.6},
+  {"scene": "stadium", "dur": 3.0, "head": ["Ticket price set.", "Stadium full."], "args": {"score": [2, 0], "opp": "Corvenhall"}, "photo_t": 2.0},
+  {"scene": "trophy", "dur": 3.0, "head": ["And the part", "money can't buy"], "hud": [4, 14200000, 4, 14200000], "photo_t": 2.0},
+  {"scene": "cta", "dur": 3.4}
+ ],
+ "caption": "Wage bill, coach, star signing, then ticket, sponsor, merch and TV money. Would you run a club? Free on the App Store: Startup Legacy. #football #sportsbusiness #clubowner #entrepreneur #simulationgame"
+}
