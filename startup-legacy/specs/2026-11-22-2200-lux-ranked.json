@@ -1,0 +1,14 @@
+{
+ "model": "Luxury Unlocks",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {"scene": "watch", "dur": 3.0, "head": ["My buys, ranked.", "#5: gold watch."], "hud": [3, 5000000, 3, 5000000], "voice": "My buys, ranked. Number five."},
+  {"scene": "cars", "dur": 2.8, "head": ["#4:", "the supercar."], "hud": [3, 5000000, 3, 11000000], "voice": "Number four. The supercar."},
+  {"scene": "mansion", "dur": 2.8, "head": ["#3:", "the mansion."], "hud": [3, 11000000, 4, 26000000], "voice": "Number three. The mansion."},
+  {"scene": "yacht", "dur": 2.8, "head": ["#2:", "the superyacht."], "hud": [4, 26000000, 4, 48000000], "voice": "Number two. The superyacht."},
+  {"scene": "jet", "dur": 3.0, "head": ["#1:", "my private jet."], "hud": [4, 48000000, 4, 79000000], "voice": "And number one. My private jet."},
+  {"scene": "cta", "dur": 3.4, "voice": "What would you buy first? Startup Legacy."}
+ ],
+ "caption": "Five buys, ranked from five to one. Which would you get first? Free on the App Store: Startup Legacy. #luxurylifestyle #entrepreneur #richlife #success #simulationgame"
+}

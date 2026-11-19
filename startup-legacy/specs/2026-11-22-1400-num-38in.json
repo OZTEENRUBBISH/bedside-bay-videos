@@ -1,0 +1,13 @@
+{
+ "model": "The Numbers",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {"scene": "unit", "dur": 3.2, "head": ["$38 in.", "$412 back."], "hud": [2, 640000, 2, 640000], "voice": "Thirty eight dollars in. Four hundred and twelve back."},
+  {"scene": "marketing", "dur": 3.2, "head": ["So I went", "all in on ads."], "hud": [2, 640000, 2, 1300000], "voice": "So I went all in on ads."},
+  {"scene": "pricing", "dur": 3.2, "head": ["Then I tested", "my price."], "hud": [2, 1300000, 3, 2900000], "voice": "Then I tested my price."},
+  {"scene": "pnl", "dur": 3.4, "head": ["Profit:", "$22,700 a month."], "hud": [3, 2900000, 3, 4200000], "voice": "Profit. Twenty two thousand seven hundred a month."},
+  {"scene": "cta", "dur": 3.4, "voice": "Could you beat that? Startup Legacy."}
+ ],
+ "caption": "Cost per customer, lifetime value, ad spend and price, then the monthly profit. Could you beat it? Free on the App Store: Startup Legacy. #entrepreneur #business #finance #marketing #simulationgame"
+}

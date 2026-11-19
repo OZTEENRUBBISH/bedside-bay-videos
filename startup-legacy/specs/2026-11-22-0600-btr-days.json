@@ -1,0 +1,13 @@
+{
+ "model": "Broke to Rich",
+ "format": "photos",
+ "scenes": [
+  {"scene": "broke", "dur": 3, "head": ["Day 1:", "$2,000 and noodles"], "hud": [0, 2000, 0, 2000], "tags": [[0.5, "Rent due Friday", 300, 1120]], "photo_t": 1.8},
+  {"scene": "garage", "dur": 3, "head": ["Day 90:", "first paying customer"], "hud": [1, 6400, 1, 6400], "toasts": [[0.6, 3.0, "New customer", "+$49"]], "photo_t": 2.6},
+  {"scene": "office", "dur": 3, "head": ["Day 400:", "my first real office"], "hud": [2, 640000, 2, 640000], "photo_t": 2.6},
+  {"scene": "trading", "dur": 3, "head": ["Day 1,500:", "the shares pay off"], "hud": [3, 9200000, 3, 9200000], "photo_t": 2.6},
+  {"scene": "cars", "dur": 3, "head": ["Day 2,900:", "a garage of supercars"], "hud": [4, 41000000, 4, 41000000], "photo_t": 2.6},
+  {"scene": "cta", "dur": 3, "photo_t": 2.5}
+ ],
+ "caption": "From instant noodles to a garage of supercars, one day at a time. Free on the App Store: Startup Legacy. #entrepreneur #startup #success #moneytok #simulationgame"
+}
