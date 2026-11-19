@@ -803,5 +803,69 @@
   ],
   "buffer_id": "6afd3c7eaa3b065dd9776324",
   "caption": "Wage bill, coach, star signing, then ticket, sponsor, merch and TV money. Would you run a club? Free on the App Store: Startup Legacy. #football #sportsbusiness #clubowner #entrepreneur #simulationgame"
+ },
+ {
+  "date": "2026-11-22",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "spec": "specs/2026-11-22-0600-btr-days.json",
+  "files": [
+   "posts/2026-11-22/btr-days/slide-1.jpg",
+   "posts/2026-11-22/btr-days/slide-2.jpg",
+   "posts/2026-11-22/btr-days/slide-3.jpg",
+   "posts/2026-11-22/btr-days/slide-4.jpg",
+   "posts/2026-11-22/btr-days/slide-5.jpg",
+   "posts/2026-11-22/btr-days/slide-6.jpg"
+  ],
+  "hook": "Day 1: $2,000 and noodles",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "trading",
+   "cars",
+   "cta"
+  ],
+  "buffer_id": "6afe8d9b3802f5b9fc6ec109"
+ },
+ {
+  "date": "2026-11-22",
+  "slot": "14:00",
+  "model": "The Numbers",
+  "format": "video",
+  "spec": "specs/2026-11-22-1400-num-38in.json",
+  "files": [
+   "posts/2026-11-22/num-38in.mp4"
+  ],
+  "hook": "$38 in. $412 back.",
+  "scenes": [
+   "unit",
+   "marketing",
+   "pricing",
+   "pnl",
+   "cta"
+  ],
+  "buffer_id": "6afe8d9cf6b6aa0cd4a541cf"
+ },
+ {
+  "date": "2026-11-22",
+  "slot": "22:00",
+  "model": "Luxury Unlocks",
+  "format": "video",
+  "spec": "specs/2026-11-22-2200-lux-ranked.json",
+  "files": [
+   "posts/2026-11-22/lux-ranked.mp4"
+  ],
+  "hook": "My buys, ranked. #5: gold watch.",
+  "scenes": [
+   "watch",
+   "cars",
+   "mansion",
+   "yacht",
+   "jet",
+   "cta"
+  ],
+  "buffer_id": "6afe8d9d3802f5b9fc6ec135"
  }
 ]
