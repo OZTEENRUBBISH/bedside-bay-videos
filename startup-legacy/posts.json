@@ -894,5 +894,77 @@
    "cta"
   ],
   "buffer_id": "6afe8d9d3802f5b9fc6ec135"
+ },
+ {
+  "date": "2026-11-23",
+  "slot": "06:00",
+  "model": "Job Offer",
+  "format": "video",
+  "style_group": 2,
+  "spec": "specs/2026-11-23-0600-offer-no.json",
+  "files": [
+   "posts/2026-11-23/offer-no.mp4"
+  ],
+  "hook": "I said no to this job.",
+  "scenes": [
+   "offer",
+   "offer",
+   "offer",
+   "jet",
+   "ladder",
+   "cta"
+  ],
+  "buffer_id": "6affdf394c1afd05def69452",
+  "caption": "Turning down the first offer paid off. Then a headhunter called with a CEO role that needed a private jet. Free on the App Store: Startup Legacy. #career #jobs #ceo #careeradvice #simulationgame"
+ },
+ {
+  "date": "2026-11-23",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "photos",
+  "style_group": 1,
+  "spec": "specs/2026-11-23-1400-game-ages.json",
+  "files": [
+   "posts/2026-11-23/game-ages/slide-1.jpg",
+   "posts/2026-11-23/game-ages/slide-2.jpg",
+   "posts/2026-11-23/game-ages/slide-3.jpg",
+   "posts/2026-11-23/game-ages/slide-4.jpg",
+   "posts/2026-11-23/game-ages/slide-5.jpg",
+   "posts/2026-11-23/game-ages/slide-6.jpg"
+  ],
+  "hook": "Age 21: 29 industries to pick",
+  "scenes": [
+   "broke",
+   "garage",
+   "trading",
+   "office",
+   "jet",
+   "cta"
+  ],
+  "buffer_id": "6affdf3a7b0a126cebaf4b01",
+  "caption": "Pick an industry, set your prices, trade shares, buy established businesses and shop for a private jet. Swipe through one life. Free on the App Store: Startup Legacy. #entrepreneur #startup #businessgame #stocks #simulationgame",
+  "note": "weekly-review extra (16 Nov review): age-timeline hook of the Age 22 / Broke at 22 winners, applied to the weakest model (Full Game)"
+ },
+ {
+  "date": "2026-11-23",
+  "slot": "22:00",
+  "model": "Club Owner",
+  "format": "video",
+  "style_group": 2,
+  "spec": "specs/2026-11-23-2200-club-years.json",
+  "files": [
+   "posts/2026-11-23/club-years.mp4"
+  ],
+  "hook": "Year one: bottom of the league.",
+  "scenes": [
+   "stadium",
+   "clubmoney",
+   "stadium",
+   "club",
+   "trophy",
+   "cta"
+  ],
+  "buffer_id": "6affdf3a7b0a126cebaf4b51",
+  "caption": "Set ticket prices, hire a coach and watch the league table, the fans and the sponsor and TV money. Free on the App Store: Startup Legacy. #football #sportsbusiness #clubowner #entrepreneur #simulationgame"
  }
 ]
