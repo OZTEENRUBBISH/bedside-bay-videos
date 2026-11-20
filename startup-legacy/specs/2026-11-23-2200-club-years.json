@@ -1,0 +1,102 @@
+{
+ "model": "Club Owner",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {
+   "scene": "stadium",
+   "dur": 3.2,
+   "head": [
+    "Year one:",
+    "bottom of the league."
+   ],
+   "args": {
+    "score": [
+     0,
+     3
+    ],
+    "opp": "Corvenhall"
+   },
+   "hud": [
+    3,
+    7200000,
+    3,
+    7200000
+   ],
+   "voice": "Year one. Bottom of the league."
+  },
+  {
+   "scene": "clubmoney",
+   "dur": 3.2,
+   "head": [
+    "Cheaper tickets.",
+    "Better coach."
+   ],
+   "hud": [
+    3,
+    7200000,
+    3,
+    6600000
+   ],
+   "voice": "Cheaper tickets. Better coach."
+  },
+  {
+   "scene": "stadium",
+   "dur": 3.0,
+   "head": [
+    "Year two:",
+    "the fans came back."
+   ],
+   "args": {
+    "score": [
+     2,
+     1
+    ],
+    "opp": "Brammerholt"
+   },
+   "hud": [
+    3,
+    6600000,
+    3,
+    8100000
+   ],
+   "voice": "Year two. The fans came back."
+  },
+  {
+   "scene": "club",
+   "dur": 3.2,
+   "head": [
+    "Then the sponsors",
+    "and the TV money."
+   ],
+   "hud": [
+    3,
+    8100000,
+    4,
+    11900000
+   ],
+   "voice": "Then the sponsors, and the T.V. money."
+  },
+  {
+   "scene": "trophy",
+   "dur": 3.0,
+   "head": [
+    "Year three:",
+    "champions."
+   ],
+   "hud": [
+    4,
+    11900000,
+    4,
+    16400000
+   ],
+   "voice": "Year three. Champions."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Could you build a winner? Startup Legacy."
+  }
+ ],
+ "caption": "Set ticket prices, hire a coach and watch the league table, the fans and the sponsor and TV money. Free on the App Store: Startup Legacy. #football #sportsbusiness #clubowner #entrepreneur #simulationgame"
+}

@@ -1,0 +1,103 @@
+{
+ "model": "Job Offer",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {
+   "scene": "offer",
+   "dur": 3.2,
+   "head": [
+    "I said no",
+    "to this job."
+   ],
+   "args": {
+    "title": "Sales Associate",
+    "pay": "$4,200 / month",
+    "who": "Recruiter",
+    "tag_": "DECLINED",
+    "decline": true
+   },
+   "voice": "I said no to this job."
+  },
+  {
+   "scene": "offer",
+   "dur": 3.0,
+   "head": [
+    "The next one",
+    "paid double."
+   ],
+   "args": {
+    "title": "Product Manager",
+    "pay": "$8,600 / month",
+    "who": "Requires: a laptop",
+    "tag_": "ACCEPTED"
+   },
+   "voice": "The next one paid double."
+  },
+  {
+   "scene": "offer",
+   "dur": 3.2,
+   "head": [
+    "Then a headhunter",
+    "called."
+   ],
+   "args": {
+    "title": "Chief Executive Officer",
+    "pay": "$48,500 / month",
+    "who": "Executive search firm",
+    "tag_": "CEO ROLE"
+   },
+   "voice": "Then a headhunter called."
+  },
+  {
+   "scene": "jet",
+   "dur": 3.0,
+   "head": [
+    "The role needed",
+    "a private jet."
+   ],
+   "hud": [
+    3,
+    6800000,
+    4,
+    14000000
+   ],
+   "voice": "The role needed a private jet."
+  },
+  {
+   "scene": "ladder",
+   "dur": 3.0,
+   "head": [
+    "One no.",
+    "Then all the way up."
+   ],
+   "voice": "One no. Then all the way up.",
+   "args": {
+    "roles": [
+     [
+      "Product Manager",
+      "$8,600/mo"
+     ],
+     [
+      "Head of Product",
+      "$14,900/mo"
+     ],
+     [
+      "Operations Director",
+      "$22,000/mo"
+     ],
+     [
+      "CEO",
+      "$48,500/mo"
+     ]
+    ]
+   }
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Would you have said no? Startup Legacy."
+  }
+ ],
+ "caption": "Turning down the first offer paid off. Then a headhunter called with a CEO role that needed a private jet. Free on the App Store: Startup Legacy. #career #jobs #ceo #careeradvice #simulationgame"
+}

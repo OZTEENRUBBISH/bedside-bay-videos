@@ -1,0 +1,87 @@
+{
+ "model": "Full Game",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3,
+   "head": [
+    "Age 21:",
+    "29 industries to pick"
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "photo_t": 1.8
+  },
+  {
+   "scene": "garage",
+   "dur": 3,
+   "head": [
+    "Age 23:",
+    "I set my own prices"
+   ],
+   "hud": [
+    1,
+    36000,
+    1,
+    36000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "trading",
+   "dur": 3,
+   "head": [
+    "Age 27:",
+    "shares jump on news"
+   ],
+   "hud": [
+    2,
+    1900000,
+    2,
+    1900000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "office",
+   "dur": 3,
+   "head": [
+    "Age 30:",
+    "I bought a rival firm"
+   ],
+   "hud": [
+    3,
+    8500000,
+    3,
+    8500000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "jet",
+   "dur": 3,
+   "head": [
+    "Age 34:",
+    "a jet from the shop"
+   ],
+   "hud": [
+    4,
+    31000000,
+    4,
+    31000000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "caption": "Pick an industry, set your prices, trade shares, buy established businesses and shop for a private jet. Swipe through one life. Free on the App Store: Startup Legacy. #entrepreneur #startup #businessgame #stocks #simulationgame"
+}

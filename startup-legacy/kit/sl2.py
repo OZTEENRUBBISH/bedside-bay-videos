@@ -122,7 +122,8 @@ def pricing(c, t):
 
 
 # ---------------------------------------------------------------- job offers
-def offer(c, t, title='Chief Executive Officer', pay='$48,500 / month', who='Executive search firm', tag_='HEADHUNTER'):
+def offer(c, t, title='Chief Executive Officer', pay='$48,500 / month', who='Executive search firm', tag_='HEADHUNTER', decline=False):
+    """decline=True: the finger taps Decline instead of Accept (no confetti)."""
     c.drawRect(skia.Rect.MakeWH(W, H), grad(0, 0, 0, H, ['#1a2433', '#0e141d']))
     c.drawCircle(540, 820, 460, P(GREEN, 40, blur=140))
     # phone
@@ -140,24 +141,28 @@ def offer(c, t, title='Chief Executive Officer', pay='$48,500 / month', who='Exe
     # buttons + tap
     tap = clamp((t - 1.6) / .3)
     bs = 1 - .08 * math.sin(tap * math.pi)
-    c.save(); c.translate(400, y0 + 660); c.scale(bs, bs); rr(c, -120, -44, 240, 88, 44, P(GREEN)); text(c, 'Accept', 0, 14, 40, '#ffffff', 900, 'c'); c.restore()
-    rr(c, 560, y0 + 616, 240, 88, 44, P('#e1e5ea')); text(c, 'Decline', 680, y0 + 674, 40, MUTED, 800, 'c')
+    ba, bd = (1, bs) if decline else (bs, 1)
+    c.save(); c.translate(400, y0 + 660); c.scale(ba, ba); rr(c, -120, -44, 240, 88, 44, P(GREEN)); text(c, 'Accept', 0, 14, 40, '#ffffff', 900, 'c'); c.restore()
+    dcol = '#c92a2a' if decline and tap > .5 else '#e1e5ea'; tcol = '#ffffff' if decline and tap > .5 else MUTED
+    c.save(); c.translate(680, y0 + 660); c.scale(bd, bd); rr(c, -120, -44, 240, 88, 44, P(dcol)); text(c, 'Decline', 0, 14, 40, tcol, 800, 'c'); c.restore()
+    tx = 690 if decline else 410; cx = 680 if decline else 400
     if t > 1.2:
-        fx, fy = lerp(560, 410, ease((t - 1.2) / .4)), lerp(y0 + 900, y0 + 676, ease((t - 1.2) / .4))
+        fx, fy = lerp(560 if not decline else 820, tx, ease((t - 1.2) / .4)), lerp(y0 + 900, y0 + 676, ease((t - 1.2) / .4))
         c.drawCircle(fx, fy, 34, P(SKIN)); rr(c, fx - 16, fy, 32, 120, 16, P(SKIN))
-        if t > 1.6: c.drawCircle(400, y0 + 660, 40 + 120 * clamp((t - 1.6) / .5), P('#ffffff', 160 * (1 - clamp((t - 1.6) / .5)), stroke=8))
-    if t > 1.9:
+        if t > 1.6: c.drawCircle(cx, y0 + 660, 40 + 120 * clamp((t - 1.6) / .5), P('#ffffff', 160 * (1 - clamp((t - 1.6) / .5)), stroke=8))
+    if t > 1.9 and not decline:
         for i in range(24):
             kk = clamp((t - 1.9) / 1.6); a = i * 2 * math.pi / 24; r = 120 + 420 * kk
             c.save(); c.rotate(t * 300 + i * 30, 540 + math.cos(a) * r, 860 + math.sin(a) * r + 300 * kk * kk)
             rr(c, 540 + math.cos(a) * r - 9, 860 + math.sin(a) * r + 300 * kk * kk - 6, 18, 12, 2, P([SGOLD, GREEN, '#ffffff', '#74c0fc'][i % 4], 255 * (1 - kk))); c.restore()
 
 
-def offer_ladder(c, t):
-    """Stack of offers climbing from first job to CEO."""
+def offer_ladder(c, t, roles=None):
+    """Stack of offers climbing from first job to CEO. roles: optional 4 [title, pay] pairs, bottom first."""
     c.drawRect(skia.Rect.MakeWH(W, H), grad(0, 0, 0, H, ['#eef3f8', '#dfe8f1']))
     offers = [('Junior Analyst', '$3,900/mo', '#8a94a3'), ('Account Manager', '$7,200/mo', '#5b6472'),
               ('Operations Director', '$16,500/mo', GREEN_D), ('CEO', '$48,500/mo', '#b88a2c')]
+    if roles: offers = [(r[0], r[1], o[2]) for r, o in zip(roles, offers)]
     for i, (role, pay, col) in enumerate(offers):
         k = 1.0 if i == 0 else ease((t - i * .45) / .45)
         if k <= 0: continue
@@ -195,7 +200,7 @@ def stadium(c, t, score=(2, 1), opp='Brammerholt'):
         c.drawCircle(bx, by, 18, P('#ffffff')); c.drawCircle(bx, by, 8, P('#111111'))
     rr(c, 930, 1000, 120, 120, 6, P('#ffffff', 60)); c.drawRect(skia.Rect.MakeXYWH(930, 1000, 120, 120), P('#ffffff', stroke=5))
     # scoreboard
-    s0 = score[0] if t > 1.4 else score[0] - 1
+    s0 = score[0] if t > 1.4 else max(score[0] - 1, 0)
     card(c, 160, 500, 760, 200, 30, '#0b1220')
     rr(c, 190, 530, 30, 140, 10, P(CLUB[1]))
     text(c, CLUB[0].split()[0].upper(), 250, 590, 40, '#ffffff', 900); text(c, opp.upper(), 250, 660, 40, '#9fb2c2', 900)
