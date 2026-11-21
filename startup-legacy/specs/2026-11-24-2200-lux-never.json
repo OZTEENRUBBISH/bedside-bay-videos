@@ -1,0 +1,13 @@
+{
+ "model": "Luxury Unlocks",
+ "format": "photos",
+ "scenes": [
+  {"scene": "broke", "dur": 3, "head": ["Things I never", "thought I'd own"], "hud": [0, 2000, 0, 2000], "photo_t": 1.8},
+  {"scene": "watch", "dur": 3, "head": ["First:", "a gold watch"], "hud": [3, 4800000, 3, 4800000], "photo_t": 2.6},
+  {"scene": "cars", "dur": 3, "head": ["Next:", "three supercars"], "hud": [3, 12000000, 3, 12000000], "photo_t": 2.6},
+  {"scene": "yacht", "dur": 3, "head": ["Then:", "a superyacht"], "hud": [4, 31000000, 4, 31000000], "photo_t": 2.6},
+  {"scene": "jet", "dur": 3, "head": ["Finally:", "my own private jet"], "hud": [4, 68000000, 4, 68000000], "photo_t": 2.6},
+  {"scene": "cta", "dur": 3, "photo_t": 2.5}
+ ],
+ "caption": "From a broke room to a gold watch, supercars, a superyacht and a private jet. Free on the App Store: Startup Legacy. #luxurylifestyle #richlife #entrepreneur #motivation #simulationgame"
+}

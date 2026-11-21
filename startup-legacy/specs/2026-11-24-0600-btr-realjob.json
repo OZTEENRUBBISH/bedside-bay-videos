@@ -1,0 +1,118 @@
+{
+ "model": "Broke to Rich",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3.0,
+   "head": [
+    "Everyone said:",
+    "get a real job."
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "tags": [
+    [
+     0.8,
+     "$2,000 left",
+     300,
+     1120
+    ]
+   ],
+   "voice": "Everyone said, get a real job."
+  },
+  {
+   "scene": "garage",
+   "dur": 2.8,
+   "head": [
+    "So I built a startup",
+    "in a garage."
+   ],
+   "hud": [
+    0,
+    2000,
+    1,
+    31000
+   ],
+   "toasts": [
+    [
+     0.7,
+     2.4,
+     "First sale",
+     "+$120"
+    ]
+   ],
+   "voice": "So I built a startup in a garage."
+  },
+  {
+   "scene": "trading",
+   "dur": 2.8,
+   "head": [
+    "Year 4:",
+    "the shares climbed."
+   ],
+   "hud": [
+    1,
+    31000,
+    3,
+    6800000
+   ],
+   "voice": "Year four. The shares climbed."
+  },
+  {
+   "scene": "yacht",
+   "dur": 2.8,
+   "head": [
+    "Year 7:",
+    "weekends on my yacht."
+   ],
+   "hud": [
+    3,
+    6800000,
+    4,
+    27000000
+   ],
+   "voice": "Year seven. Weekends on my yacht."
+  },
+  {
+   "scene": "mansion",
+   "dur": 3.2,
+   "head": [
+    "Year 9:",
+    "still no real job."
+   ],
+   "hud": [
+    4,
+    27000000,
+    4,
+    52000000
+   ],
+   "tags": [
+    [
+     0.6,
+     "Mansion",
+     300,
+     578
+    ],
+    [
+     1.2,
+     "Supercar",
+     330,
+     1044
+    ]
+   ],
+   "voice": "Year nine. Still no real job."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "They said get a real job. I built a company in a garage instead. Free on the App Store: Startup Legacy. #entrepreneur #startup #success #hustle #simulationgame"
+}
