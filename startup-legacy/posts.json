@@ -993,5 +993,72 @@
   ],
   "buffer_id": "6affdf3a7b0a126cebaf4b51",
   "caption": "Set ticket prices, hire a coach and watch the league table, the fans and the sponsor and TV money. Free on the App Store: Startup Legacy. #football #sportsbusiness #clubowner #entrepreneur #simulationgame"
+ },
+ {
+  "date": "2026-11-24",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "style_group": 1,
+  "spec": "specs/2026-11-24-0600-btr-realjob.json",
+  "files": [
+   "posts/2026-11-24/btr-realjob.mp4"
+  ],
+  "hook": "Everyone said: get a real job.",
+  "scenes": [
+   "broke",
+   "garage",
+   "trading",
+   "yacht",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6b0130ef20a2d09a0ad7de12"
+ },
+ {
+  "date": "2026-11-24",
+  "slot": "14:00",
+  "model": "The Numbers",
+  "format": "video",
+  "style_group": 2,
+  "spec": "specs/2026-11-24-1400-num-fix.json",
+  "files": [
+   "posts/2026-11-24/num-fix.mp4"
+  ],
+  "hook": "I started with $500 of ads.",
+  "scenes": [
+   "marketing",
+   "unit",
+   "pricing",
+   "pnl",
+   "cta"
+  ],
+  "buffer_id": "6b0130f05e993799d85575f5"
+ },
+ {
+  "date": "2026-11-24",
+  "slot": "22:00",
+  "model": "Luxury Unlocks",
+  "format": "photos",
+  "style_group": 1,
+  "spec": "specs/2026-11-24-2200-lux-never.json",
+  "files": [
+   "posts/2026-11-24/lux-never/slide-1.jpg",
+   "posts/2026-11-24/lux-never/slide-2.jpg",
+   "posts/2026-11-24/lux-never/slide-3.jpg",
+   "posts/2026-11-24/lux-never/slide-4.jpg",
+   "posts/2026-11-24/lux-never/slide-5.jpg",
+   "posts/2026-11-24/lux-never/slide-6.jpg"
+  ],
+  "hook": "Things I never thought I'd own",
+  "scenes": [
+   "broke",
+   "watch",
+   "cars",
+   "yacht",
+   "jet",
+   "cta"
+  ],
+  "buffer_id": "6b0130f09ffbc8503cff5033"
  }
 ]
