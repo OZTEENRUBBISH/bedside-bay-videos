@@ -439,5 +439,137 @@
   "hook": "The bill for running your own ER. (the game as an itemised receipt: 163 patients, 4 moves, 5 ranks, 4 modes, one item per slide, total due $0.00 FREE)",
   "script": "kit/variants/fullgame_08_bill_photos.py",
   "buffer_id": "6afd290baa3b065dd971abcf"
+ },
+ {
+  "date": "2026-11-22",
+  "slot": "06:00",
+  "model": "Case",
+  "format": "video",
+  "files": [
+   "posts/2026-11-22/case-victor-petrov-triage-one.mp4"
+  ],
+  "hook": "Triage 1. Drop everything. (a big triage board flips 5, 4, 3, 2, 1 and locks red on the patient's triage number, then the quote typed into a speech bubble, the four moves as a stacked run sheet: Four moves. No time to waste.)",
+  "case_id": "victor-petrov",
+  "script": "kit/variants/case_06_triage_board.py",
+  "music": "tense",
+  "buffer_id": "6b011e4d9ffbc8503cfa032e"
+ },
+ {
+  "date": "2026-11-22",
+  "slot": "14:00",
+  "model": "Case",
+  "format": "video",
+  "files": [
+   "posts/2026-11-22/case-sean-murphy-your-next-patient.mp4"
+  ],
+  "hook": "Your next patient (Sean Murphy: patient card with the quote typing in as the hook, then Your move, doctor, the one-call box and Sean is waiting). Weekly-review extra replacing the Full Game slot.",
+  "case_id": "sean-murphy",
+  "script": "kit/case.py",
+  "music": "tense",
+  "buffer_id": "6b011e4ed9cbb430a11bcf5b"
+ },
+ {
+  "date": "2026-11-22",
+  "slot": "22:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-22/broke-to-rich-11-ride-to-work-1.jpg",
+   "posts/2026-11-22/broke-to-rich-11-ride-to-work-2.jpg",
+   "posts/2026-11-22/broke-to-rich-11-ride-to-work-3.jpg",
+   "posts/2026-11-22/broke-to-rich-11-ride-to-work-4.jpg",
+   "posts/2026-11-22/broke-to-rich-11-ride-to-work-5.jpg",
+   "posts/2026-11-22/broke-to-rich-11-ride-to-work-6.jpg"
+  ],
+  "hook": "How Dr John Smith gets to work. Every rank. (the climb told through his commute, one slide per rank: on foot in the rain, the early bus, a bike, a first real car, the supercar parked out front)",
+  "script": "kit/variants/b2r_11_ride_photos.py",
+  "buffer_id": "6b011e4e5e993799d850300f"
+ },
+ {
+  "date": "2026-11-23",
+  "slot": "06:00",
+  "model": "Full Game",
+  "format": "video",
+  "files": [
+   "posts/2026-11-23/full-game-09-the-board-is-full.mp4"
+  ],
+  "hook": "The board is full. (ER tracking whiteboard filling with six real patients by name, age, problem and triage, \"+157 more · 163 patients\", then one patient's four moves ticked off on the board, a staff roster of the five ranks lighting up beside Dr John Smith, and Career as the big tile over the other three modes)",
+  "script": "kit/variants/fullgame_09_board.py",
+  "music": "bright",
+  "buffer_id": "6b011e4f9ffbc8503cfa061a"
+ },
+ {
+  "date": "2026-11-23",
+  "slot": "14:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-23/broke-to-rich-12-going-up.mp4"
+  ],
+  "hook": "Going up. (Dr John Smith's career as an elevator ride: steel doors open on a new floor for every rank, bare room, ER, theatre, consultant, mansion, with an LED floor display naming the floor and rank and the career card climbing from $2,000)",
+  "script": "kit/variants/b2r_12_elevator.py",
+  "music": "upbeat",
+  "buffer_id": "6b011e505e993799d85033f5"
+ },
+ {
+  "date": "2026-11-23",
+  "slot": "22:00",
+  "model": "Case",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-23/case-rita-alvarez-ticket-1.jpg",
+   "posts/2026-11-23/case-rita-alvarez-ticket-2.jpg",
+   "posts/2026-11-23/case-rita-alvarez-ticket-3.jpg",
+   "posts/2026-11-23/case-rita-alvarez-ticket-4.jpg",
+   "posts/2026-11-23/case-rita-alvarez-ticket-5.jpg"
+  ],
+  "hook": "Now serving: number 47. (waiting-room NOW SERVING display and a paper take-a-number ticket call the patient, her quote in a speech bubble, the four moves as a strip of numbered tickets, a ticket with the diagnosis left as ? ? ?, end card)",
+  "case_id": "rita-alvarez",
+  "script": "kit/variants/case_photos_04_ticket.py",
+  "buffer_id": "6b011e5120a2d09a0ad26ce9"
+ },
+ {
+  "date": "2026-11-24",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-24/broke-to-rich-13-view-from-his-window.mp4"
+  ],
+  "hook": "The view from his window at every rank. (one window, five views: a brick wall with a flickering sign for the Intern, the hospital parking lot at night, city rooftops, the skyline at sunset, then the ED Director's own driveway with the supercar; frame, wall and outfit upgrade as the career card climbs)",
+  "script": "kit/variants/b2r_13_window.py",
+  "music": "bright",
+  "buffer_id": "6b011e515102766245f6ad29"
+ },
+ {
+  "date": "2026-11-24",
+  "slot": "14:00",
+  "model": "Case",
+  "format": "video",
+  "files": [
+   "posts/2026-11-24/case-ben-taylor-radio-call.mp4"
+  ],
+  "hook": "Dr Smith, come in. (the case arrives as a call on a handheld radio with a pulsing waveform and caption strip, the patient's quote runs as live captions under his portrait, the four moves are four radio channels: Four moves. Your call.)",
+  "case_id": "ben-taylor",
+  "script": "kit/variants/case_07_radio.py",
+  "music": "upbeat",
+  "buffer_id": "6b011e525e993799d85035b8"
+ },
+ {
+  "date": "2026-11-24",
+  "slot": "22:00",
+  "model": "Full Game",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-24/full-game-10-pop-quiz-1.jpg",
+   "posts/2026-11-24/full-game-10-pop-quiz-2.jpg",
+   "posts/2026-11-24/full-game-10-pop-quiz-3.jpg",
+   "posts/2026-11-24/full-game-10-pop-quiz-4.jpg",
+   "posts/2026-11-24/full-game-10-pop-quiz-5.jpg",
+   "posts/2026-11-24/full-game-10-pop-quiz-6.jpg"
+  ],
+  "hook": "Pop quiz: ER orientation. (the game as a multiple-choice quiz sheet marked in red pen: 163 patients, the four moves, Intern to ED Director, four modes, playful wrong answers, then the graded sheet 4/4)",
+  "script": "kit/variants/fullgame_10_quiz_photos.py",
+  "buffer_id": "6b011e52dd205ed779bb4d8f"
  }
 ]

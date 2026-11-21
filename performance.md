@@ -7,7 +7,7 @@ Last weekly review: **2026-11-16** (Monday, Sydney time). Next review: first run
 | Slot (Sydney) | Replaces | Extra to make | Status |
 |---|---|---|---|
 | Thu 19 Nov, 2:00pm | Full Game video | Broke to Rich video in the style of "Same doctor. Two futures." (split-screen comparison hook), new content | Done: "Same doctor. Mattress or mansion?" (`kit/variants/b2r_07_versus.py`) |
-| Sun 22 Nov, 2:00pm | Full Game video | Case video in the style of "Your next patient" (Graham Peters: patient card plus quote as the hook), with a patient not used before | To do when the run that fills 22 Nov happens |
+| Sun 22 Nov, 2:00pm | Full Game video | Case video in the style of "Your next patient" (Graham Peters: patient card plus quote as the hook), with a patient not used before | Done: "Your next patient" with Sean Murphy (`kit/case.py`) |
 
 All other slots follow the normal rotation in CLAUDE.md. On 22 Nov that gives Case at 6am and the extra Case at 2pm, so give them clearly different treatments and patients.
 
