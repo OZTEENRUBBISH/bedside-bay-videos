@@ -1,0 +1,101 @@
+{
+ "model": "Job Offer",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "offer",
+   "dur": 3,
+   "head": [
+    "My pay,",
+    "offer by offer."
+   ],
+   "args": {
+    "title": "Junior Analyst",
+    "pay": "$3,900 / month",
+    "who": "My first real offer",
+    "tag_": "OFFER 1"
+   },
+   "photo_t": 1.0
+  },
+  {
+   "scene": "office",
+   "dur": 3,
+   "head": [
+    "Offer 2:",
+    "Marketing Manager"
+   ],
+   "hud": [
+    1,
+    24000,
+    1,
+    24000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "offer",
+   "dur": 3,
+   "head": [
+    "Offer 3: they",
+    "wanted a car."
+   ],
+   "args": {
+    "title": "Sales Director",
+    "pay": "$14,800 / month",
+    "who": "Requires: a car",
+    "tag_": "OFFER 3"
+   },
+   "photo_t": 1.0
+  },
+  {
+   "scene": "offer",
+   "dur": 3,
+   "head": [
+    "Offer 4:",
+    "a headhunter."
+   ],
+   "args": {
+    "title": "Chief Executive Officer",
+    "pay": "$52,000 / month",
+    "who": "Executive search firm",
+    "tag_": "HEADHUNTER"
+   },
+   "photo_t": 1.0
+  },
+  {
+   "scene": "ladder",
+   "dur": 3,
+   "head": [
+    "$3,900 to",
+    "$52,000 a month."
+   ],
+   "args": {
+    "roles": [
+     [
+      "Junior Analyst",
+      "$3,900/mo"
+     ],
+     [
+      "Marketing Manager",
+      "$8,400/mo"
+     ],
+     [
+      "Sales Director",
+      "$14,800/mo"
+     ],
+     [
+      "CEO",
+      "$52,000/mo"
+     ]
+    ]
+   },
+   "photo_t": 2.6
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "caption": "Four job offers, from a first job to a headhunter's CEO role. Which one would you take? Free on the App Store: Startup Legacy. #career #salary #ceo #jobsearch #simulationgame"
+}

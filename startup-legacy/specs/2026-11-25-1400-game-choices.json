@@ -1,0 +1,103 @@
+{
+ "model": "Full Game",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {
+   "scene": "office",
+   "dur": 3.0,
+   "head": [
+    "Cut corners",
+    "or play fair?"
+   ],
+   "hud": [
+    1,
+    45000,
+    2,
+    380000
+   ],
+   "toasts": [
+    [
+     0.8,
+     2.4,
+     "Moral choice",
+     "Your call"
+    ]
+   ],
+   "voice": "Cut corners, or play fair?"
+  },
+  {
+   "scene": "trading",
+   "dur": 3.2,
+   "head": [
+    "The news moves",
+    "your share price."
+   ],
+   "hud": [
+    2,
+    380000,
+    2,
+    1900000
+   ],
+   "voice": "The news moves your share price."
+  },
+  {
+   "scene": "stadium",
+   "dur": 3.2,
+   "head": [
+    "Buy a sports club",
+    "or a film studio."
+   ],
+   "args": {
+    "score": [
+     1,
+     0
+    ],
+    "opp": "Sandrevale"
+   },
+   "hud": [
+    2,
+    1900000,
+    3,
+    6400000
+   ],
+   "voice": "Buy a sports club, or a film studio."
+  },
+  {
+   "scene": "yacht",
+   "dur": 3.0,
+   "head": [
+    "Shop for a",
+    "superyacht."
+   ],
+   "hud": [
+    3,
+    6400000,
+    4,
+    18000000
+   ],
+   "voice": "Then shop for a superyacht."
+  },
+  {
+   "scene": "mansion",
+   "dur": 3.2,
+   "head": [
+    "At the end:",
+    "your life report."
+   ],
+   "hud": [
+    4,
+    18000000,
+    4,
+    42000000
+   ],
+   "voice": "At the end, your whole life report."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "Moral choices, a share market that reacts to news, sports clubs, film studios and a superyacht in the shop. Then a full life report. Free on the App Store: Startup Legacy. #entrepreneur #businessgame #startup #stocks #simulationgame"
+}

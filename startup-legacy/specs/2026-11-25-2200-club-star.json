@@ -1,0 +1,102 @@
+{
+ "model": "Club Owner",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {
+   "scene": "clubmoney",
+   "dur": 3.2,
+   "head": [
+    "I spent big on",
+    "a star player."
+   ],
+   "hud": [
+    3,
+    9400000,
+    3,
+    8200000
+   ],
+   "voice": "I spent big on a star player."
+  },
+  {
+   "scene": "stadium",
+   "dur": 3.0,
+   "head": [
+    "First match:",
+    "a late winner."
+   ],
+   "args": {
+    "score": [
+     1,
+     0
+    ],
+    "opp": "Corvenhall"
+   },
+   "hud": [
+    3,
+    8200000,
+    3,
+    8500000
+   ],
+   "voice": "First match. A late winner."
+  },
+  {
+   "scene": "stadium",
+   "dur": 3.0,
+   "head": [
+    "The fans",
+    "kept coming."
+   ],
+   "args": {
+    "score": [
+     3,
+     1
+    ],
+    "opp": "Sandrevale"
+   },
+   "hud": [
+    3,
+    8500000,
+    3,
+    9300000
+   ],
+   "voice": "The fans kept coming."
+  },
+  {
+   "scene": "club",
+   "dur": 3.2,
+   "head": [
+    "Tickets, merch,",
+    "sponsors, TV."
+   ],
+   "hud": [
+    3,
+    9300000,
+    4,
+    12600000
+   ],
+   "voice": "Tickets, merch, sponsors, and T.V."
+  },
+  {
+   "scene": "trophy",
+   "dur": 3.0,
+   "head": [
+    "Worth it?",
+    "League title."
+   ],
+   "hud": [
+    4,
+    12600000,
+    4,
+    15800000
+   ],
+   "voice": "Worth it? League title."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Would you sign him? Startup Legacy."
+  }
+ ],
+ "caption": "Set the wage bill, sign a star and chase the league title with ticket, merch, sponsor and TV income. Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #transfer #simulationgame"
+}
