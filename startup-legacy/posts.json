@@ -1087,5 +1087,73 @@
    "cta"
   ],
   "buffer_id": "6b0130f09ffbc8503cff5033"
+ },
+ {
+  "date": "2026-11-25",
+  "slot": "06:00",
+  "model": "Job Offer",
+  "format": "photos",
+  "style_group": 2,
+  "spec": "specs/2026-11-25-0600-offer-payrise.json",
+  "files": [
+   "posts/2026-11-25/offer-payrise/slide-1.jpg",
+   "posts/2026-11-25/offer-payrise/slide-2.jpg",
+   "posts/2026-11-25/offer-payrise/slide-3.jpg",
+   "posts/2026-11-25/offer-payrise/slide-4.jpg",
+   "posts/2026-11-25/offer-payrise/slide-5.jpg",
+   "posts/2026-11-25/offer-payrise/slide-6.jpg"
+  ],
+  "hook": "My pay, offer by offer.",
+  "scenes": [
+   "offer",
+   "office",
+   "offer",
+   "offer",
+   "ladder",
+   "cta"
+  ],
+  "buffer_id": "6b02823bc72676f5e9077394"
+ },
+ {
+  "date": "2026-11-25",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "video",
+  "style_group": 1,
+  "spec": "specs/2026-11-25-1400-game-choices.json",
+  "files": [
+   "posts/2026-11-25/game-choices.mp4"
+  ],
+  "hook": "Cut corners or play fair?",
+  "scenes": [
+   "office",
+   "trading",
+   "stadium",
+   "yacht",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6b02823c0247969092288a57"
+ },
+ {
+  "date": "2026-11-25",
+  "slot": "22:00",
+  "model": "Club Owner",
+  "format": "video",
+  "style_group": 2,
+  "spec": "specs/2026-11-25-2200-club-star.json",
+  "files": [
+   "posts/2026-11-25/club-star.mp4"
+  ],
+  "hook": "I spent big on a star player.",
+  "scenes": [
+   "clubmoney",
+   "stadium",
+   "stadium",
+   "club",
+   "trophy",
+   "cta"
+  ],
+  "buffer_id": "6b02823dd864a011059d5fbd"
  }
 ]
