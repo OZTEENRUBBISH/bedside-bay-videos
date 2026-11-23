@@ -1,15 +1,59 @@
 # bedside.bay performance
 
-Last weekly review: **2026-11-16** (Monday, Sydney time). Next review: first run on or after Monday 2026-11-23.
+Last weekly review: **2026-11-23** (Monday, Sydney time). Next review: first run on or after Monday 2026-11-30.
 
 ## Planned extras from this review (read before choosing models for a day)
 
 | Slot (Sydney) | Replaces | Extra to make | Status |
 |---|---|---|---|
-| Thu 19 Nov, 2:00pm | Full Game video | Broke to Rich video in the style of "Same doctor. Two futures." (split-screen comparison hook), new content | Done: "Same doctor. Mattress or mansion?" (`kit/variants/b2r_07_versus.py`) |
-| Sun 22 Nov, 2:00pm | Full Game video | Case video in the style of "Your next patient" (Graham Peters: patient card plus quote as the hook), with a patient not used before | Done: "Your next patient" with Sean Murphy (`kit/case.py`) |
+| Fri 27 Nov, 10:00pm | Full Game photos | Case photo set in the style of "Would you catch this?" (612 views: the patient's quote in a speech bubble on slide 1, then the chart with the diagnosis row locked), with a patient not used before. It is that day's photo set. 27 Nov then has Case at 2pm and 10pm: different patients and treatments. | To do |
+| Sun 29 Nov, 6:00am | Full Game video | Broke to Rich video in the style of "What Dr John Smith eats at every rank" (773 views: one everyday thing upgrading rank by rank, rank name as the headline), with a new object. 29 Nov then has Broke to Rich at 6am and 2pm: give the 2pm one a different treatment, such as a split-screen comparison like "Mattress or mansion?" (612 views). | To do |
 
-All other slots follow the normal rotation in CLAUDE.md. On 22 Nov that gives Case at 6am and the extra Case at 2pm, so give them clearly different treatments and patients.
+All other slots follow the normal rotation in CLAUDE.md. The posts already queued for 24 and 25 Nov were left as they are.
+
+## Review of 16–22 Nov (metrics from Buffer, updated 2026-11-22 16:02 UTC)
+
+21 posts, about 4,640 views in total (week one: about 1,820 across 11 posts). The two newest posts (22 Nov 2pm and 10pm) had under a day of data and are listed but left out of the averages. The 23 Nov posts had no data yet.
+
+| Rank | Views | Likes | Avg watch | Posted (Sydney) | Model | Format | Hook |
+|---|---|---|---|---|---|---|---|
+| 1 | 773 | 11 | 6.8 s | 21 Nov 6am | Broke to Rich | video | What Dr John Smith eats at every rank. |
+| 2 | 612 | 14 | 6.0 s | 19 Nov 2pm | Broke to Rich | video | Same doctor. Mattress or mansion? (split screen; last review's extra) |
+| 2 | 612 | 1 | 5.7 s | 17 Nov 10pm | Case | photos | Would you catch this? (Clive Dunn: quote bubble, then locked chart) |
+| 4 | 229 | 5 | 4.6 s | 19 Nov 6am | Case | video | Incoming. (Jack Thompson, emergency doors) |
+| 5 | 227 | 3 | 4.8 s | 16 Nov 10pm | Broke to Rich | photos | One doctor. Five ranks. (staircase) |
+| 6 | 226 | 0 | 3.9 s | 17 Nov 6am | Full Game | video | Think you could run an ER? (the job in numbers) |
+| 7 | 225 | 9 | 6.5 s | 16 Nov 2pm | Full Game | video | 4 ways to play doctor. |
+| 8 | 212 | 5 | 9.8 s | 16 Nov 6am | Case | video | Quote first, then A-D quiz (Chloe Marsh) |
+| 9 | 189 | 0 | 5.8 s | 19 Nov 10pm | Broke to Rich | photos | Broke intern starter pack vs ED Director starter pack |
+| 10 | 168 | 2 | 3.0 s | 22 Nov 6am | Case | video | Triage 1. Drop everything. (Victor Petrov). About 21 h of data |
+| 11 | 156 | 0 | 2.5 s | 20 Nov 10pm | Case | photos | New wristband. New patient. (Paul Morgan) |
+| 12 | 141 | 2 | 3.4 s | 18 Nov 2pm | Case | video | You're being paged. (Nicole Barnes) |
+| 13 | 133 | 2 | 2.9 s | 21 Nov 2pm | Case | video | Who's behind curtain 3? (Tom Silva) |
+| 14 | 127 | 0 | 3.3 s | 18 Nov 10pm | Full Game | photos | Now hiring: Emergency doctor. |
+| 15 | 112 | 1 | 4.3 s | 17 Nov 2pm | Broke to Rich | video | Watch this number. (bank balance) |
+| 16 | 100 | 1 | 1.8 s | 20 Nov 6am | Full Game | video | 163 patients. All of them talking. |
+| 17 | 94 | 0 | 4.5 s | 21 Nov 10pm | Full Game | photos | The bill for running your own ER. |
+| 18 | 92 | 1 | 3.2 s | 22 Nov 2pm | Case | video | Your next patient (Sean Murphy; last review's extra). About 13 h of data |
+| 19 | 87 | 2 | 3.2 s | 20 Nov 2pm | Broke to Rich | video | Mom keeps texting Dr John Smith. |
+| 20 | 84 | 3 | 3.7 s | 18 Nov 6am | Broke to Rich | video | 4 promotions from broke. |
+| 21 | 43 | 0 | 3.1 s | 22 Nov 10pm | Broke to Rich | photos | How Dr John Smith gets to work. Every rank. About 5 h of data |
+
+### By model (19 posts with about a day of data or more)
+
+| Model | Posts | Mean views | Median | Notes |
+|---|---|---|---|---|
+| Broke to Rich | 7 | 298 | 189 | Two of the three breakout posts, and the most likes. Also three posts under 115, so it is the least even. |
+| Case | 7 | 236 | 168 | One breakout (the photo set); the videos sit between 133 and 229. |
+| Full Game | 5 | 154 | 127 | No post above 226. The two plain "numbers" videos did best; the document-style photo sets (job ad, bill) and the quote wall were the three weakest mature Full Game posts. |
+
+### What this says, and how sure it is
+
+- Three posts reached 600 to 770 views, about three times anything else. That is the first sign of a post breaking out of the 100 to 240 band, but it is three posts, so treat the pattern as a lead, not a rule.
+- The clearest lead: Broke to Rich hooks built on one everyday thing ("what he eats at every rank", "mattress or mansion?") beat the abstract ones (bank balance, promotion stamps, text thread). The split-screen extra planned at the last review was one of the three.
+- For Case, the patient's quote on the first frame or slide ("Would you catch this?", the Chloe Marsh quote video, last week's Megan Lewis set) has done better than opening on a prop (wristband, pager, curtain). The second "Your next patient" extra did not repeat week one's result, on 13 hours of data.
+- Slot and format made little difference this week: mean views were 256 at 6am, 218 at 2pm and 234 at 10pm; videos 239, photo sets 234.
+- Weakest model: Full Game, for the second week. It gives up two slots to the extras above. Its remaining posts should stay with short number-led videos rather than document-style photo sets.
 
 ## Review of 12–16 Nov (metrics from Buffer, updated 2026-11-15 22:55 UTC)
 

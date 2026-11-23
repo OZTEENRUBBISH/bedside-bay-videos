@@ -187,10 +187,10 @@
   "script": "kit/variants/case_02.py",
   "music": "tense",
   "buffer_id": "6af69149c1a0010a5bfa25ce",
-  "views": 41,
-  "likes": 1,
-  "avg_watch_s": 4.27,
-  "metrics_as_of": "2026-11-15T22:55Z"
+  "views": 212,
+  "likes": 5,
+  "avg_watch_s": 9.8,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-16",
@@ -203,7 +203,11 @@
   "hook": "4 ways to play doctor. (the game mode by mode)",
   "script": "kit/variants/fullgame_04.py",
   "music": "bright",
-  "buffer_id": "6af6914afb90ccefdd1b0522"
+  "buffer_id": "6af6914afb90ccefdd1b0522",
+  "views": 225,
+  "likes": 9,
+  "avg_watch_s": 6.5,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-16",
@@ -220,7 +224,11 @@
   ],
   "hook": "One doctor. Five ranks. (staircase, one slide per rank)",
   "script": "kit/variants/b2r_ranks_photos.py",
-  "buffer_id": "6af6914be1d8eff6109e3351"
+  "buffer_id": "6af6914be1d8eff6109e3351",
+  "views": 227,
+  "likes": 3,
+  "avg_watch_s": 4.8,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-17",
@@ -233,7 +241,11 @@
   "hook": "Think you could run an ER? (the job in numbers: 163 patients, 4 moves, 5 ranks, 4 modes. Prove it.)",
   "script": "kit/variants/fullgame_05.py",
   "music": "tense",
-  "buffer_id": "6af7e282d16af15d4df06abc"
+  "buffer_id": "6af7e282d16af15d4df06abc",
+  "views": 226,
+  "likes": 0,
+  "avg_watch_s": 3.9,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-17",
@@ -246,7 +258,11 @@
   "hook": "Watch this number. (the bank balance is the headline, counting up from $2,000)",
   "script": "kit/variants/b2r_05_bank.py",
   "music": "bright",
-  "buffer_id": "6af7e283d16af15d4df06ae6"
+  "buffer_id": "6af7e283d16af15d4df06ae6",
+  "views": 112,
+  "likes": 1,
+  "avg_watch_s": 4.3,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-17",
@@ -263,7 +279,11 @@
   "hook": "Would you catch this? (speech bubble quote, then the chart with the diagnosis locked)",
   "case_id": "clive-dunn",
   "script": "kit/variants/case_photos_02.py",
-  "buffer_id": "6af7e28381e1228421e21c5d"
+  "buffer_id": "6af7e28381e1228421e21c5d",
+  "views": 612,
+  "likes": 1,
+  "avg_watch_s": 5.7,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-18",
@@ -276,7 +296,11 @@
   "hook": "4 promotions from broke. (a PROMOTED stamp on every cut, staff ID badge upgrading rank by rank)",
   "script": "kit/variants/b2r_06_promoted.py",
   "music": "upbeat",
-  "buffer_id": "6af9347c76c23bf1c75a3f33"
+  "buffer_id": "6af9347c76c23bf1c75a3f33",
+  "views": 84,
+  "likes": 3,
+  "avg_watch_s": 3.7,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-18",
@@ -290,7 +314,11 @@
   "case_id": "nicole-barnes",
   "script": "kit/variants/case_03.py",
   "music": "tense",
-  "buffer_id": "6af9347db9a106584c88d631"
+  "buffer_id": "6af9347db9a106584c88d631",
+  "views": 141,
+  "likes": 2,
+  "avg_watch_s": 3.4,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-18",
@@ -307,7 +335,11 @@
   ],
   "hook": "Now hiring: Emergency doctor. (the game as a job ad: workload, the job, career path, shifts)",
   "script": "kit/variants/fullgame_06_hiring_photos.py",
-  "buffer_id": "6af9347d918fe79d2ebfd48e"
+  "buffer_id": "6af9347d918fe79d2ebfd48e",
+  "views": 127,
+  "likes": 0,
+  "avg_watch_s": 3.3,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-19",
@@ -321,7 +353,11 @@
   "case_id": "jack-thompson",
   "script": "kit/variants/case_04_doors.py",
   "music": "tense",
-  "buffer_id": "6afa866c8e87c256a3b0d866"
+  "buffer_id": "6afa866c8e87c256a3b0d866",
+  "views": 229,
+  "likes": 5,
+  "avg_watch_s": 4.6,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-19",
@@ -335,7 +371,11 @@
   "script": "kit/variants/b2r_07_versus.py",
   "music": "bright",
   "buffer_id": "6afa866c06e1675856c75fda",
-  "note": "Weekly-review extra modelled on 'Same doctor. Two futures.'; takes the Full Game slot for this day"
+  "note": "Weekly-review extra modelled on 'Same doctor. Two futures.'; takes the Full Game slot for this day",
+  "views": 612,
+  "likes": 14,
+  "avg_watch_s": 6,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-19",
@@ -351,7 +391,11 @@
   ],
   "hook": "Broke intern starter pack vs ED Director starter pack (2x2 item grids, then the 3 ranks in between)",
   "script": "kit/variants/b2r_starter_pack_photos.py",
-  "buffer_id": "6afa866d06e1675856c76027"
+  "buffer_id": "6afa866d06e1675856c76027",
+  "views": 189,
+  "likes": 0,
+  "avg_watch_s": 5.8,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-20",
@@ -364,7 +408,11 @@
   "hook": "163 patients. All of them talking. (wall of patient speech bubbles with real quotes, then the four moves as a 2x2 grid, a rank ring filling round Dr John Smith, modes list starting in Career)",
   "script": "kit/variants/fullgame_07_quotes.py",
   "music": "upbeat",
-  "buffer_id": "6afbd7444b26315855bec7e3"
+  "buffer_id": "6afbd7444b26315855bec7e3",
+  "views": 100,
+  "likes": 1,
+  "avg_watch_s": 1.8,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-20",
@@ -377,7 +425,11 @@
   "hook": "Mom keeps texting Dr John Smith. (the climb as a text thread over each scene: noodles, promoted, in surgery, consultant, WHOSE CAR IS THAT?)",
   "script": "kit/variants/b2r_09_mom_texts.py",
   "music": "bright",
-  "buffer_id": "6afbd745f83aaca8f3ab582a"
+  "buffer_id": "6afbd745f83aaca8f3ab582a",
+  "views": 87,
+  "likes": 2,
+  "avg_watch_s": 3.2,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-20",
@@ -394,7 +446,11 @@
   "hook": "New wristband. New patient. (hospital wristband with name, age, problem and triage, full-screen quote, 4 moves grid, a second wristband with the diagnosis blank)",
   "case_id": "paul-morgan",
   "script": "kit/variants/case_photos_03_wristband.py",
-  "buffer_id": "6afbd745df36f4d8256aa22c"
+  "buffer_id": "6afbd745df36f4d8256aa22c",
+  "views": 156,
+  "likes": 0,
+  "avg_watch_s": 2.5,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-21",
@@ -407,7 +463,11 @@
   "hook": "What Dr John Smith eats at every rank. (the climb told through his dinner table: instant noodles on a cardboard box, cold pizza in the break room, a real burger, steak dinner, a silver cloche lifting in the mansion)",
   "script": "kit/variants/b2r_10_dinner.py",
   "music": "upbeat",
-  "buffer_id": "6afd290a9f3765f6ab2fadd9"
+  "buffer_id": "6afd290a9f3765f6ab2fadd9",
+  "views": 773,
+  "likes": 11,
+  "avg_watch_s": 6.8,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-21",
@@ -421,7 +481,11 @@
   "case_id": "tom-silva",
   "script": "kit/variants/case_05_curtain.py",
   "music": "upbeat",
-  "buffer_id": "6afd290afc933ac285c3b8bf"
+  "buffer_id": "6afd290afc933ac285c3b8bf",
+  "views": 133,
+  "likes": 2,
+  "avg_watch_s": 2.9,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-21",
@@ -438,7 +502,11 @@
   ],
   "hook": "The bill for running your own ER. (the game as an itemised receipt: 163 patients, 4 moves, 5 ranks, 4 modes, one item per slide, total due $0.00 FREE)",
   "script": "kit/variants/fullgame_08_bill_photos.py",
-  "buffer_id": "6afd290baa3b065dd971abcf"
+  "buffer_id": "6afd290baa3b065dd971abcf",
+  "views": 94,
+  "likes": 0,
+  "avg_watch_s": 4.5,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-22",
@@ -452,7 +520,11 @@
   "case_id": "victor-petrov",
   "script": "kit/variants/case_06_triage_board.py",
   "music": "tense",
-  "buffer_id": "6b011e4d9ffbc8503cfa032e"
+  "buffer_id": "6b011e4d9ffbc8503cfa032e",
+  "views": 168,
+  "likes": 2,
+  "avg_watch_s": 3.0,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-22",
@@ -466,7 +538,11 @@
   "case_id": "sean-murphy",
   "script": "kit/case.py",
   "music": "tense",
-  "buffer_id": "6b011e4ed9cbb430a11bcf5b"
+  "buffer_id": "6b011e4ed9cbb430a11bcf5b",
+  "views": 92,
+  "likes": 1,
+  "avg_watch_s": 3.2,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-22",
@@ -483,7 +559,11 @@
   ],
   "hook": "How Dr John Smith gets to work. Every rank. (the climb told through his commute, one slide per rank: on foot in the rain, the early bus, a bike, a first real car, the supercar parked out front)",
   "script": "kit/variants/b2r_11_ride_photos.py",
-  "buffer_id": "6b011e4e5e993799d850300f"
+  "buffer_id": "6b011e4e5e993799d850300f",
+  "views": 43,
+  "likes": 0,
+  "avg_watch_s": 3.1,
+  "metrics_as_of": "2026-11-22T16:02Z"
  },
  {
   "date": "2026-11-23",
@@ -493,7 +573,7 @@
   "files": [
    "posts/2026-11-23/full-game-09-the-board-is-full.mp4"
   ],
-  "hook": "The board is full. (ER tracking whiteboard filling with six real patients by name, age, problem and triage, \"+157 more \u00b7 163 patients\", then one patient's four moves ticked off on the board, a staff roster of the five ranks lighting up beside Dr John Smith, and Career as the big tile over the other three modes)",
+  "hook": "The board is full. (ER tracking whiteboard filling with six real patients by name, age, problem and triage, \"+157 more · 163 patients\", then one patient's four moves ticked off on the board, a staff roster of the five ranks lighting up beside Dr John Smith, and Career as the big tile over the other three modes)",
   "script": "kit/variants/fullgame_09_board.py",
   "music": "bright",
   "buffer_id": "6b011e4f9ffbc8503cfa061a"
@@ -615,5 +695,48 @@
   "hook": "Rating every bed Dr John Smith has slept in. (the climb as star-rated reviews, one slide per rank: floor mattress 1 star, on-call bunk 2, a real bed frame 3, queen bed with a city view 4, king canopy bed in the mansion 5)",
   "script": "kit/variants/b2r_14_beds_photos.py",
   "buffer_id": "6b026f69d5eabfb8cc8080ec"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "06:00",
+  "model": "Full Game",
+  "format": "video",
+  "files": [
+   "posts/2026-11-26/full-game-12-your-er-just-opened.mp4"
+  ],
+  "hook": "Your ER just opened. (the game as neon signs on a brick wall at night: an ER / OPEN sign flickers on, a neon counter runs to 163 patients waiting, the four moves light up as a stack of signs, the five ranks light rung by rung while Dr John Smith's outfit upgrades, the four modes glow with Career marked START HERE)",
+  "script": "kit/variants/fullgame_12_neon.py",
+  "music": "tense",
+  "buffer_id": "6b03c0b3d5eabfb8cc054443"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "14:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-26/broke-to-rich-15-coffee-at-every-rank.mp4"
+  ],
+  "hook": "Dr John Smith's coffee at every rank. (the climb told through the cup sliding down the counter: vending-machine paper cup, burnt break-room pot, takeaway latte with his name spelled wrong, double espresso from his own machine, gold cup from a personal barista). Modelled on the week's best performer, \"What Dr John Smith eats at every rank\".",
+  "script": "kit/variants/b2r_15_coffee.py",
+  "music": "bright",
+  "buffer_id": "6b03c0b4a6de38de9ebb050f"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "22:00",
+  "model": "Case",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-26/case-nina-kaur-triage-note-1.jpg",
+   "posts/2026-11-26/case-nina-kaur-triage-note-2.jpg",
+   "posts/2026-11-26/case-nina-kaur-triage-note-3.jpg",
+   "posts/2026-11-26/case-nina-kaur-triage-note-4.jpg",
+   "posts/2026-11-26/case-nina-kaur-triage-note-5.jpg"
+  ],
+  "hook": "Note from triage. (quote first: the patient's words on a yellow sticky note left for the doctor, then a pinned photo with problem, triage and level notes, the four moves as four coloured sticky notes, one note left blank for the diagnosis)",
+  "case_id": "nina-kaur",
+  "script": "kit/variants/case_photos_05_sticky.py",
+  "buffer_id": "6b03c0b5d5eabfb8cc05447c"
  }
 ]
