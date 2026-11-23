@@ -36,3 +36,37 @@ Winners (≥ 218 views, live ≥ 24 h):
 - Club Owner "I bought a football club." (6af53ab0bc9f3773a1bce29c): followed up by "I bought a club. Here's what it earns." (19 Nov 22:00, 6afa98e98e87c256a3b60bfa).
 
 Weekly-review extras for the next 7 days: the Luxury follow-up above, plus one more age-timeline style-1 story video in a The Numbers slot (the weakest model, avg 44 views) later in the week. Next review: first run on or after Mon 23 Nov.
+
+## Review 2026-11-23 (Mon; weekly review)
+Sent posts 16 Nov 22:00 – 23 Nov 14:00, views as Buffer reported them at 16:45 Sydney, 23 Nov (metrics refreshed 22 Nov 16:57 UTC). Median of the 18 posts live 24 h or more = 128.5 views, so the winner bar is 257. **No winners this week** (best 194).
+
+| Rank | Posted (Sydney) | Model | Format | Style | Hook | Views | Likes | Avg watch |
+|---|---|---|---|---|---|---|---|---|
+| 1 | 21 Nov 14:00 | Full Game | video | 1 | Breaking news. Your shares jumped. | 194 | 2 | 1.9 s |
+| 2 | 18 Nov 22:00 | Luxury Unlocks | video | 1 | A rich week. Monday: my jet. | 182 | 4 | |
+| 3 | 19 Nov 06:00 | Job Offer | photos | 2 | Every job asked for something. | 181 | 2 | |
+| 4 | 17 Nov 22:00 | Club Owner | video | 2 | I own this club. We're losing. | 179 | 3 | |
+| 5 | 19 Nov 14:00 | Full Game | video | 1 | Rent overdue. $2,000 left. | 178 | 4 | |
+| 6 | 19 Nov 22:00 | Club Owner | video | 2 | I bought a club. Here's what it earns. | 173 | 1 | |
+| 7 | 20 Nov 06:00 | Broke to Rich | video | 1 | They laughed at my garage startup. | 172 | 5 | |
+| 8 | 18 Nov 06:00 | Broke to Rich | photos | 1 | Age 21: $2,000 in the bank | 158 | 6 | |
+| 9 | 21 Nov 06:00 | Job Offer | video | 2 | Age 23: my first offer. | 129 | 1 | |
+| 10 | 18 Nov 14:00 | The Numbers | video | 2 | $91,400 came in. Here's what I kept. | 128 | 1 | |
+| 11 | 21 Nov 22:00 | Club Owner | photos | 2 | What it costs to run a football club | 108 | 1 | |
+| 12 | 20 Nov 14:00 | The Numbers | photos | 2 | Would you buy this business? | 105 | 0 | |
+| 13 | 22 Nov 14:00 | The Numbers | video | 2 | $38 in. $412 back. | 97 | 3 | |
+| 14 | 22 Nov 06:00 | Broke to Rich | photos | 1 | Day 1: $2,000 and noodles | 93 | 0 | |
+| 15 | 16 Nov 22:00 | Luxury Unlocks | video | 1 | Rate my buys, 1 to 10. | 92 | 1 | 2.7 s |
+| 16 | 17 Nov 06:00 | Job Offer | video | 2 | Would you take this job? | 77 | 0 | 1.9 s |
+| 17 | 20 Nov 22:00 | Luxury Unlocks | video | 1 | Broke at 24. | 48 | 2 | |
+| 18 | 17 Nov 14:00 | Full Game | photos | 1 | Can you go from broke to billionaire? | 2 | 0 | |
+| – | 22 Nov 22:00 | Luxury Unlocks | video | 1 | My buys, ranked. #5: gold watch. | 24 (live < 24 h) | 0 | |
+| – | 23 Nov 06:00 / 14:00 | Job Offer / Full Game | video / photos | | (no metrics yet) | 0 | 0 | |
+
+Average views by model (posts live ≥ 24 h): Club Owner 153, Broke to Rich 141, Job Offer 129, Full Game 125 (excluding the 2-view photo set: 186), The Numbers 110, Luxury Unlocks 87 (weakest; it was the top model the week before).
+
+Takeaways: views flattened into a 90–195 band; no post broke out. Story videos that open on a concrete moment (news alert, a rich week, a losing club) did best. Luxury Unlocks fell hard (the "Broke at 22" follow-up "Broke at 24" got 48), and The Numbers is again near the bottom.
+
+Weekly-review extras for the next 7 days:
+- 26 Nov 22:00 (Luxury slot): Full Game "Breaking news. Every stock is green." (6b03d3c4d5eabfb8cc0b6e6d), modelled on the #1 post (tense style, trading-screen opening, news hook).
+- One more in a later Luxury Unlocks slot (28 Nov onwards): a concrete-moment story video in the style of "I own this club. We're losing." or "A rich week". Next review: first run on or after Mon 30 Nov.

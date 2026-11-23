@@ -1182,5 +1182,75 @@
    "cta"
   ],
   "buffer_id": "6b02823dd864a011059d5fbd"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "style_group": 1,
+  "spec": "specs/2026-11-26-0600-btr-nightshift.json",
+  "files": [
+   "posts/2026-11-26/btr-nightshift.mp4"
+  ],
+  "hook": "Day job by day. Startup by night.",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "trading",
+   "jet",
+   "cta"
+  ],
+  "buffer_id": "6b03d3c2d864a0110524a9c2",
+  "caption": "Day job by day, garage startup by night, then shares and a private jet. Free on the App Store: Startup Legacy. #entrepreneur #startup #sidehustle #success #simulationgame"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "14:00",
+  "model": "The Numbers",
+  "format": "photos",
+  "style_group": 2,
+  "spec": "specs/2026-11-26-1400-num-three.json",
+  "files": [
+   "posts/2026-11-26/num-three/slide-1.jpg",
+   "posts/2026-11-26/num-three/slide-2.jpg",
+   "posts/2026-11-26/num-three/slide-3.jpg",
+   "posts/2026-11-26/num-three/slide-4.jpg",
+   "posts/2026-11-26/num-three/slide-5.jpg"
+  ],
+  "hook": "3 numbers decide my monthly profit",
+  "scenes": [
+   "pnl",
+   "marketing",
+   "unit",
+   "pricing",
+   "cta"
+  ],
+  "buffer_id": "6b03d3c3cc364169c1b3e26e",
+  "caption": "Ad returns, cost per customer vs lifetime value, and price. Which do you check first? Free on the App Store: Startup Legacy. #entrepreneur #business #marketing #smallbusiness #simulationgame"
+ },
+ {
+  "date": "2026-11-26",
+  "slot": "22:00",
+  "model": "Full Game",
+  "format": "video",
+  "style_group": 1,
+  "spec": "specs/2026-11-26-2200-game-green.json",
+  "files": [
+   "posts/2026-11-26/game-green.mp4"
+  ],
+  "hook": "Breaking news. Every stock is green.",
+  "scenes": [
+   "trading",
+   "office",
+   "stadium",
+   "jet",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6b03d3c4d5eabfb8cc0b6e6d",
+  "caption": "A share market that reacts to the news, ad spend, hiring, sports clubs and a private jet in the shop. How far would you get? Free on the App Store: Startup Legacy. #stocks #entrepreneur #businessgame #investing #simulationgame",
+  "note": "weekly-review extra (23 Nov review): modelled on the week's top post, Full Game \"Breaking news. Your shares jumped.\" (6afd3c7daa3b065dd97762d4), in the Luxury Unlocks slot (weakest model this week, avg 87 views)"
  }
 ]
