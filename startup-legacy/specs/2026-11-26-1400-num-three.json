@@ -1,0 +1,72 @@
+{
+ "model": "The Numbers",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "pnl",
+   "dur": 3,
+   "head": [
+    "3 numbers decide",
+    "my monthly profit"
+   ],
+   "hud": [
+    2,
+    950000,
+    2,
+    950000
+   ],
+   "photo_t": 2.9
+  },
+  {
+   "scene": "marketing",
+   "dur": 3,
+   "head": [
+    "1. What each ad",
+    "dollar brings back"
+   ],
+   "hud": [
+    2,
+    950000,
+    2,
+    950000
+   ],
+   "photo_t": 2.9
+  },
+  {
+   "scene": "unit",
+   "dur": 3,
+   "head": [
+    "2. Cost per customer",
+    "vs lifetime value"
+   ],
+   "hud": [
+    2,
+    950000,
+    2,
+    950000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "pricing",
+   "dur": 3,
+   "head": [
+    "3. How far the price",
+    "can rise"
+   ],
+   "hud": [
+    2,
+    950000,
+    2,
+    950000
+   ],
+   "photo_t": 2.55
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "caption": "Ad returns, cost per customer vs lifetime value, and price. Which do you check first? Free on the App Store: Startup Legacy. #entrepreneur #business #marketing #smallbusiness #simulationgame"
+}

@@ -1,0 +1,95 @@
+{
+ "model": "Full Game",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {
+   "scene": "trading",
+   "dur": 3.0,
+   "head": [
+    "Breaking news.",
+    "Every stock is green."
+   ],
+   "hud": [
+    2,
+    2400000,
+    3,
+    3300000
+   ],
+   "voice": "Breaking news. Every stock is green."
+  },
+  {
+   "scene": "office",
+   "dur": 3.0,
+   "head": [
+    "Spend it on ads",
+    "or hire more staff?"
+   ],
+   "hud": [
+    3,
+    3300000,
+    3,
+    3900000
+   ],
+   "voice": "Spend it on ads, or hire more staff?"
+  },
+  {
+   "scene": "stadium",
+   "dur": 3.0,
+   "args": {
+    "score": [
+     3,
+     1
+    ],
+    "opp": "Corvenhall"
+   },
+   "head": [
+    "Or buy a whole",
+    "sports club."
+   ],
+   "hud": [
+    3,
+    3900000,
+    3,
+    6100000
+   ],
+   "voice": "Or buy a whole sports club."
+  },
+  {
+   "scene": "jet",
+   "dur": 3.0,
+   "head": [
+    "A private jet",
+    "is in the shop."
+   ],
+   "hud": [
+    3,
+    6100000,
+    4,
+    21000000
+   ],
+   "voice": "A private jet is in the shop."
+  },
+  {
+   "scene": "mansion",
+   "dur": 3.2,
+   "head": [
+    "Four difficulty levels.",
+    "How far can you get?"
+   ],
+   "hud": [
+    4,
+    21000000,
+    4,
+    33000000
+   ],
+   "voice": "Four difficulty levels. How far can you get?"
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "A share market that reacts to the news, ad spend, hiring, sports clubs and a private jet in the shop. How far would you get? Free on the App Store: Startup Legacy. #stocks #entrepreneur #businessgame #investing #simulationgame"
+}

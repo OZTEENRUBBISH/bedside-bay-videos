@@ -1,0 +1,104 @@
+{
+ "model": "Broke to Rich",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3.0,
+   "head": [
+    "Day job by day.",
+    "Startup by night."
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "tags": [
+    [
+     0.8,
+     "$2,000 saved",
+     300,
+     1120
+    ]
+   ],
+   "voice": "Day job by day. Startup by night."
+  },
+  {
+   "scene": "garage",
+   "dur": 2.8,
+   "head": [
+    "Month 3:",
+    "the first sale."
+   ],
+   "hud": [
+    0,
+    2000,
+    1,
+    24000
+   ],
+   "toasts": [
+    [
+     0.7,
+     2.4,
+     "First sale",
+     "+$89"
+    ]
+   ],
+   "voice": "Month three. The first sale."
+  },
+  {
+   "scene": "office",
+   "dur": 2.8,
+   "head": [
+    "Year 2:",
+    "I quit the day job."
+   ],
+   "hud": [
+    1,
+    24000,
+    2,
+    880000
+   ],
+   "voice": "Year two. I quit the day job."
+  },
+  {
+   "scene": "trading",
+   "dur": 2.8,
+   "head": [
+    "Year 5:",
+    "my stock hits a high."
+   ],
+   "hud": [
+    2,
+    880000,
+    3,
+    7400000
+   ],
+   "voice": "Year five. My stock hits a high."
+  },
+  {
+   "scene": "jet",
+   "dur": 3.2,
+   "head": [
+    "Year 8:",
+    "my commute is a jet."
+   ],
+   "hud": [
+    3,
+    7400000,
+    4,
+    36000000
+   ],
+   "voice": "Year eight. My commute is a jet."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "Day job by day, garage startup by night, then shares and a private jet. Free on the App Store: Startup Legacy. #entrepreneur #startup #sidehustle #success #simulationgame"
+}
