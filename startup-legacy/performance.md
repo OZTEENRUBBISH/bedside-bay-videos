@@ -63,7 +63,7 @@ Sent posts 16 Nov 22:00 – 23 Nov 14:00, views as Buffer reported them at 16:45
 | – | 22 Nov 22:00 | Luxury Unlocks | video | 1 | My buys, ranked. #5: gold watch. | 24 (live < 24 h) | 0 | |
 | – | 23 Nov 06:00 / 14:00 | Job Offer / Full Game | video / photos | | (no metrics yet) | 0 | 0 | |
 
-Average views by model (posts live ≥ 24 h): Club Owner 153, Broke to Rich 141, Job Offer 129, Full Game 125 (excluding the 2-view photo set: 186), The Numbers 110, Luxury Unlocks 87 (weakest; it was the top model the week before).
+Average views by model (posts live ≥ 24 h): Club Owner 153, Broke to Rich 141, Job Offer 129, Full Game 125 (excluding the 2-view photo set: 186), The Numbers 110, Luxury Unlocks 107 (weakest, and 24 views for its newest post; it was the top model the week before).
 
 Takeaways: views flattened into a 90–195 band; no post broke out. Story videos that open on a concrete moment (news alert, a rich week, a losing club) did best. Luxury Unlocks fell hard (the "Broke at 22" follow-up "Broke at 24" got 48), and The Numbers is again near the bottom.
 
