@@ -1279,5 +1279,76 @@
   "buffer_id": "6b03d3c4d5eabfb8cc0b6e6d",
   "caption": "A share market that reacts to the news, ad spend, hiring, sports clubs and a private jet in the shop. How far would you get? Free on the App Store: Startup Legacy. #stocks #entrepreneur #businessgame #investing #simulationgame",
   "note": "weekly-review extra (23 Nov review): modelled on the week's top post, Full Game \"Breaking news. Your shares jumped.\" (6afd3c7daa3b065dd97762d4), in the Luxury Unlocks slot (weakest model this week, avg 107 views)"
+ },
+ {
+  "date": "2026-11-27",
+  "slot": "06:00",
+  "model": "Job Offer",
+  "format": "video",
+  "style_group": 2,
+  "spec": "specs/2026-11-27-0600-offer-twooffers.json",
+  "files": [
+   "posts/2026-11-27/offer-twooffers.mp4"
+  ],
+  "hook": "Two offers. Same morning.",
+  "scenes": [
+   "offer",
+   "offer",
+   "office",
+   "offer",
+   "ladder",
+   "cta"
+  ],
+  "buffer_id": "6b05252a286252d73837b1e0",
+  "caption": "Two job offers on the same morning. I took the one that paid less, then a headhunter called with a CEO role. A or B? Free on the App Store: Startup Legacy. #career #jobs #ceo #careeradvice #simulationgame"
+ },
+ {
+  "date": "2026-11-27",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "video",
+  "style_group": 1,
+  "spec": "specs/2026-11-27-1400-game-4steps.json",
+  "files": [
+   "posts/2026-11-27/game-4steps.mp4"
+  ],
+  "hook": "Broke to rich in 4 steps.",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "trading",
+   "jet",
+   "cta"
+  ],
+  "buffer_id": "6b05252bca4899309e5f9c73",
+  "caption": "Pick from 29 industries, set your price and ad spend, ride a share market that reacts to news, then shop for a private jet. Free on the App Store: Startup Legacy. #entrepreneur #businessgame #startup #howtogetrich #simulationgame"
+ },
+ {
+  "date": "2026-11-27",
+  "slot": "22:00",
+  "model": "Club Owner",
+  "format": "photos",
+  "style_group": 2,
+  "spec": "specs/2026-11-27-2200-club-season.json",
+  "files": [
+   "posts/2026-11-27/club-season/slide-1.jpg",
+   "posts/2026-11-27/club-season/slide-2.jpg",
+   "posts/2026-11-27/club-season/slide-3.jpg",
+   "posts/2026-11-27/club-season/slide-4.jpg",
+   "posts/2026-11-27/club-season/slide-5.jpg",
+   "posts/2026-11-27/club-season/slide-6.jpg"
+  ],
+  "hook": "My club's season in 5 slides",
+  "scenes": [
+   "stadium",
+   "clubmoney",
+   "stadium",
+   "club",
+   "trophy",
+   "cta"
+  ],
+  "buffer_id": "6b05252c286252d73837b24c",
+  "caption": "Ticket price, wage bill, coach and a star signing, then a league table to climb. Could you win the title? Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #sports #simulationgame"
  }
 ]
