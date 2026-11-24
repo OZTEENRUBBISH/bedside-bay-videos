@@ -1,742 +1,786 @@
 [
- {
-  "date": "2026-11-12",
-  "slot": "22:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-12/broke-to-rich-01-voice2.mp4"
-  ],
-  "hook": "Day 1. Broke intern.",
-  "buffer_id": "6af52d1abc9f3773a1b8921b",
-  "views": 38,
-  "likes": 5,
-  "avg_watch_s": 3.94,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-13",
-  "slot": "06:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-13/case-graham-peters-voice.mp4"
-  ],
-  "hook": "Your next patient",
-  "case_id": "graham-peters",
-  "buffer_id": "6af52fb92f7f0a6952e9f3b1",
-  "views": 233,
-  "likes": 5,
-  "avg_watch_s": 3.3,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-13",
-  "slot": "14:00",
-  "model": "Full Game",
-  "format": "video",
-  "files": [
-   "posts/2026-11-13/full-game-01-voice.mp4"
-  ],
-  "hook": "Run your own emergency room.",
-  "buffer_id": "6af52fb9bc9f3773a1b98121",
-  "views": 134,
-  "likes": 6,
-  "avg_watch_s": 3.22,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-13",
-  "slot": "22:00",
-  "model": "Broke to Rich",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-12/photo001-career-climb-1.jpg",
-   "posts/2026-11-12/photo001-career-climb-2.jpg",
-   "posts/2026-11-12/photo001-career-climb-3.jpg",
-   "posts/2026-11-12/photo001-career-climb-4.jpg",
-   "posts/2026-11-12/photo001-career-climb-5.jpg"
-  ],
-  "hook": "Broke intern to ED Director",
-  "buffer_id": "6af52d1b8a1a2f52b51c8d02",
-  "views": 221,
-  "likes": 4,
-  "avg_watch_s": 10.11,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-14",
-  "slot": "06:00",
-  "model": "Full Game",
-  "format": "video",
-  "files": [
-   "posts/2026-11-14/full-game-02-163-patients.mp4"
-  ],
-  "hook": "163 patients. One doctor.",
-  "script": "kit/variants/fullgame_02.py",
-  "music": "upbeat",
-  "buffer_id": "6af541688a1a2f52b5229182",
-  "views": 242,
-  "likes": 5,
-  "avg_watch_s": 5.93,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-14",
-  "slot": "14:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-14/broke-to-rich-02-rewind.mp4"
-  ],
-  "hook": "How did he afford this? (rewind to Day 1)",
-  "script": "kit/variants/b2r_variants.py rewind",
-  "music": "bright",
-  "buffer_id": "6af54169bfa789f6210b1e78",
-  "views": 169,
-  "likes": 2,
-  "avg_watch_s": 3.29,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-14",
-  "slot": "22:00",
-  "model": "Case",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-14/case-megan-lewis-photo-1.jpg",
-   "posts/2026-11-14/case-megan-lewis-photo-2.jpg",
-   "posts/2026-11-14/case-megan-lewis-photo-3.jpg",
-   "posts/2026-11-14/case-megan-lewis-photo-4.jpg",
-   "posts/2026-11-14/case-megan-lewis-photo-5.jpg"
-  ],
-  "hook": "\"Why does it smell of burning in here?\"",
-  "case_id": "megan-lewis",
-  "script": "kit/variants/case_photos.py",
-  "buffer_id": "6af5416a3d8c751bfd150a9c",
-  "views": 222,
-  "likes": 2,
-  "avg_watch_s": 5.7,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-15",
-  "slot": "06:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-15/broke-to-rich-03-two-futures.mp4"
-  ],
-  "hook": "Same doctor. Two futures. (split screen)",
-  "script": "kit/variants/b2r_variants.py split",
-  "music": "upbeat",
-  "buffer_id": "6af5416a8a1a2f52b5229253",
-  "views": 236,
-  "likes": 10,
-  "avg_watch_s": 7.0,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-15",
-  "slot": "14:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-15/case-priya-sharma.mp4"
-  ],
-  "hook": "Your next patient",
-  "case_id": "priya-sharma",
-  "music": "tense",
-  "buffer_id": "6af5416bcb4c7286fd13d994",
-  "views": 197,
-  "likes": 1,
-  "avg_watch_s": 4.24,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-15",
-  "slot": "22:00",
-  "model": "Full Game",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-15/full-game-03-four-swipes-1.jpg",
-   "posts/2026-11-15/full-game-03-four-swipes-2.jpg",
-   "posts/2026-11-15/full-game-03-four-swipes-3.jpg",
-   "posts/2026-11-15/full-game-03-four-swipes-4.jpg",
-   "posts/2026-11-15/full-game-03-four-swipes-5.jpg",
-   "posts/2026-11-15/full-game-03-four-swipes-6.jpg"
-  ],
-  "hook": "New here? The whole game in 4 swipes.",
-  "script": "kit/variants/fullgame_02.py photos",
-  "buffer_id": "6af5416cbc9f3773a1bee3ef",
-  "views": 89,
-  "likes": 0,
-  "avg_watch_s": 2.46,
-  "metrics_as_of": "2026-11-15T22:55Z"
- },
- {
-  "date": "2026-11-16",
-  "slot": "06:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-16/case-chloe-marsh-quiz.mp4"
-  ],
-  "hook": "Quote first: \"My heart suddenly started racing...\" then \"What do you do first?\" (A-D quiz)",
-  "case_id": "chloe-marsh",
-  "script": "kit/variants/case_02.py",
-  "music": "tense",
-  "buffer_id": "6af69149c1a0010a5bfa25ce",
-  "views": 212,
-  "likes": 5,
-  "avg_watch_s": 9.8,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-16",
-  "slot": "14:00",
-  "model": "Full Game",
-  "format": "video",
-  "files": [
-   "posts/2026-11-16/full-game-04-four-ways.mp4"
-  ],
-  "hook": "4 ways to play doctor. (the game mode by mode)",
-  "script": "kit/variants/fullgame_04.py",
-  "music": "bright",
-  "buffer_id": "6af6914afb90ccefdd1b0522",
-  "views": 225,
-  "likes": 9,
-  "avg_watch_s": 6.5,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-16",
-  "slot": "22:00",
-  "model": "Broke to Rich",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-16/broke-to-rich-04-five-ranks-1.jpg",
-   "posts/2026-11-16/broke-to-rich-04-five-ranks-2.jpg",
-   "posts/2026-11-16/broke-to-rich-04-five-ranks-3.jpg",
-   "posts/2026-11-16/broke-to-rich-04-five-ranks-4.jpg",
-   "posts/2026-11-16/broke-to-rich-04-five-ranks-5.jpg",
-   "posts/2026-11-16/broke-to-rich-04-five-ranks-6.jpg"
-  ],
-  "hook": "One doctor. Five ranks. (staircase, one slide per rank)",
-  "script": "kit/variants/b2r_ranks_photos.py",
-  "buffer_id": "6af6914be1d8eff6109e3351",
-  "views": 227,
-  "likes": 3,
-  "avg_watch_s": 4.8,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-17",
-  "slot": "06:00",
-  "model": "Full Game",
-  "format": "video",
-  "files": [
-   "posts/2026-11-17/full-game-05-think-you-could.mp4"
-  ],
-  "hook": "Think you could run an ER? (the job in numbers: 163 patients, 4 moves, 5 ranks, 4 modes. Prove it.)",
-  "script": "kit/variants/fullgame_05.py",
-  "music": "tense",
-  "buffer_id": "6af7e282d16af15d4df06abc",
-  "views": 226,
-  "likes": 0,
-  "avg_watch_s": 3.9,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-17",
-  "slot": "14:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-17/broke-to-rich-05-bank-balance.mp4"
-  ],
-  "hook": "Watch this number. (the bank balance is the headline, counting up from $2,000)",
-  "script": "kit/variants/b2r_05_bank.py",
-  "music": "bright",
-  "buffer_id": "6af7e283d16af15d4df06ae6",
-  "views": 112,
-  "likes": 1,
-  "avg_watch_s": 4.3,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-17",
-  "slot": "22:00",
-  "model": "Case",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-17/case-clive-dunn-chart-1.jpg",
-   "posts/2026-11-17/case-clive-dunn-chart-2.jpg",
-   "posts/2026-11-17/case-clive-dunn-chart-3.jpg",
-   "posts/2026-11-17/case-clive-dunn-chart-4.jpg",
-   "posts/2026-11-17/case-clive-dunn-chart-5.jpg"
-  ],
-  "hook": "Would you catch this? (speech bubble quote, then the chart with the diagnosis locked)",
-  "case_id": "clive-dunn",
-  "script": "kit/variants/case_photos_02.py",
-  "buffer_id": "6af7e28381e1228421e21c5d",
-  "views": 612,
-  "likes": 1,
-  "avg_watch_s": 5.7,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-18",
-  "slot": "06:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-18/broke-to-rich-06-promoted.mp4"
-  ],
-  "hook": "4 promotions from broke. (a PROMOTED stamp on every cut, staff ID badge upgrading rank by rank)",
-  "script": "kit/variants/b2r_06_promoted.py",
-  "music": "upbeat",
-  "buffer_id": "6af9347c76c23bf1c75a3f33",
-  "views": 84,
-  "likes": 3,
-  "avg_watch_s": 3.7,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-18",
-  "slot": "14:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-18/case-nicole-barnes-paged.mp4"
-  ],
-  "hook": "You're being paged. (buzzing pager types out the patient, then speech bubble quote, four moves orbiting the patient)",
-  "case_id": "nicole-barnes",
-  "script": "kit/variants/case_03.py",
-  "music": "tense",
-  "buffer_id": "6af9347db9a106584c88d631",
-  "views": 141,
-  "likes": 2,
-  "avg_watch_s": 3.4,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-18",
-  "slot": "22:00",
-  "model": "Full Game",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-18/full-game-06-now-hiring-1.jpg",
-   "posts/2026-11-18/full-game-06-now-hiring-2.jpg",
-   "posts/2026-11-18/full-game-06-now-hiring-3.jpg",
-   "posts/2026-11-18/full-game-06-now-hiring-4.jpg",
-   "posts/2026-11-18/full-game-06-now-hiring-5.jpg",
-   "posts/2026-11-18/full-game-06-now-hiring-6.jpg"
-  ],
-  "hook": "Now hiring: Emergency doctor. (the game as a job ad: workload, the job, career path, shifts)",
-  "script": "kit/variants/fullgame_06_hiring_photos.py",
-  "buffer_id": "6af9347d918fe79d2ebfd48e",
-  "views": 127,
-  "likes": 0,
-  "avg_watch_s": 3.3,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-19",
-  "slot": "06:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-19/case-jack-thompson-doors.mp4"
-  ],
-  "hook": "Incoming. (emergency doors slide open on the patient, then the quote fills the screen, four moves as a numbered path)",
-  "case_id": "jack-thompson",
-  "script": "kit/variants/case_04_doors.py",
-  "music": "tense",
-  "buffer_id": "6afa866c8e87c256a3b0d866",
-  "views": 229,
-  "likes": 5,
-  "avg_watch_s": 4.6,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-19",
-  "slot": "14:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-19/broke-to-rich-07-mattress-or-mansion.mp4"
-  ],
-  "hook": "Same doctor. Mattress or mansion? (slanted split screen panning item against item: noodles vs supercar, rent notice vs gold watch, then the divider slides away as the rank ladder climbs)",
-  "script": "kit/variants/b2r_07_versus.py",
-  "music": "bright",
-  "buffer_id": "6afa866c06e1675856c75fda",
-  "note": "Weekly-review extra modelled on 'Same doctor. Two futures.'; takes the Full Game slot for this day",
-  "views": 612,
-  "likes": 14,
-  "avg_watch_s": 6,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-19",
-  "slot": "22:00",
-  "model": "Broke to Rich",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-19/broke-to-rich-08-starter-pack-1.jpg",
-   "posts/2026-11-19/broke-to-rich-08-starter-pack-2.jpg",
-   "posts/2026-11-19/broke-to-rich-08-starter-pack-3.jpg",
-   "posts/2026-11-19/broke-to-rich-08-starter-pack-4.jpg",
-   "posts/2026-11-19/broke-to-rich-08-starter-pack-5.jpg"
-  ],
-  "hook": "Broke intern starter pack vs ED Director starter pack (2x2 item grids, then the 3 ranks in between)",
-  "script": "kit/variants/b2r_starter_pack_photos.py",
-  "buffer_id": "6afa866d06e1675856c76027",
-  "views": 189,
-  "likes": 0,
-  "avg_watch_s": 5.8,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-20",
-  "slot": "06:00",
-  "model": "Full Game",
-  "format": "video",
-  "files": [
-   "posts/2026-11-20/full-game-07-all-talking.mp4"
-  ],
-  "hook": "163 patients. All of them talking. (wall of patient speech bubbles with real quotes, then the four moves as a 2x2 grid, a rank ring filling round Dr John Smith, modes list starting in Career)",
-  "script": "kit/variants/fullgame_07_quotes.py",
-  "music": "upbeat",
-  "buffer_id": "6afbd7444b26315855bec7e3",
-  "views": 100,
-  "likes": 1,
-  "avg_watch_s": 1.8,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-20",
-  "slot": "14:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-20/broke-to-rich-09-mom-texts.mp4"
-  ],
-  "hook": "Mom keeps texting Dr John Smith. (the climb as a text thread over each scene: noodles, promoted, in surgery, consultant, WHOSE CAR IS THAT?)",
-  "script": "kit/variants/b2r_09_mom_texts.py",
-  "music": "bright",
-  "buffer_id": "6afbd745f83aaca8f3ab582a",
-  "views": 87,
-  "likes": 2,
-  "avg_watch_s": 3.2,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-20",
-  "slot": "22:00",
-  "model": "Case",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-20/case-paul-morgan-wristband-1.jpg",
-   "posts/2026-11-20/case-paul-morgan-wristband-2.jpg",
-   "posts/2026-11-20/case-paul-morgan-wristband-3.jpg",
-   "posts/2026-11-20/case-paul-morgan-wristband-4.jpg",
-   "posts/2026-11-20/case-paul-morgan-wristband-5.jpg"
-  ],
-  "hook": "New wristband. New patient. (hospital wristband with name, age, problem and triage, full-screen quote, 4 moves grid, a second wristband with the diagnosis blank)",
-  "case_id": "paul-morgan",
-  "script": "kit/variants/case_photos_03_wristband.py",
-  "buffer_id": "6afbd745df36f4d8256aa22c",
-  "views": 156,
-  "likes": 0,
-  "avg_watch_s": 2.5,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-21",
-  "slot": "06:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-21/broke-to-rich-10-dinner-at-every-rank.mp4"
-  ],
-  "hook": "What Dr John Smith eats at every rank. (the climb told through his dinner table: instant noodles on a cardboard box, cold pizza in the break room, a real burger, steak dinner, a silver cloche lifting in the mansion)",
-  "script": "kit/variants/b2r_10_dinner.py",
-  "music": "upbeat",
-  "buffer_id": "6afd290a9f3765f6ab2fadd9",
-  "views": 773,
-  "likes": 11,
-  "avg_watch_s": 6.8,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-21",
-  "slot": "14:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-21/case-tom-silva-curtain.mp4"
-  ],
-  "hook": "Who's behind curtain 3? (bay curtain slides open on the patient, the quote lights up word by word, four moves dealt as a fanned hand of cards: Play your first move.)",
-  "case_id": "tom-silva",
-  "script": "kit/variants/case_05_curtain.py",
-  "music": "upbeat",
-  "buffer_id": "6afd290afc933ac285c3b8bf",
-  "views": 133,
-  "likes": 2,
-  "avg_watch_s": 2.9,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-21",
-  "slot": "22:00",
-  "model": "Full Game",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-21/full-game-08-the-bill-1.jpg",
-   "posts/2026-11-21/full-game-08-the-bill-2.jpg",
-   "posts/2026-11-21/full-game-08-the-bill-3.jpg",
-   "posts/2026-11-21/full-game-08-the-bill-4.jpg",
-   "posts/2026-11-21/full-game-08-the-bill-5.jpg",
-   "posts/2026-11-21/full-game-08-the-bill-6.jpg"
-  ],
-  "hook": "The bill for running your own ER. (the game as an itemised receipt: 163 patients, 4 moves, 5 ranks, 4 modes, one item per slide, total due $0.00 FREE)",
-  "script": "kit/variants/fullgame_08_bill_photos.py",
-  "buffer_id": "6afd290baa3b065dd971abcf",
-  "views": 94,
-  "likes": 0,
-  "avg_watch_s": 4.5,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-22",
-  "slot": "06:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-22/case-victor-petrov-triage-one.mp4"
-  ],
-  "hook": "Triage 1. Drop everything. (a big triage board flips 5, 4, 3, 2, 1 and locks red on the patient's triage number, then the quote typed into a speech bubble, the four moves as a stacked run sheet: Four moves. No time to waste.)",
-  "case_id": "victor-petrov",
-  "script": "kit/variants/case_06_triage_board.py",
-  "music": "tense",
-  "buffer_id": "6b011e4d9ffbc8503cfa032e",
-  "views": 168,
-  "likes": 2,
-  "avg_watch_s": 3.0,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-22",
-  "slot": "14:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-22/case-sean-murphy-your-next-patient.mp4"
-  ],
-  "hook": "Your next patient (Sean Murphy: patient card with the quote typing in as the hook, then Your move, doctor, the one-call box and Sean is waiting). Weekly-review extra replacing the Full Game slot.",
-  "case_id": "sean-murphy",
-  "script": "kit/case.py",
-  "music": "tense",
-  "buffer_id": "6b011e4ed9cbb430a11bcf5b",
-  "views": 92,
-  "likes": 1,
-  "avg_watch_s": 3.2,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-22",
-  "slot": "22:00",
-  "model": "Broke to Rich",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-22/broke-to-rich-11-ride-to-work-1.jpg",
-   "posts/2026-11-22/broke-to-rich-11-ride-to-work-2.jpg",
-   "posts/2026-11-22/broke-to-rich-11-ride-to-work-3.jpg",
-   "posts/2026-11-22/broke-to-rich-11-ride-to-work-4.jpg",
-   "posts/2026-11-22/broke-to-rich-11-ride-to-work-5.jpg",
-   "posts/2026-11-22/broke-to-rich-11-ride-to-work-6.jpg"
-  ],
-  "hook": "How Dr John Smith gets to work. Every rank. (the climb told through his commute, one slide per rank: on foot in the rain, the early bus, a bike, a first real car, the supercar parked out front)",
-  "script": "kit/variants/b2r_11_ride_photos.py",
-  "buffer_id": "6b011e4e5e993799d850300f",
-  "views": 43,
-  "likes": 0,
-  "avg_watch_s": 3.1,
-  "metrics_as_of": "2026-11-22T16:02Z"
- },
- {
-  "date": "2026-11-23",
-  "slot": "06:00",
-  "model": "Full Game",
-  "format": "video",
-  "files": [
-   "posts/2026-11-23/full-game-09-the-board-is-full.mp4"
-  ],
-  "hook": "The board is full. (ER tracking whiteboard filling with six real patients by name, age, problem and triage, \"+157 more · 163 patients\", then one patient's four moves ticked off on the board, a staff roster of the five ranks lighting up beside Dr John Smith, and Career as the big tile over the other three modes)",
-  "script": "kit/variants/fullgame_09_board.py",
-  "music": "bright",
-  "buffer_id": "6b011e4f9ffbc8503cfa061a"
- },
- {
-  "date": "2026-11-23",
-  "slot": "14:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-23/broke-to-rich-12-going-up.mp4"
-  ],
-  "hook": "Going up. (Dr John Smith's career as an elevator ride: steel doors open on a new floor for every rank, bare room, ER, theatre, consultant, mansion, with an LED floor display naming the floor and rank and the career card climbing from $2,000)",
-  "script": "kit/variants/b2r_12_elevator.py",
-  "music": "upbeat",
-  "buffer_id": "6b011e505e993799d85033f5"
- },
- {
-  "date": "2026-11-23",
-  "slot": "22:00",
-  "model": "Case",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-23/case-rita-alvarez-ticket-1.jpg",
-   "posts/2026-11-23/case-rita-alvarez-ticket-2.jpg",
-   "posts/2026-11-23/case-rita-alvarez-ticket-3.jpg",
-   "posts/2026-11-23/case-rita-alvarez-ticket-4.jpg",
-   "posts/2026-11-23/case-rita-alvarez-ticket-5.jpg"
-  ],
-  "hook": "Now serving: number 47. (waiting-room NOW SERVING display and a paper take-a-number ticket call the patient, her quote in a speech bubble, the four moves as a strip of numbered tickets, a ticket with the diagnosis left as ? ? ?, end card)",
-  "case_id": "rita-alvarez",
-  "script": "kit/variants/case_photos_04_ticket.py",
-  "buffer_id": "6b011e5120a2d09a0ad26ce9"
- },
- {
-  "date": "2026-11-24",
-  "slot": "06:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-24/broke-to-rich-13-view-from-his-window.mp4"
-  ],
-  "hook": "The view from his window at every rank. (one window, five views: a brick wall with a flickering sign for the Intern, the hospital parking lot at night, city rooftops, the skyline at sunset, then the ED Director's own driveway with the supercar; frame, wall and outfit upgrade as the career card climbs)",
-  "script": "kit/variants/b2r_13_window.py",
-  "music": "bright",
-  "buffer_id": "6b011e515102766245f6ad29"
- },
- {
-  "date": "2026-11-24",
-  "slot": "14:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-24/case-ben-taylor-radio-call.mp4"
-  ],
-  "hook": "Dr Smith, come in. (the case arrives as a call on a handheld radio with a pulsing waveform and caption strip, the patient's quote runs as live captions under his portrait, the four moves are four radio channels: Four moves. Your call.)",
-  "case_id": "ben-taylor",
-  "script": "kit/variants/case_07_radio.py",
-  "music": "upbeat",
-  "buffer_id": "6b011e525e993799d85035b8"
- },
- {
-  "date": "2026-11-24",
-  "slot": "22:00",
-  "model": "Full Game",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-24/full-game-10-pop-quiz-1.jpg",
-   "posts/2026-11-24/full-game-10-pop-quiz-2.jpg",
-   "posts/2026-11-24/full-game-10-pop-quiz-3.jpg",
-   "posts/2026-11-24/full-game-10-pop-quiz-4.jpg",
-   "posts/2026-11-24/full-game-10-pop-quiz-5.jpg",
-   "posts/2026-11-24/full-game-10-pop-quiz-6.jpg"
-  ],
-  "hook": "Pop quiz: ER orientation. (the game as a multiple-choice quiz sheet marked in red pen: 163 patients, the four moves, Intern to ED Director, four modes, playful wrong answers, then the graded sheet 4/4)",
-  "script": "kit/variants/fullgame_10_quiz_photos.py",
-  "buffer_id": "6b011e52dd205ed779bb4d8f"
- },
- {
-  "date": "2026-11-25",
-  "slot": "06:00",
-  "model": "Case",
-  "format": "video",
-  "files": [
-   "posts/2026-11-25/case-nina-castillo-case-file.mp4"
-  ],
-  "hook": "Case file: unsolved. (a manila patient file drops on the desk and gets a red UNSOLVED stamp, opens on the patient's statement typed in her own words with the diagnosis line blacked out, the four moves as four file dividers: Four moves to crack it.)",
-  "case_id": "nina-castillo",
-  "script": "kit/variants/case_08_casefile.py",
-  "music": "tense",
-  "buffer_id": "6b026f68024796909222c4bb"
- },
- {
-  "date": "2026-11-25",
-  "slot": "14:00",
-  "model": "Full Game",
-  "format": "video",
-  "files": [
-   "posts/2026-11-25/full-game-11-done-watching.mp4"
-  ],
-  "hook": "Done watching medical dramas? (a TV playing a hospital drama is switched off: Your turn. The screen fills with patients counting to 163 and \"Nobody tells you the diagnosis\", the four moves as the four buttons of the remote, the five ranks as an episode list starring Dr John Smith, the four modes as the TV menu with Career first; end card Stop watching. Start treating.)",
-  "script": "kit/variants/fullgame_11_tv.py",
-  "music": "upbeat",
-  "buffer_id": "6b026f69d5eabfb8cc808042"
- },
- {
-  "date": "2026-11-25",
-  "slot": "22:00",
-  "model": "Broke to Rich",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-25/broke-to-rich-14-rating-every-bed-1.jpg",
-   "posts/2026-11-25/broke-to-rich-14-rating-every-bed-2.jpg",
-   "posts/2026-11-25/broke-to-rich-14-rating-every-bed-3.jpg",
-   "posts/2026-11-25/broke-to-rich-14-rating-every-bed-4.jpg",
-   "posts/2026-11-25/broke-to-rich-14-rating-every-bed-5.jpg",
-   "posts/2026-11-25/broke-to-rich-14-rating-every-bed-6.jpg"
-  ],
-  "hook": "Rating every bed Dr John Smith has slept in. (the climb as star-rated reviews, one slide per rank: floor mattress 1 star, on-call bunk 2, a real bed frame 3, queen bed with a city view 4, king canopy bed in the mansion 5)",
-  "script": "kit/variants/b2r_14_beds_photos.py",
-  "buffer_id": "6b026f69d5eabfb8cc8080ec"
- },
- {
-  "date": "2026-11-26",
-  "slot": "06:00",
-  "model": "Full Game",
-  "format": "video",
-  "files": [
-   "posts/2026-11-26/full-game-12-your-er-just-opened.mp4"
-  ],
-  "hook": "Your ER just opened. (the game as neon signs on a brick wall at night: an ER / OPEN sign flickers on, a neon counter runs to 163 patients waiting, the four moves light up as a stack of signs, the five ranks light rung by rung while Dr John Smith's outfit upgrades, the four modes glow with Career marked START HERE)",
-  "script": "kit/variants/fullgame_12_neon.py",
-  "music": "tense",
-  "buffer_id": "6b03c0b3d5eabfb8cc054443"
- },
- {
-  "date": "2026-11-26",
-  "slot": "14:00",
-  "model": "Broke to Rich",
-  "format": "video",
-  "files": [
-   "posts/2026-11-26/broke-to-rich-15-coffee-at-every-rank.mp4"
-  ],
-  "hook": "Dr John Smith's coffee at every rank. (the climb told through the cup sliding down the counter: vending-machine paper cup, burnt break-room pot, takeaway latte with his name spelled wrong, double espresso from his own machine, gold cup from a personal barista). Modelled on the week's best performer, \"What Dr John Smith eats at every rank\".",
-  "script": "kit/variants/b2r_15_coffee.py",
-  "music": "bright",
-  "buffer_id": "6b03c0b4a6de38de9ebb050f"
- },
- {
-  "date": "2026-11-26",
-  "slot": "22:00",
-  "model": "Case",
-  "format": "photos",
-  "files": [
-   "posts/2026-11-26/case-nina-kaur-triage-note-1.jpg",
-   "posts/2026-11-26/case-nina-kaur-triage-note-2.jpg",
-   "posts/2026-11-26/case-nina-kaur-triage-note-3.jpg",
-   "posts/2026-11-26/case-nina-kaur-triage-note-4.jpg",
-   "posts/2026-11-26/case-nina-kaur-triage-note-5.jpg"
-  ],
-  "hook": "Note from triage. (quote first: the patient's words on a yellow sticky note left for the doctor, then a pinned photo with problem, triage and level notes, the four moves as four coloured sticky notes, one note left blank for the diagnosis)",
-  "case_id": "nina-kaur",
-  "script": "kit/variants/case_photos_05_sticky.py",
-  "buffer_id": "6b03c0b5d5eabfb8cc05447c"
- }
+  {
+    "date": "2026-11-12",
+    "slot": "22:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-12/broke-to-rich-01-voice2.mp4"
+    ],
+    "hook": "Day 1. Broke intern.",
+    "buffer_id": "6af52d1abc9f3773a1b8921b",
+    "views": 38,
+    "likes": 5,
+    "avg_watch_s": 3.94,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-13",
+    "slot": "06:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-13/case-graham-peters-voice.mp4"
+    ],
+    "hook": "Your next patient",
+    "case_id": "graham-peters",
+    "buffer_id": "6af52fb92f7f0a6952e9f3b1",
+    "views": 233,
+    "likes": 5,
+    "avg_watch_s": 3.3,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-13",
+    "slot": "14:00",
+    "model": "Full Game",
+    "format": "video",
+    "files": [
+      "posts/2026-11-13/full-game-01-voice.mp4"
+    ],
+    "hook": "Run your own emergency room.",
+    "buffer_id": "6af52fb9bc9f3773a1b98121",
+    "views": 134,
+    "likes": 6,
+    "avg_watch_s": 3.22,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-13",
+    "slot": "22:00",
+    "model": "Broke to Rich",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-12/photo001-career-climb-1.jpg",
+      "posts/2026-11-12/photo001-career-climb-2.jpg",
+      "posts/2026-11-12/photo001-career-climb-3.jpg",
+      "posts/2026-11-12/photo001-career-climb-4.jpg",
+      "posts/2026-11-12/photo001-career-climb-5.jpg"
+    ],
+    "hook": "Broke intern to ED Director",
+    "buffer_id": "6af52d1b8a1a2f52b51c8d02",
+    "views": 221,
+    "likes": 4,
+    "avg_watch_s": 10.11,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-14",
+    "slot": "06:00",
+    "model": "Full Game",
+    "format": "video",
+    "files": [
+      "posts/2026-11-14/full-game-02-163-patients.mp4"
+    ],
+    "hook": "163 patients. One doctor.",
+    "script": "kit/variants/fullgame_02.py",
+    "music": "upbeat",
+    "buffer_id": "6af541688a1a2f52b5229182",
+    "views": 242,
+    "likes": 5,
+    "avg_watch_s": 5.93,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-14",
+    "slot": "14:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-14/broke-to-rich-02-rewind.mp4"
+    ],
+    "hook": "How did he afford this? (rewind to Day 1)",
+    "script": "kit/variants/b2r_variants.py rewind",
+    "music": "bright",
+    "buffer_id": "6af54169bfa789f6210b1e78",
+    "views": 169,
+    "likes": 2,
+    "avg_watch_s": 3.29,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-14",
+    "slot": "22:00",
+    "model": "Case",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-14/case-megan-lewis-photo-1.jpg",
+      "posts/2026-11-14/case-megan-lewis-photo-2.jpg",
+      "posts/2026-11-14/case-megan-lewis-photo-3.jpg",
+      "posts/2026-11-14/case-megan-lewis-photo-4.jpg",
+      "posts/2026-11-14/case-megan-lewis-photo-5.jpg"
+    ],
+    "hook": "\"Why does it smell of burning in here?\"",
+    "case_id": "megan-lewis",
+    "script": "kit/variants/case_photos.py",
+    "buffer_id": "6af5416a3d8c751bfd150a9c",
+    "views": 222,
+    "likes": 2,
+    "avg_watch_s": 5.7,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-15",
+    "slot": "06:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-15/broke-to-rich-03-two-futures.mp4"
+    ],
+    "hook": "Same doctor. Two futures. (split screen)",
+    "script": "kit/variants/b2r_variants.py split",
+    "music": "upbeat",
+    "buffer_id": "6af5416a8a1a2f52b5229253",
+    "views": 236,
+    "likes": 10,
+    "avg_watch_s": 7.0,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-15",
+    "slot": "14:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-15/case-priya-sharma.mp4"
+    ],
+    "hook": "Your next patient",
+    "case_id": "priya-sharma",
+    "music": "tense",
+    "buffer_id": "6af5416bcb4c7286fd13d994",
+    "views": 197,
+    "likes": 1,
+    "avg_watch_s": 4.24,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-15",
+    "slot": "22:00",
+    "model": "Full Game",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-15/full-game-03-four-swipes-1.jpg",
+      "posts/2026-11-15/full-game-03-four-swipes-2.jpg",
+      "posts/2026-11-15/full-game-03-four-swipes-3.jpg",
+      "posts/2026-11-15/full-game-03-four-swipes-4.jpg",
+      "posts/2026-11-15/full-game-03-four-swipes-5.jpg",
+      "posts/2026-11-15/full-game-03-four-swipes-6.jpg"
+    ],
+    "hook": "New here? The whole game in 4 swipes.",
+    "script": "kit/variants/fullgame_02.py photos",
+    "buffer_id": "6af5416cbc9f3773a1bee3ef",
+    "views": 89,
+    "likes": 0,
+    "avg_watch_s": 2.46,
+    "metrics_as_of": "2026-11-15T22:55Z"
+  },
+  {
+    "date": "2026-11-16",
+    "slot": "06:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-16/case-chloe-marsh-quiz.mp4"
+    ],
+    "hook": "Quote first: \"My heart suddenly started racing...\" then \"What do you do first?\" (A-D quiz)",
+    "case_id": "chloe-marsh",
+    "script": "kit/variants/case_02.py",
+    "music": "tense",
+    "buffer_id": "6af69149c1a0010a5bfa25ce",
+    "views": 212,
+    "likes": 5,
+    "avg_watch_s": 9.8,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-16",
+    "slot": "14:00",
+    "model": "Full Game",
+    "format": "video",
+    "files": [
+      "posts/2026-11-16/full-game-04-four-ways.mp4"
+    ],
+    "hook": "4 ways to play doctor. (the game mode by mode)",
+    "script": "kit/variants/fullgame_04.py",
+    "music": "bright",
+    "buffer_id": "6af6914afb90ccefdd1b0522",
+    "views": 225,
+    "likes": 9,
+    "avg_watch_s": 6.5,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-16",
+    "slot": "22:00",
+    "model": "Broke to Rich",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-16/broke-to-rich-04-five-ranks-1.jpg",
+      "posts/2026-11-16/broke-to-rich-04-five-ranks-2.jpg",
+      "posts/2026-11-16/broke-to-rich-04-five-ranks-3.jpg",
+      "posts/2026-11-16/broke-to-rich-04-five-ranks-4.jpg",
+      "posts/2026-11-16/broke-to-rich-04-five-ranks-5.jpg",
+      "posts/2026-11-16/broke-to-rich-04-five-ranks-6.jpg"
+    ],
+    "hook": "One doctor. Five ranks. (staircase, one slide per rank)",
+    "script": "kit/variants/b2r_ranks_photos.py",
+    "buffer_id": "6af6914be1d8eff6109e3351",
+    "views": 227,
+    "likes": 3,
+    "avg_watch_s": 4.8,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-17",
+    "slot": "06:00",
+    "model": "Full Game",
+    "format": "video",
+    "files": [
+      "posts/2026-11-17/full-game-05-think-you-could.mp4"
+    ],
+    "hook": "Think you could run an ER? (the job in numbers: 163 patients, 4 moves, 5 ranks, 4 modes. Prove it.)",
+    "script": "kit/variants/fullgame_05.py",
+    "music": "tense",
+    "buffer_id": "6af7e282d16af15d4df06abc",
+    "views": 226,
+    "likes": 0,
+    "avg_watch_s": 3.9,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-17",
+    "slot": "14:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-17/broke-to-rich-05-bank-balance.mp4"
+    ],
+    "hook": "Watch this number. (the bank balance is the headline, counting up from $2,000)",
+    "script": "kit/variants/b2r_05_bank.py",
+    "music": "bright",
+    "buffer_id": "6af7e283d16af15d4df06ae6",
+    "views": 112,
+    "likes": 1,
+    "avg_watch_s": 4.3,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-17",
+    "slot": "22:00",
+    "model": "Case",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-17/case-clive-dunn-chart-1.jpg",
+      "posts/2026-11-17/case-clive-dunn-chart-2.jpg",
+      "posts/2026-11-17/case-clive-dunn-chart-3.jpg",
+      "posts/2026-11-17/case-clive-dunn-chart-4.jpg",
+      "posts/2026-11-17/case-clive-dunn-chart-5.jpg"
+    ],
+    "hook": "Would you catch this? (speech bubble quote, then the chart with the diagnosis locked)",
+    "case_id": "clive-dunn",
+    "script": "kit/variants/case_photos_02.py",
+    "buffer_id": "6af7e28381e1228421e21c5d",
+    "views": 612,
+    "likes": 1,
+    "avg_watch_s": 5.7,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-18",
+    "slot": "06:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-18/broke-to-rich-06-promoted.mp4"
+    ],
+    "hook": "4 promotions from broke. (a PROMOTED stamp on every cut, staff ID badge upgrading rank by rank)",
+    "script": "kit/variants/b2r_06_promoted.py",
+    "music": "upbeat",
+    "buffer_id": "6af9347c76c23bf1c75a3f33",
+    "views": 84,
+    "likes": 3,
+    "avg_watch_s": 3.7,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-18",
+    "slot": "14:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-18/case-nicole-barnes-paged.mp4"
+    ],
+    "hook": "You're being paged. (buzzing pager types out the patient, then speech bubble quote, four moves orbiting the patient)",
+    "case_id": "nicole-barnes",
+    "script": "kit/variants/case_03.py",
+    "music": "tense",
+    "buffer_id": "6af9347db9a106584c88d631",
+    "views": 141,
+    "likes": 2,
+    "avg_watch_s": 3.4,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-18",
+    "slot": "22:00",
+    "model": "Full Game",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-18/full-game-06-now-hiring-1.jpg",
+      "posts/2026-11-18/full-game-06-now-hiring-2.jpg",
+      "posts/2026-11-18/full-game-06-now-hiring-3.jpg",
+      "posts/2026-11-18/full-game-06-now-hiring-4.jpg",
+      "posts/2026-11-18/full-game-06-now-hiring-5.jpg",
+      "posts/2026-11-18/full-game-06-now-hiring-6.jpg"
+    ],
+    "hook": "Now hiring: Emergency doctor. (the game as a job ad: workload, the job, career path, shifts)",
+    "script": "kit/variants/fullgame_06_hiring_photos.py",
+    "buffer_id": "6af9347d918fe79d2ebfd48e",
+    "views": 127,
+    "likes": 0,
+    "avg_watch_s": 3.3,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-19",
+    "slot": "06:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-19/case-jack-thompson-doors.mp4"
+    ],
+    "hook": "Incoming. (emergency doors slide open on the patient, then the quote fills the screen, four moves as a numbered path)",
+    "case_id": "jack-thompson",
+    "script": "kit/variants/case_04_doors.py",
+    "music": "tense",
+    "buffer_id": "6afa866c8e87c256a3b0d866",
+    "views": 229,
+    "likes": 5,
+    "avg_watch_s": 4.6,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-19",
+    "slot": "14:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-19/broke-to-rich-07-mattress-or-mansion.mp4"
+    ],
+    "hook": "Same doctor. Mattress or mansion? (slanted split screen panning item against item: noodles vs supercar, rent notice vs gold watch, then the divider slides away as the rank ladder climbs)",
+    "script": "kit/variants/b2r_07_versus.py",
+    "music": "bright",
+    "buffer_id": "6afa866c06e1675856c75fda",
+    "note": "Weekly-review extra modelled on 'Same doctor. Two futures.'; takes the Full Game slot for this day",
+    "views": 612,
+    "likes": 14,
+    "avg_watch_s": 6,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-19",
+    "slot": "22:00",
+    "model": "Broke to Rich",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-19/broke-to-rich-08-starter-pack-1.jpg",
+      "posts/2026-11-19/broke-to-rich-08-starter-pack-2.jpg",
+      "posts/2026-11-19/broke-to-rich-08-starter-pack-3.jpg",
+      "posts/2026-11-19/broke-to-rich-08-starter-pack-4.jpg",
+      "posts/2026-11-19/broke-to-rich-08-starter-pack-5.jpg"
+    ],
+    "hook": "Broke intern starter pack vs ED Director starter pack (2x2 item grids, then the 3 ranks in between)",
+    "script": "kit/variants/b2r_starter_pack_photos.py",
+    "buffer_id": "6afa866d06e1675856c76027",
+    "views": 189,
+    "likes": 0,
+    "avg_watch_s": 5.8,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-20",
+    "slot": "06:00",
+    "model": "Full Game",
+    "format": "video",
+    "files": [
+      "posts/2026-11-20/full-game-07-all-talking.mp4"
+    ],
+    "hook": "163 patients. All of them talking. (wall of patient speech bubbles with real quotes, then the four moves as a 2x2 grid, a rank ring filling round Dr John Smith, modes list starting in Career)",
+    "script": "kit/variants/fullgame_07_quotes.py",
+    "music": "upbeat",
+    "buffer_id": "6afbd7444b26315855bec7e3",
+    "views": 100,
+    "likes": 1,
+    "avg_watch_s": 1.8,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-20",
+    "slot": "14:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-20/broke-to-rich-09-mom-texts.mp4"
+    ],
+    "hook": "Mom keeps texting Dr John Smith. (the climb as a text thread over each scene: noodles, promoted, in surgery, consultant, WHOSE CAR IS THAT?)",
+    "script": "kit/variants/b2r_09_mom_texts.py",
+    "music": "bright",
+    "buffer_id": "6afbd745f83aaca8f3ab582a",
+    "views": 87,
+    "likes": 2,
+    "avg_watch_s": 3.2,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-20",
+    "slot": "22:00",
+    "model": "Case",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-20/case-paul-morgan-wristband-1.jpg",
+      "posts/2026-11-20/case-paul-morgan-wristband-2.jpg",
+      "posts/2026-11-20/case-paul-morgan-wristband-3.jpg",
+      "posts/2026-11-20/case-paul-morgan-wristband-4.jpg",
+      "posts/2026-11-20/case-paul-morgan-wristband-5.jpg"
+    ],
+    "hook": "New wristband. New patient. (hospital wristband with name, age, problem and triage, full-screen quote, 4 moves grid, a second wristband with the diagnosis blank)",
+    "case_id": "paul-morgan",
+    "script": "kit/variants/case_photos_03_wristband.py",
+    "buffer_id": "6afbd745df36f4d8256aa22c",
+    "views": 156,
+    "likes": 0,
+    "avg_watch_s": 2.5,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-21",
+    "slot": "06:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-21/broke-to-rich-10-dinner-at-every-rank.mp4"
+    ],
+    "hook": "What Dr John Smith eats at every rank. (the climb told through his dinner table: instant noodles on a cardboard box, cold pizza in the break room, a real burger, steak dinner, a silver cloche lifting in the mansion)",
+    "script": "kit/variants/b2r_10_dinner.py",
+    "music": "upbeat",
+    "buffer_id": "6afd290a9f3765f6ab2fadd9",
+    "views": 773,
+    "likes": 11,
+    "avg_watch_s": 6.8,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-21",
+    "slot": "14:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-21/case-tom-silva-curtain.mp4"
+    ],
+    "hook": "Who's behind curtain 3? (bay curtain slides open on the patient, the quote lights up word by word, four moves dealt as a fanned hand of cards: Play your first move.)",
+    "case_id": "tom-silva",
+    "script": "kit/variants/case_05_curtain.py",
+    "music": "upbeat",
+    "buffer_id": "6afd290afc933ac285c3b8bf",
+    "views": 133,
+    "likes": 2,
+    "avg_watch_s": 2.9,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-21",
+    "slot": "22:00",
+    "model": "Full Game",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-21/full-game-08-the-bill-1.jpg",
+      "posts/2026-11-21/full-game-08-the-bill-2.jpg",
+      "posts/2026-11-21/full-game-08-the-bill-3.jpg",
+      "posts/2026-11-21/full-game-08-the-bill-4.jpg",
+      "posts/2026-11-21/full-game-08-the-bill-5.jpg",
+      "posts/2026-11-21/full-game-08-the-bill-6.jpg"
+    ],
+    "hook": "The bill for running your own ER. (the game as an itemised receipt: 163 patients, 4 moves, 5 ranks, 4 modes, one item per slide, total due $0.00 FREE)",
+    "script": "kit/variants/fullgame_08_bill_photos.py",
+    "buffer_id": "6afd290baa3b065dd971abcf",
+    "views": 94,
+    "likes": 0,
+    "avg_watch_s": 4.5,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-22",
+    "slot": "06:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-22/case-victor-petrov-triage-one.mp4"
+    ],
+    "hook": "Triage 1. Drop everything. (a big triage board flips 5, 4, 3, 2, 1 and locks red on the patient's triage number, then the quote typed into a speech bubble, the four moves as a stacked run sheet: Four moves. No time to waste.)",
+    "case_id": "victor-petrov",
+    "script": "kit/variants/case_06_triage_board.py",
+    "music": "tense",
+    "buffer_id": "6b011e4d9ffbc8503cfa032e",
+    "views": 168,
+    "likes": 2,
+    "avg_watch_s": 3.0,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-22",
+    "slot": "14:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-22/case-sean-murphy-your-next-patient.mp4"
+    ],
+    "hook": "Your next patient (Sean Murphy: patient card with the quote typing in as the hook, then Your move, doctor, the one-call box and Sean is waiting). Weekly-review extra replacing the Full Game slot.",
+    "case_id": "sean-murphy",
+    "script": "kit/case.py",
+    "music": "tense",
+    "buffer_id": "6b011e4ed9cbb430a11bcf5b",
+    "views": 92,
+    "likes": 1,
+    "avg_watch_s": 3.2,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-22",
+    "slot": "22:00",
+    "model": "Broke to Rich",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-22/broke-to-rich-11-ride-to-work-1.jpg",
+      "posts/2026-11-22/broke-to-rich-11-ride-to-work-2.jpg",
+      "posts/2026-11-22/broke-to-rich-11-ride-to-work-3.jpg",
+      "posts/2026-11-22/broke-to-rich-11-ride-to-work-4.jpg",
+      "posts/2026-11-22/broke-to-rich-11-ride-to-work-5.jpg",
+      "posts/2026-11-22/broke-to-rich-11-ride-to-work-6.jpg"
+    ],
+    "hook": "How Dr John Smith gets to work. Every rank. (the climb told through his commute, one slide per rank: on foot in the rain, the early bus, a bike, a first real car, the supercar parked out front)",
+    "script": "kit/variants/b2r_11_ride_photos.py",
+    "buffer_id": "6b011e4e5e993799d850300f",
+    "views": 43,
+    "likes": 0,
+    "avg_watch_s": 3.1,
+    "metrics_as_of": "2026-11-22T16:02Z"
+  },
+  {
+    "date": "2026-11-23",
+    "slot": "06:00",
+    "model": "Full Game",
+    "format": "video",
+    "files": [
+      "posts/2026-11-23/full-game-09-the-board-is-full.mp4"
+    ],
+    "hook": "The board is full. (ER tracking whiteboard filling with six real patients by name, age, problem and triage, \"+157 more \u00b7 163 patients\", then one patient's four moves ticked off on the board, a staff roster of the five ranks lighting up beside Dr John Smith, and Career as the big tile over the other three modes)",
+    "script": "kit/variants/fullgame_09_board.py",
+    "music": "bright",
+    "buffer_id": "6b011e4f9ffbc8503cfa061a"
+  },
+  {
+    "date": "2026-11-23",
+    "slot": "14:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-23/broke-to-rich-12-going-up.mp4"
+    ],
+    "hook": "Going up. (Dr John Smith's career as an elevator ride: steel doors open on a new floor for every rank, bare room, ER, theatre, consultant, mansion, with an LED floor display naming the floor and rank and the career card climbing from $2,000)",
+    "script": "kit/variants/b2r_12_elevator.py",
+    "music": "upbeat",
+    "buffer_id": "6b011e505e993799d85033f5"
+  },
+  {
+    "date": "2026-11-23",
+    "slot": "22:00",
+    "model": "Case",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-23/case-rita-alvarez-ticket-1.jpg",
+      "posts/2026-11-23/case-rita-alvarez-ticket-2.jpg",
+      "posts/2026-11-23/case-rita-alvarez-ticket-3.jpg",
+      "posts/2026-11-23/case-rita-alvarez-ticket-4.jpg",
+      "posts/2026-11-23/case-rita-alvarez-ticket-5.jpg"
+    ],
+    "hook": "Now serving: number 47. (waiting-room NOW SERVING display and a paper take-a-number ticket call the patient, her quote in a speech bubble, the four moves as a strip of numbered tickets, a ticket with the diagnosis left as ? ? ?, end card)",
+    "case_id": "rita-alvarez",
+    "script": "kit/variants/case_photos_04_ticket.py",
+    "buffer_id": "6b011e5120a2d09a0ad26ce9"
+  },
+  {
+    "date": "2026-11-24",
+    "slot": "06:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-24/broke-to-rich-13-view-from-his-window.mp4"
+    ],
+    "hook": "The view from his window at every rank. (one window, five views: a brick wall with a flickering sign for the Intern, the hospital parking lot at night, city rooftops, the skyline at sunset, then the ED Director's own driveway with the supercar; frame, wall and outfit upgrade as the career card climbs)",
+    "script": "kit/variants/b2r_13_window.py",
+    "music": "bright",
+    "buffer_id": "6b011e515102766245f6ad29"
+  },
+  {
+    "date": "2026-11-24",
+    "slot": "14:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-24/case-ben-taylor-radio-call.mp4"
+    ],
+    "hook": "Dr Smith, come in. (the case arrives as a call on a handheld radio with a pulsing waveform and caption strip, the patient's quote runs as live captions under his portrait, the four moves are four radio channels: Four moves. Your call.)",
+    "case_id": "ben-taylor",
+    "script": "kit/variants/case_07_radio.py",
+    "music": "upbeat",
+    "buffer_id": "6b011e525e993799d85035b8"
+  },
+  {
+    "date": "2026-11-24",
+    "slot": "22:00",
+    "model": "Full Game",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-24/full-game-10-pop-quiz-1.jpg",
+      "posts/2026-11-24/full-game-10-pop-quiz-2.jpg",
+      "posts/2026-11-24/full-game-10-pop-quiz-3.jpg",
+      "posts/2026-11-24/full-game-10-pop-quiz-4.jpg",
+      "posts/2026-11-24/full-game-10-pop-quiz-5.jpg",
+      "posts/2026-11-24/full-game-10-pop-quiz-6.jpg"
+    ],
+    "hook": "Pop quiz: ER orientation. (the game as a multiple-choice quiz sheet marked in red pen: 163 patients, the four moves, Intern to ED Director, four modes, playful wrong answers, then the graded sheet 4/4)",
+    "script": "kit/variants/fullgame_10_quiz_photos.py",
+    "buffer_id": "6b011e52dd205ed779bb4d8f"
+  },
+  {
+    "date": "2026-11-25",
+    "slot": "06:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-25/case-nina-castillo-case-file.mp4"
+    ],
+    "hook": "Case file: unsolved. (a manila patient file drops on the desk and gets a red UNSOLVED stamp, opens on the patient's statement typed in her own words with the diagnosis line blacked out, the four moves as four file dividers: Four moves to crack it.)",
+    "case_id": "nina-castillo",
+    "script": "kit/variants/case_08_casefile.py",
+    "music": "tense",
+    "buffer_id": "6b026f68024796909222c4bb"
+  },
+  {
+    "date": "2026-11-25",
+    "slot": "14:00",
+    "model": "Full Game",
+    "format": "video",
+    "files": [
+      "posts/2026-11-25/full-game-11-done-watching.mp4"
+    ],
+    "hook": "Done watching medical dramas? (a TV playing a hospital drama is switched off: Your turn. The screen fills with patients counting to 163 and \"Nobody tells you the diagnosis\", the four moves as the four buttons of the remote, the five ranks as an episode list starring Dr John Smith, the four modes as the TV menu with Career first; end card Stop watching. Start treating.)",
+    "script": "kit/variants/fullgame_11_tv.py",
+    "music": "upbeat",
+    "buffer_id": "6b026f69d5eabfb8cc808042"
+  },
+  {
+    "date": "2026-11-25",
+    "slot": "22:00",
+    "model": "Broke to Rich",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-25/broke-to-rich-14-rating-every-bed-1.jpg",
+      "posts/2026-11-25/broke-to-rich-14-rating-every-bed-2.jpg",
+      "posts/2026-11-25/broke-to-rich-14-rating-every-bed-3.jpg",
+      "posts/2026-11-25/broke-to-rich-14-rating-every-bed-4.jpg",
+      "posts/2026-11-25/broke-to-rich-14-rating-every-bed-5.jpg",
+      "posts/2026-11-25/broke-to-rich-14-rating-every-bed-6.jpg"
+    ],
+    "hook": "Rating every bed Dr John Smith has slept in. (the climb as star-rated reviews, one slide per rank: floor mattress 1 star, on-call bunk 2, a real bed frame 3, queen bed with a city view 4, king canopy bed in the mansion 5)",
+    "script": "kit/variants/b2r_14_beds_photos.py",
+    "buffer_id": "6b026f69d5eabfb8cc8080ec"
+  },
+  {
+    "date": "2026-11-26",
+    "slot": "06:00",
+    "model": "Full Game",
+    "format": "video",
+    "files": [
+      "posts/2026-11-26/full-game-12-your-er-just-opened.mp4"
+    ],
+    "hook": "Your ER just opened. (the game as neon signs on a brick wall at night: an ER / OPEN sign flickers on, a neon counter runs to 163 patients waiting, the four moves light up as a stack of signs, the five ranks light rung by rung while Dr John Smith's outfit upgrades, the four modes glow with Career marked START HERE)",
+    "script": "kit/variants/fullgame_12_neon.py",
+    "music": "tense",
+    "buffer_id": "6b03c0b3d5eabfb8cc054443"
+  },
+  {
+    "date": "2026-11-26",
+    "slot": "14:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-26/broke-to-rich-15-coffee-at-every-rank.mp4"
+    ],
+    "hook": "Dr John Smith's coffee at every rank. (the climb told through the cup sliding down the counter: vending-machine paper cup, burnt break-room pot, takeaway latte with his name spelled wrong, double espresso from his own machine, gold cup from a personal barista). Modelled on the week's best performer, \"What Dr John Smith eats at every rank\".",
+    "script": "kit/variants/b2r_15_coffee.py",
+    "music": "bright",
+    "buffer_id": "6b03c0b4a6de38de9ebb050f"
+  },
+  {
+    "date": "2026-11-26",
+    "slot": "22:00",
+    "model": "Case",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-26/case-nina-kaur-triage-note-1.jpg",
+      "posts/2026-11-26/case-nina-kaur-triage-note-2.jpg",
+      "posts/2026-11-26/case-nina-kaur-triage-note-3.jpg",
+      "posts/2026-11-26/case-nina-kaur-triage-note-4.jpg",
+      "posts/2026-11-26/case-nina-kaur-triage-note-5.jpg"
+    ],
+    "hook": "Note from triage. (quote first: the patient's words on a yellow sticky note left for the doctor, then a pinned photo with problem, triage and level notes, the four moves as four coloured sticky notes, one note left blank for the diagnosis)",
+    "case_id": "nina-kaur",
+    "script": "kit/variants/case_photos_05_sticky.py",
+    "buffer_id": "6b03c0b5d5eabfb8cc05447c"
+  },
+  {
+    "date": "2026-11-27",
+    "slot": "06:00",
+    "model": "Broke to Rich",
+    "format": "video",
+    "files": [
+      "posts/2026-11-27/broke-to-rich-16-common-card.mp4"
+    ],
+    "hook": "Every doctor starts as a common card. (Dr John Smith's career as a collectible card that flips and levels up with every rank: Common Intern, Uncommon Resident, Rare Registrar, Epic Consultant, Legendary ED Director in gold foil; the card carries his bank balance from $2,000 and skill and sleep pips)",
+    "script": "kit/variants/b2r_16_cards.py",
+    "music": "upbeat",
+    "buffer_id": "6b0511ddf0d7b1e0deaf9d56"
+  },
+  {
+    "date": "2026-11-27",
+    "slot": "14:00",
+    "model": "Case",
+    "format": "video",
+    "files": [
+      "posts/2026-11-27/case-zoe-martin-searched-it.mp4"
+    ],
+    "hook": "Zoe searched the symptoms first. (the patient's quote typed into a symptom search box, grey results and \"No clear answer. See a doctor.\" then \"That doctor is you\"; the patient card with the quote in a speech bubble; the four moves as four search-suggestion rows: No search bar. Just four moves.)",
+    "case_id": "zoe-martin",
+    "script": "kit/variants/case_09_search.py",
+    "music": "upbeat",
+    "buffer_id": "6b0511dd6734c08a26affa20"
+  },
+  {
+    "date": "2026-11-27",
+    "slot": "22:00",
+    "model": "Case",
+    "format": "photos",
+    "files": [
+      "posts/2026-11-27/case-mark-ellis-whats-wrong-1.jpg",
+      "posts/2026-11-27/case-mark-ellis-whats-wrong-2.jpg",
+      "posts/2026-11-27/case-mark-ellis-whats-wrong-3.jpg",
+      "posts/2026-11-27/case-mark-ellis-whats-wrong-4.jpg",
+      "posts/2026-11-27/case-mark-ellis-whats-wrong-5.jpg"
+    ],
+    "hook": "What's wrong with Mark? (quote in a big speech bubble on slide 1, then his chart with the diagnosis row locked, the A-D \"What do you do first?\" choice, the one-call box, end card). Weekly-review extra modelled on \"Would you catch this?\", replacing the Full Game photo slot.",
+    "case_id": "mark-ellis",
+    "script": "kit/variants/case_photos_06_whats_wrong.py",
+    "buffer_id": "6b0511def0d7b1e0deaf9d8e"
+  }
 ]

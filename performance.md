@@ -6,7 +6,7 @@ Last weekly review: **2026-11-23** (Monday, Sydney time). Next review: first run
 
 | Slot (Sydney) | Replaces | Extra to make | Status |
 |---|---|---|---|
-| Fri 27 Nov, 10:00pm | Full Game photos | Case photo set in the style of "Would you catch this?" (612 views: the patient's quote in a speech bubble on slide 1, then the chart with the diagnosis row locked), with a patient not used before. It is that day's photo set. 27 Nov then has Case at 2pm and 10pm: different patients and treatments. | To do |
+| Fri 27 Nov, 10:00pm | Full Game photos | Case photo set in the style of "Would you catch this?" (612 views: the patient's quote in a speech bubble on slide 1, then the chart with the diagnosis row locked), with a patient not used before. It is that day's photo set. 27 Nov then has Case at 2pm and 10pm: different patients and treatments. | Done 24 Nov: "What's wrong with Mark?" (Mark Ellis), `kit/variants/case_photos_06_whats_wrong.py` |
 | Sun 29 Nov, 6:00am | Full Game video | Broke to Rich video in the style of "What Dr John Smith eats at every rank" (773 views: one everyday thing upgrading rank by rank, rank name as the headline), with a new object. 29 Nov then has Broke to Rich at 6am and 2pm: give the 2pm one a different treatment, such as a split-screen comparison like "Mattress or mansion?" (612 views). | To do |
 
 All other slots follow the normal rotation in CLAUDE.md. The posts already queued for 24 and 25 Nov were left as they are.
