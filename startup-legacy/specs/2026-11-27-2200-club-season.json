@@ -1,0 +1,13 @@
+{
+ "model": "Club Owner",
+ "format": "photos",
+ "scenes": [
+  {"scene": "stadium", "dur": 3.0, "head": ["My club's season", "in 5 slides"], "args": {"score": [0, 2], "opp": "Brammerholt"}, "photo_t": 2.0},
+  {"scene": "clubmoney", "dur": 3.0, "head": ["Week 3: bigger", "wages, elite coach"], "photo_t": 2.6},
+  {"scene": "stadium", "dur": 3.0, "head": ["Mid-season:", "four wins in a row"], "args": {"score": [4, 0], "opp": "Sandrevale"}, "photo_t": 2.0},
+  {"scene": "club", "dur": 3.0, "head": ["Fans came back.", "So did the money."], "photo_t": 2.8},
+  {"scene": "trophy", "dur": 3.0, "head": ["Final day:", "champions"], "hud": [4, 15200000, 4, 15200000], "photo_t": 2.0},
+  {"scene": "cta", "dur": 3.4, "photo_t": 2.5}
+ ],
+ "caption": "Ticket price, wage bill, coach and a star signing, then a league table to climb. Could you win the title? Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #sports #simulationgame"
+}

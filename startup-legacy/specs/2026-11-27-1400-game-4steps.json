@@ -1,0 +1,14 @@
+{
+ "model": "Full Game",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {"scene": "broke", "dur": 3.0, "head": ["Broke to rich", "in 4 steps."], "hud": [0, 2000, 0, 2000], "voice": "Broke to rich, in four steps."},
+  {"scene": "garage", "dur": 3.2, "head": ["1. Pick from", "29 industries."], "hud": [0, 2000, 1, 18000], "voice": "One. Pick from twenty-nine industries."},
+  {"scene": "office", "dur": 3.2, "head": ["2. Set your price", "and ad spend."], "hud": [1, 18000, 2, 420000], "toasts": [[0.9, 2.5, "New customers", "+$4,800"]], "voice": "Two. Set your price and ad spend."},
+  {"scene": "trading", "dur": 3.2, "head": ["3. Ride a market", "that reacts to news."], "hud": [2, 420000, 3, 3600000], "voice": "Three. Ride a market that reacts to news."},
+  {"scene": "jet", "dur": 3.0, "head": ["4. Spend it.", "The jet's in the shop."], "hud": [3, 3600000, 4, 19000000], "voice": "Four. Spend it."},
+  {"scene": "cta", "dur": 3.4, "voice": "Startup Legacy. Free on the App Store."}
+ ],
+ "caption": "Pick from 29 industries, set your price and ad spend, ride a share market that reacts to news, then shop for a private jet. Free on the App Store: Startup Legacy. #entrepreneur #businessgame #startup #howtogetrich #simulationgame"
+}

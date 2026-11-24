@@ -1,0 +1,14 @@
+{
+ "model": "Job Offer",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {"scene": "offer", "dur": 3.0, "head": ["Two offers.", "Same morning."], "args": {"title": "Finance Analyst", "pay": "$6,200 / month", "who": "A big firm", "tag_": "OFFER A"}, "voice": "Two offers. Same morning."},
+  {"scene": "offer", "dur": 3.2, "head": ["Offer B paid less.", "I took it."], "args": {"title": "Growth Lead", "pay": "$5,100 / month", "who": "Requires: a laptop", "tag_": "ACCEPTED"}, "voice": "Offer B paid less. I took it."},
+  {"scene": "office", "dur": 3.0, "head": ["Two years in:", "running the team."], "hud": [1, 32000, 2, 210000], "voice": "Two years in, running the team."},
+  {"scene": "offer", "dur": 3.2, "head": ["Then a headhunter", "rang."], "args": {"title": "Chief Executive Officer", "pay": "$61,000 / month", "who": "Executive search firm", "tag_": "HEADHUNTER"}, "voice": "Then a headhunter rang."},
+  {"scene": "ladder", "dur": 3.2, "head": ["Less pay first.", "The top job later."], "args": {"roles": [["Growth Lead", "$5,100/mo"], ["Head of Growth", "$11,600/mo"], ["Operations Director", "$27,000/mo"], ["CEO", "$61,000/mo"]]}, "voice": "Less pay first. The top job later."},
+  {"scene": "cta", "dur": 3.4, "voice": "A, or B? Startup Legacy."}
+ ],
+ "caption": "Two job offers on the same morning. I took the one that paid less, then a headhunter called with a CEO role. A or B? Free on the App Store: Startup Legacy. #career #jobs #ceo #careeradvice #simulationgame"
+}
