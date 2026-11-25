@@ -1,0 +1,73 @@
+{
+ "model": "The Numbers",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {
+   "scene": "pricing",
+   "dur": 3.2,
+   "head": [
+    "I tested every price",
+    "from $19 to $99."
+   ],
+   "hud": [
+    2,
+    180000,
+    2,
+    180000
+   ],
+   "voice": "I tested every price from nineteen to ninety-nine."
+  },
+  {
+   "scene": "marketing",
+   "dur": 3.2,
+   "head": [
+    "Then I scaled ads",
+    "from $500 to $20k."
+   ],
+   "hud": [
+    2,
+    180000,
+    2,
+    420000
+   ],
+   "voice": "Then I scaled ads to twenty thousand a month."
+  },
+  {
+   "scene": "unit",
+   "dur": 3.2,
+   "head": [
+    "And watched",
+    "one number: 10.8x."
+   ],
+   "hud": [
+    2,
+    420000,
+    2,
+    610000
+   ],
+   "voice": "And watched one number. Ten point eight x."
+  },
+  {
+   "scene": "pnl",
+   "dur": 3.4,
+   "head": [
+    "Result: $22,700",
+    "profit a month."
+   ],
+   "hud": [
+    2,
+    610000,
+    3,
+    1400000
+   ],
+   "voice": "Result? Twenty-two thousand profit a month."
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "What would you charge? Startup Legacy."
+  }
+ ],
+ "caption": "I tested prices from $19 to $99, scaled the ads, and watched cost per customer against lifetime value. What would you charge? Free on the App Store: Startup Legacy. #entrepreneur #pricing #business #smallbusiness #simulationgame"
+}

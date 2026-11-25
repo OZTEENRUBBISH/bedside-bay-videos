@@ -1,0 +1,103 @@
+{
+ "model": "Broke to Rich",
+ "format": "photos",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3,
+   "head": [
+    "My bank balance,",
+    "year by year"
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "tags": [
+    [
+     0.5,
+     "Year 0: $2,000",
+     300,
+     1120
+    ]
+   ],
+   "photo_t": 1.8
+  },
+  {
+   "scene": "garage",
+   "dur": 3,
+   "head": [
+    "Year 2:",
+    "$31,000"
+   ],
+   "hud": [
+    1,
+    31000,
+    1,
+    31000
+   ],
+   "toasts": [
+    [
+     0.6,
+     3.0,
+     "First big order",
+     "+$4,800"
+    ]
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "trading",
+   "dur": 3,
+   "head": [
+    "Year 5:",
+    "$6.8 million"
+   ],
+   "hud": [
+    3,
+    6800000,
+    3,
+    6800000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "watch",
+   "dur": 3,
+   "head": [
+    "Year 7:",
+    "$19 million"
+   ],
+   "hud": [
+    4,
+    19000000,
+    4,
+    19000000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "jet",
+   "dur": 3,
+   "head": [
+    "Year 10:",
+    "$64 million"
+   ],
+   "hud": [
+    4,
+    64000000,
+    4,
+    64000000
+   ],
+   "photo_t": 2.6
+  },
+  {
+   "scene": "cta",
+   "dur": 3,
+   "photo_t": 2.5
+  }
+ ],
+ "caption": "My bank balance, year by year, from broke to a private jet. Swipe to year 10. Free on the App Store: Startup Legacy. #entrepreneur #startup #moneytok #success #simulationgame"
+}

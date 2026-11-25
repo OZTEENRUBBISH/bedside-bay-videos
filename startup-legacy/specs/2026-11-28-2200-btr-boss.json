@@ -1,0 +1,105 @@
+{
+ "model": "Broke to Rich",
+ "format": "video",
+ "style": "tense",
+ "follow_up_of": "6b0130ef20a2d09a0ad7de12",
+ "scenes": [
+  {
+   "scene": "broke",
+   "dur": 3.0,
+   "head": [
+    "My boss said:",
+    "you'll never be rich."
+   ],
+   "hud": [
+    0,
+    2000,
+    0,
+    2000
+   ],
+   "tags": [
+    [
+     0.8,
+     "Rent overdue",
+     300,
+     1120
+    ]
+   ],
+   "voice": "My boss said, you'll never be rich."
+  },
+  {
+   "scene": "garage",
+   "dur": 2.8,
+   "head": [
+    "So I quit and",
+    "started in a garage."
+   ],
+   "hud": [
+    0,
+    2000,
+    1,
+    24000
+   ],
+   "toasts": [
+    [
+     0.7,
+     2.4,
+     "First order",
+     "+$90"
+    ]
+   ],
+   "voice": "So I quit and started in a garage."
+  },
+  {
+   "scene": "office",
+   "dur": 2.8,
+   "head": [
+    "Year 3:",
+    "my own office."
+   ],
+   "hud": [
+    1,
+    24000,
+    2,
+    940000
+   ],
+   "voice": "Year three. My own office."
+  },
+  {
+   "scene": "jet",
+   "dur": 2.8,
+   "head": [
+    "Year 6:",
+    "I fly private now."
+   ],
+   "hud": [
+    2,
+    940000,
+    4,
+    18000000
+   ],
+   "voice": "Year six. I fly private now."
+  },
+  {
+   "scene": "cars",
+   "dur": 3.2,
+   "head": [
+    "Year 8:",
+    "never rich, huh?"
+   ],
+   "hud": [
+    4,
+    18000000,
+    4,
+    46000000
+   ],
+   "voice": "Year eight. Never rich, huh?"
+  },
+  {
+   "scene": "cta",
+   "dur": 3.4,
+   "voice": "Startup Legacy. Free on the App Store."
+  }
+ ],
+ "caption": "My boss said I'd never be rich, so I quit and started a company in a garage. Free on the App Store: Startup Legacy. #entrepreneur #startup #quitmyjob #success #simulationgame"
+}
