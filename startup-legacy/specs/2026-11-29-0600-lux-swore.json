@@ -1,0 +1,13 @@
+{
+ "model": "Luxury Unlocks",
+ "format": "photos",
+ "scenes": [
+  {"scene": "broke", "dur": 3, "head": ["Things I swore", "I'd never afford"], "hud": [0, 2000, 0, 2000], "photo_t": 1.8},
+  {"scene": "mansion", "car_in": false, "dur": 3, "head": ["No. 1:", "a house on the hill"], "hud": [3, 6500000, 3, 6500000], "photo_t": 2.6},
+  {"scene": "watch", "dur": 3, "head": ["No. 2:", "a solid gold watch"], "hud": [3, 9200000, 3, 9200000], "photo_t": 2.6},
+  {"scene": "yacht", "dur": 3, "head": ["No. 3:", "a superyacht"], "hud": [4, 27000000, 4, 27000000], "photo_t": 2.6},
+  {"scene": "cars", "dur": 3, "head": ["No. 4:", "a garage of supercars"], "hud": [4, 41000000, 4, 41000000], "photo_t": 2.6},
+  {"scene": "cta", "dur": 3, "photo_t": 2.5}
+ ],
+ "caption": "From a broke room to a house on the hill, a gold watch, a superyacht and a garage of supercars. Which would you buy first? Free on the App Store: Startup Legacy. #luxurylifestyle #richlife #entrepreneur #motivation #simulationgame"
+}

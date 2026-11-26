@@ -1,0 +1,14 @@
+{
+ "model": "Club Owner",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {"scene": "club", "dur": 3.2, "head": ["Where my club's", "money comes from."], "hud": [3, 8800000, 3, 9400000], "voice": "Where my club's money comes from."},
+  {"scene": "stadium", "dur": 3.0, "head": ["Match night:", "ticket sales."], "args": {"score": [1, 0], "opp": "Corvenhall"}, "hud": [3, 9400000, 3, 9900000], "voice": "Match night. Ticket sales."},
+  {"scene": "clubmoney", "dur": 3.2, "head": ["Then the costs:", "wages and a coach."], "hud": [3, 9900000, 3, 9100000], "voice": "Then the costs. Wages, and a coach."},
+  {"scene": "stadium", "dur": 3.0, "head": ["Win more,", "sell more merch."], "args": {"score": [4, 1], "opp": "Brammerholt"}, "hud": [3, 9100000, 4, 11800000], "voice": "Win more. Sell more merch."},
+  {"scene": "trophy", "dur": 3.0, "head": ["Sponsors, TV money,", "a league title."], "hud": [4, 11800000, 4, 14900000], "voice": "Sponsors, T.V. money, and a title."},
+  {"scene": "cta", "dur": 3.4, "voice": "Could you run a club? Startup Legacy."}
+ ],
+ "caption": "Ticket sales, merch, sponsors and TV money coming in, wages and a coach going out, and a league table to climb. Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #entrepreneur #simulationgame"
+}

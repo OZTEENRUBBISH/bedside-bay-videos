@@ -1,0 +1,14 @@
+{
+ "model": "Full Game",
+ "format": "video",
+ "style": "bright",
+ "scenes": [
+  {"scene": "broke", "dur": 3.0, "head": ["Pick your difficulty.", "Four levels."], "hud": [0, 2000, 0, 2000], "voice": "Pick your difficulty. Four levels."},
+  {"scene": "garage", "dur": 3.0, "head": ["Hire your", "first staff."], "hud": [0, 2000, 1, 26000], "toasts": [[0.9, 2.4, "New hire", "Sales lead"]], "voice": "Hire your first staff."},
+  {"scene": "office", "dur": 3.2, "head": ["Buy a film studio", "or a phone company."], "hud": [1, 26000, 2, 740000], "voice": "Buy a film studio, or a phone company."},
+  {"scene": "stadium", "dur": 3.0, "head": ["Or buy", "a sports club."], "args": {"score": [2, 0], "opp": "Sandrevale"}, "hud": [2, 740000, 3, 5800000], "voice": "Or buy a sports club."},
+  {"scene": "yacht", "dur": 3.0, "head": ["Then shop for", "a superyacht."], "hud": [3, 5800000, 4, 24000000], "voice": "Then shop for a superyacht."},
+  {"scene": "cta", "dur": 3.4, "voice": "What would your life report say? Startup Legacy."}
+ ],
+ "caption": "Four difficulty levels, staff to hire, film studios, phone companies and sports clubs to buy, and a full life report at the end. Free on the App Store: Startup Legacy. #businessgame #entrepreneur #startup #mobilegames #simulationgame"
+}
