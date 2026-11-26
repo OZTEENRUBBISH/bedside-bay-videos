@@ -1155,7 +1155,7 @@
    "metrics_updated": "2026-11-25T14:00:05.665Z"
   },
   "winner": "2026-11-26: 435 views at 43 h (median 150.5 of 18 posts live >=24 h, bar 301)",
-  "followed_up": "2026-11-29 06:00"
+  "followed_up": "6b07c83d63939e1d0076796d"
  },
  {
   "date": "2026-11-25",
@@ -1482,5 +1482,78 @@
   "caption": "My boss said I'd never be rich, so I quit and started a company in a garage. Free on the App Store: Startup Legacy. #entrepreneur #startup #quitmyjob #success #simulationgame",
   "follow_up_of": "6b0130ef20a2d09a0ad7de12",
   "note": "Follow-up of winner 'Everyone said: get a real job.' (518 views); replaces the Luxury Unlocks slot (weakest model), also covers the 23 Nov weekly-review extra."
+ },
+ {
+  "date": "2026-11-29",
+  "slot": "06:00",
+  "model": "Luxury Unlocks",
+  "format": "photos",
+  "style_group": 1,
+  "spec": "specs/2026-11-29-0600-lux-swore.json",
+  "files": [
+   "posts/2026-11-29/lux-swore/slide-1.jpg",
+   "posts/2026-11-29/lux-swore/slide-2.jpg",
+   "posts/2026-11-29/lux-swore/slide-3.jpg",
+   "posts/2026-11-29/lux-swore/slide-4.jpg",
+   "posts/2026-11-29/lux-swore/slide-5.jpg",
+   "posts/2026-11-29/lux-swore/slide-6.jpg"
+  ],
+  "hook": "Things I swore I'd never afford",
+  "scenes": [
+   "broke",
+   "mansion",
+   "watch",
+   "yacht",
+   "cars",
+   "cta"
+  ],
+  "buffer_id": "6b07c83d63939e1d0076796d",
+  "caption": "From a broke room to a house on the hill, a gold watch, a superyacht and a garage of supercars. Which would you buy first? Free on the App Store: Startup Legacy. #luxurylifestyle #richlife #entrepreneur #motivation #simulationgame",
+  "follow_up_of": "6b0130f09ffbc8503cff5033",
+  "note": "Follow-up of winner 'Things I never thought I'd own' (435 views, 2.9x median); takes the Job Offer slot (weakest model over 7 days, avg 106 views), so the day's photo set moved to 06:00."
+ },
+ {
+  "date": "2026-11-29",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "video",
+  "style_group": 1,
+  "spec": "specs/2026-11-29-1400-game-levels.json",
+  "files": [
+   "posts/2026-11-29/game-levels.mp4"
+  ],
+  "hook": "Pick your difficulty. Four levels.",
+  "scenes": [
+   "broke",
+   "garage",
+   "office",
+   "stadium",
+   "yacht",
+   "cta"
+  ],
+  "buffer_id": "6b07c83e17fc84b971a70825",
+  "caption": "Four difficulty levels, staff to hire, film studios, phone companies and sports clubs to buy, and a full life report at the end. Free on the App Store: Startup Legacy. #businessgame #entrepreneur #startup #mobilegames #simulationgame"
+ },
+ {
+  "date": "2026-11-29",
+  "slot": "22:00",
+  "model": "Club Owner",
+  "format": "video",
+  "style_group": 2,
+  "spec": "specs/2026-11-29-2200-club-wheremoney.json",
+  "files": [
+   "posts/2026-11-29/club-wheremoney.mp4"
+  ],
+  "hook": "Where my club's money comes from.",
+  "scenes": [
+   "club",
+   "stadium",
+   "clubmoney",
+   "stadium",
+   "trophy",
+   "cta"
+  ],
+  "buffer_id": "6b07c83ff13f49a925951d31",
+  "caption": "Ticket sales, merch, sponsors and TV money coming in, wages and a coach going out, and a league table to climb. Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #entrepreneur #simulationgame"
  }
 ]
