@@ -1,0 +1,14 @@
+{
+ "model": "Club Owner",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {"scene": "stadium", "dur": 3.2, "head": ["Season one:", "we lost every week."], "args": {"score": [0, 2], "opp": "Sandrevale"}, "hud": [3, 6900000, 3, 6900000], "voice": "Season one. We lost every week."},
+  {"scene": "clubmoney", "dur": 3.2, "head": ["So I hired", "an elite coach."], "hud": [3, 6900000, 3, 6200000], "voice": "So I hired an elite coach."},
+  {"scene": "stadium", "dur": 3.0, "head": ["Season two:", "a packed stadium."], "args": {"score": [3, 1], "opp": "Esterbrae"}, "hud": [3, 6200000, 3, 7800000], "voice": "Season two. A packed stadium."},
+  {"scene": "club", "dur": 3.2, "head": ["Merch, sponsors,", "climbing the table."], "hud": [3, 7800000, 4, 11200000], "voice": "Merch, sponsors, and up the table."},
+  {"scene": "trophy", "dur": 3.0, "head": ["Season three:", "league champions."], "hud": [4, 11200000, 4, 15600000], "voice": "Season three. League champions."},
+  {"scene": "cta", "dur": 3.4, "voice": "Could you turn a club around? Startup Legacy."}
+ ],
+ "caption": "From losing every week to league champions: set the coach, the wages and ticket prices, then climb the table. Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #entrepreneur #simulationgame"
+}

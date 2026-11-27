@@ -1,0 +1,14 @@
+{
+ "model": "Broke to Rich",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {"scene": "broke", "dur": 3.0, "head": ["Age 20:", "one room, no money."], "hud": [0, 2000, 0, 2000], "voice": "Age twenty. One room, no money."},
+  {"scene": "garage", "dur": 2.8, "head": ["Age 22:", "my first customer."], "hud": [0, 2000, 1, 18000], "voice": "Age twenty two. My first customer."},
+  {"scene": "trading", "dur": 2.8, "head": ["Age 26:", "my shares took off."], "hud": [1, 18000, 3, 5900000], "voice": "Age twenty six. My shares took off."},
+  {"scene": "watch", "dur": 2.8, "head": ["Age 29:", "a solid gold watch."], "hud": [3, 5900000, 3, 14000000], "voice": "Age twenty nine. A solid gold watch."},
+  {"scene": "mansion", "dur": 3.2, "head": ["Age 33:", "the house I dreamed of."], "hud": [3, 14000000, 4, 43000000], "voice": "Age thirty three. The house I dreamed of."},
+  {"scene": "cta", "dur": 3.4, "voice": "Startup Legacy. Free on the App Store."}
+ ],
+ "caption": "Age 20 in one room with no money. Age 33 in the house I dreamed of. How fast could you do it? Free on the App Store: Startup Legacy. #entrepreneur #startup #success #motivation #simulationgame"
+}
