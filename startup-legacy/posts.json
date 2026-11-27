@@ -1057,7 +1057,8 @@
    "metrics_updated": "2026-11-26T13:01:07.996Z"
   },
   "winner": "2026-11-26: 337 views (median 150.5, bar 301)",
-  "follow_up_planned": "30 Nov or later (29 Nov already has the Luxury Unlocks follow-up; 26-28 Nov were full)"
+  "follow_up_planned": "30 Nov or later (29 Nov already has the Luxury Unlocks follow-up; 26-28 Nov were full)",
+  "followed_up": "6b0919ba049983dcfb901041"
  },
  {
   "date": "2026-11-24",
@@ -1582,5 +1583,75 @@
   ],
   "buffer_id": "6b07c83ff13f49a925951d31",
   "caption": "Ticket sales, merch, sponsors and TV money coming in, wages and a coach going out, and a league table to climb. Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #entrepreneur #simulationgame"
+ },
+ {
+  "date": "2026-11-30",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "style_group": 1,
+  "spec": "specs/2026-11-30-0600-btr-age20.json",
+  "files": [
+   "posts/2026-11-30/btr-age20.mp4"
+  ],
+  "hook": "Age 20: one room, no money.",
+  "scenes": [
+   "broke",
+   "garage",
+   "trading",
+   "watch",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6b0919b9658222306ce6e36d"
+ },
+ {
+  "date": "2026-11-30",
+  "slot": "14:00",
+  "model": "Club Owner",
+  "format": "video",
+  "style_group": 2,
+  "spec": "specs/2026-11-30-1400-club-turnaround.json",
+  "files": [
+   "posts/2026-11-30/club-turnaround.mp4"
+  ],
+  "hook": "Season one: we lost every week.",
+  "scenes": [
+   "stadium",
+   "clubmoney",
+   "stadium",
+   "club",
+   "trophy",
+   "cta"
+  ],
+  "buffer_id": "6b0919ba049983dcfb901041",
+  "follow_up_of": "6affdf3a7b0a126cebaf4b51",
+  "note": "Follow-up of winner 'Year one: bottom of the league.' (533 views, 2.7x the 197.5 median of posts live 24 h+); takes The Numbers slot (weakest model scheduled that day, avg 159 views over 7 days; Job Offer is weaker but has no slot on 30 Nov)."
+ },
+ {
+  "date": "2026-11-30",
+  "slot": "22:00",
+  "model": "Luxury Unlocks",
+  "format": "photos",
+  "style_group": 1,
+  "spec": "specs/2026-11-30-2200-lux-day.json",
+  "files": [
+   "posts/2026-11-30/lux-day/slide-1.jpg",
+   "posts/2026-11-30/lux-day/slide-2.jpg",
+   "posts/2026-11-30/lux-day/slide-3.jpg",
+   "posts/2026-11-30/lux-day/slide-4.jpg",
+   "posts/2026-11-30/lux-day/slide-5.jpg",
+   "posts/2026-11-30/lux-day/slide-6.jpg"
+  ],
+  "hook": "A day in my rich life. 7am: the yacht.",
+  "scenes": [
+   "yacht",
+   "jet",
+   "cars",
+   "watch",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6b0919ba062ed764a8e97a97"
  }
 ]
