@@ -573,7 +573,7 @@
   "files": [
    "posts/2026-11-23/full-game-09-the-board-is-full.mp4"
   ],
-  "hook": "The board is full. (ER tracking whiteboard filling with six real patients by name, age, problem and triage, \"+157 more \u00b7 163 patients\", then one patient's four moves ticked off on the board, a staff roster of the five ranks lighting up beside Dr John Smith, and Career as the big tile over the other three modes)",
+  "hook": "The board is full. (ER tracking whiteboard filling with six real patients by name, age, problem and triage, \"+157 more · 163 patients\", then one patient's four moves ticked off on the board, a staff roster of the five ranks lighting up beside Dr John Smith, and Career as the big tile over the other three modes)",
   "script": "kit/variants/fullgame_09_board.py",
   "music": "bright",
   "buffer_id": "6b011e4f9ffbc8503cfa061a"
@@ -782,5 +782,153 @@
   "case_id": "mark-ellis",
   "script": "kit/variants/case_photos_06_whats_wrong.py",
   "buffer_id": "6b0511def0d7b1e0deaf9d8e"
+ },
+ {
+  "date": "2026-11-28",
+  "slot": "22:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-28/broke-to-rich-17-fridge-at-every-rank-1.jpg",
+   "posts/2026-11-28/broke-to-rich-17-fridge-at-every-rank-2.jpg",
+   "posts/2026-11-28/broke-to-rich-17-fridge-at-every-rank-3.jpg",
+   "posts/2026-11-28/broke-to-rich-17-fridge-at-every-rank-4.jpg",
+   "posts/2026-11-28/broke-to-rich-17-fridge-at-every-rank-5.jpg",
+   "posts/2026-11-28/broke-to-rich-17-fridge-at-every-rank-6.jpg"
+  ],
+  "hook": "What's in his fridge? Dr John Smith. Every rank. (one open fridge per rank, upgrading from a dented mini-fridge with one ketchup packet to a private-chef double-door fridge in the mansion kitchen, a one-line comment from Dr John Smith in a speech bubble on each slide, the career card climbing)",
+  "script": "kit/variants/b2r_17_fridge_photos.py",
+  "buffer_id": "6b0a5abb2a2e4f66cafcab30"
+ },
+ {
+  "date": "2026-11-29",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-29/broke-to-rich-18-phone-at-every-rank.mp4"
+  ],
+  "hook": "Dr John Smith's phone at every rank. (a big phone held up beside him, upgrading rank by rank: cracked hand-me-down on 3% battery, taped-up phone with 47 missed pages, a calendar that is all shifts, dinner reservation confirmed, a gold phone his assistant answers). Weekly-review extra modelled on \"What Dr John Smith eats at every rank\", replacing the Full Game video slot.",
+  "script": "kit/variants/b2r_18_phone.py",
+  "music": "upbeat",
+  "buffer_id": "6b0a5ae82a2e4f66cafcb76a"
+ },
+ {
+  "date": "2026-11-29",
+  "slot": "14:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-29/broke-to-rich-19-same-24-hours.mp4"
+  ],
+  "hook": "Same 24 hours. Intern vs ED Director. (horizontal split screen, broke Intern on top and ED Director below living the same day; a clock in the divider ticks 6:00 AM, 12:00 PM, 6:00 PM, 11:00 PM: floor mattress or king bed, vending machine or chef's table, bus stop or supercar, still charting or feet up; then Same doctor. 4 promotions apart.)",
+  "script": "kit/variants/b2r_19_same_day.py",
+  "music": "bright",
+  "buffer_id": "6b0a5ae8eada83daa6c5bb1f"
+ },
+ {
+  "date": "2026-11-29",
+  "slot": "22:00",
+  "model": "Case",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-29/case-joan-harper-three-clues-1.jpg",
+   "posts/2026-11-29/case-joan-harper-three-clues-2.jpg",
+   "posts/2026-11-29/case-joan-harper-three-clues-3.jpg",
+   "posts/2026-11-29/case-joan-harper-three-clues-4.jpg",
+   "posts/2026-11-29/case-joan-harper-three-clues-5.jpg"
+  ],
+  "hook": "3 clues. 1 patient. (quote first: the patient's words are Clue 1 on a numbered playing-card style clue card, Clue 2 who she is, Clue 3 triage and difficulty, then a locked ? ? ? diagnosis card with Dr John Smith and the four moves, end card)",
+  "case_id": "joan-harper",
+  "script": "kit/variants/case_photos_07_clues.py",
+  "buffer_id": "6b0a5ae923fb5b77001c665e"
+ },
+ {
+  "date": "2026-11-30",
+  "slot": "06:00",
+  "model": "Broke to Rich",
+  "format": "video",
+  "files": [
+   "posts/2026-11-30/broke-to-rich-21-wish-list.mp4"
+  ],
+  "hook": "Dr John Smith's wish list. Day 1. (a torn notebook page taped to the broke Intern's wall lists A real bed, A car that starts, A gold watch, The mansion; each promotion puts the thing beside him and lands a tick and strike-through on that line; List complete.)",
+  "script": "kit/variants/b2r_21_wishlist.py",
+  "music": "upbeat",
+  "buffer_id": "6b0a5aea2a2e4f66cafcb82a"
+ },
+ {
+  "date": "2026-11-30",
+  "slot": "14:00",
+  "model": "Case",
+  "format": "video",
+  "files": [
+   "posts/2026-11-30/case-ethan-brooks-handover.mp4"
+  ],
+  "hook": "He said one sentence. (the patient's quote fills a speech bubble from the first frame, then a shift-handover clipboard slides in: Bed 5 is yours now, diagnosis line locked; the four moves pop in around his portrait: Four moves. One call.)",
+  "case_id": "ethan-brooks",
+  "script": "kit/variants/case_10_handover.py",
+  "music": "tense",
+  "buffer_id": "6b0a5aebeada83daa6c5bc99"
+ },
+ {
+  "date": "2026-11-30",
+  "slot": "22:00",
+  "model": "Full Game",
+  "format": "photos",
+  "files": [
+   "posts/2026-11-30/full-game-13-four-numbers-1.jpg",
+   "posts/2026-11-30/full-game-13-four-numbers-2.jpg",
+   "posts/2026-11-30/full-game-13-four-numbers-3.jpg",
+   "posts/2026-11-30/full-game-13-four-numbers-4.jpg",
+   "posts/2026-11-30/full-game-13-four-numbers-5.jpg",
+   "posts/2026-11-30/full-game-13-four-numbers-6.jpg"
+  ],
+  "hook": "4 numbers. One job. Can you guess them? (163, 4, 5, 4 as four giant colour blocks, then one full-colour slide per number: 163 patients, 4 moves, 5 ranks, 4 ways to play with Career first; a strip along the bottom fills in as you swipe)",
+  "script": "kit/variants/fullgame_13_four_numbers_photos.py",
+  "buffer_id": "6b0a5aec23fb5b77001c674f"
+ },
+ {
+  "date": "2026-12-01",
+  "slot": "06:00",
+  "model": "Case",
+  "format": "video",
+  "files": [
+   "posts/2026-12-01/case-kai-tanaka-lights-on.mp4"
+  ],
+  "hook": "Someone in bed 7 just said this. (lights out: the patient's quote arrives word by word in white on a black screen, the lights snap on to his patient card, the four moves are four wall switches that flip on, then The diagnosis? Still in the dark.)",
+  "case_id": "kai-tanaka",
+  "script": "kit/variants/case_11_lights_on.py",
+  "music": "upbeat",
+  "buffer_id": "6b0a5aeceada83daa6c5bcf0"
+ },
+ {
+  "date": "2026-12-01",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "video",
+  "files": [
+   "posts/2026-12-01/full-game-14-how-far-would-you-get.mp4"
+  ],
+  "hook": "How far would you get in the ER? (the game as one hospital corridor scrolling past Dr John Smith as he jogs from the START line: 163 patients in curtained bays, 4 moves as four doors, 5 ranks as five doors with his outfit upgrading, 4 ways to play as hanging signs with Career marked START HERE)",
+  "script": "kit/variants/fullgame_14_corridor.py",
+  "music": "upbeat",
+  "buffer_id": "6b0a5aed2a2e4f66cafcb956"
+ },
+ {
+  "date": "2026-12-01",
+  "slot": "22:00",
+  "model": "Broke to Rich",
+  "format": "photos",
+  "files": [
+   "posts/2026-12-01/broke-to-rich-20-whats-in-his-bag-1.jpg",
+   "posts/2026-12-01/broke-to-rich-20-whats-in-his-bag-2.jpg",
+   "posts/2026-12-01/broke-to-rich-20-whats-in-his-bag-3.jpg",
+   "posts/2026-12-01/broke-to-rich-20-whats-in-his-bag-4.jpg",
+   "posts/2026-12-01/broke-to-rich-20-whats-in-his-bag-5.jpg",
+   "posts/2026-12-01/broke-to-rich-20-whats-in-his-bag-6.jpg"
+  ],
+  "hook": "What's in Dr John Smith's bag? Every rank. (top-down flat-lay per rank with taped labels: worn backpack with a bus pass and 2 coins, gym duffel, messenger bag, leather satchel, designer briefcase with supercar key, gold watch and mansion keys; the career card climbing)",
+  "script": "kit/variants/b2r_20_bag_photos.py",
+  "buffer_id": "6b0a5aee23fb5b77001c67b7"
  }
 ]

@@ -7,9 +7,9 @@ Last weekly review: **2026-11-23** (Monday, Sydney time). Next review: first run
 | Slot (Sydney) | Replaces | Extra to make | Status |
 |---|---|---|---|
 | Fri 27 Nov, 10:00pm | Full Game photos | Case photo set in the style of "Would you catch this?" (612 views: the patient's quote in a speech bubble on slide 1, then the chart with the diagnosis row locked), with a patient not used before. It is that day's photo set. 27 Nov then has Case at 2pm and 10pm: different patients and treatments. | Done 24 Nov: "What's wrong with Mark?" (Mark Ellis), `kit/variants/case_photos_06_whats_wrong.py` |
-| Sun 29 Nov, 6:00am | Full Game video | Broke to Rich video in the style of "What Dr John Smith eats at every rank" (773 views: one everyday thing upgrading rank by rank, rank name as the headline), with a new object. 29 Nov then has Broke to Rich at 6am and 2pm: give the 2pm one a different treatment, such as a split-screen comparison like "Mattress or mansion?" (612 views). | To do |
+| Sun 29 Nov, 6:00am | Full Game video | Broke to Rich video in the style of "What Dr John Smith eats at every rank" (773 views: one everyday thing upgrading rank by rank, rank name as the headline), with a new object. 29 Nov then has Broke to Rich at 6am and 2pm: give the 2pm one a different treatment, such as a split-screen comparison like "Mattress or mansion?" (612 views). | Done 28 Nov: "Dr John Smith's phone at every rank", `kit/variants/b2r_18_phone.py`; the 2pm post is the split screen "Same 24 hours. Intern vs ED Director." |
 
-All other slots follow the normal rotation in CLAUDE.md. The posts already queued for 24 and 25 Nov were left as they are.
+All other slots follow the normal rotation in CLAUDE.md. Note: no run happened on 25–27 Nov, so the 28 Nov 6am and 2pm slots went unfilled; the 25 Nov 2pm post ("Done watching medical dramas?", Buffer id 6b026f69d5eabfb8cc808042) is in Buffer with status error and was left as it is. The run on 28 Nov filled 28 Nov 10pm to 1 Dec 10pm (10 posts, the queue limit). The posts already queued for 24 and 25 Nov were left as they are.
 
 ## Review of 16–22 Nov (metrics from Buffer, updated 2026-11-22 16:02 UTC)
 
