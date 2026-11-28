@@ -863,8 +863,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 1.76,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -897,8 +897,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 2.3,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -920,14 +920,15 @@
   ],
   "buffer_id": "6afe8d9cf6b6aa0cd4a541cf",
   "metrics": {
-   "views": 278,
-   "likes": 7,
+   "views": 522,
+   "likes": 9,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 3.51,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
-  }
+   "avg_watch_s": 3.71,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
+  },
+  "followed_up": "6b0a6b032a2e4f66ca028ac4"
  },
  {
   "date": "2026-11-22",
@@ -953,9 +954,9 @@
    "likes": 6,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 4.12,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "avg_watch_s": 4.11,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -985,8 +986,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 1.46,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1022,8 +1023,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 3.59,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1052,9 +1053,9 @@
    "likes": 6,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 4.63,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "avg_watch_s": 4.66,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   },
   "winner": "2026-11-26: 337 views (median 150.5, bar 301)",
   "follow_up_planned": "30 Nov or later (29 Nov already has the Luxury Unlocks follow-up; 26-28 Nov were full)",
@@ -1086,8 +1087,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 5.05,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   },
   "winner": "2026-11-25: 518 views at 35 h (median 175.5, bar 351)",
   "followed_up": "2026-11-28 22:00"
@@ -1117,8 +1118,8 @@
    "comments": 0,
    "shares": 0,
    "avg_watch_s": 2.67,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1147,13 +1148,13 @@
   ],
   "buffer_id": "6b0130f09ffbc8503cff5033",
   "metrics": {
-   "views": 456,
-   "likes": 4,
+   "views": 549,
+   "likes": 8,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 3.75,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "avg_watch_s": 4.19,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   },
   "winner": "2026-11-26: 435 views at 43 h (median 150.5 of 18 posts live >=24 h, bar 301)",
   "followed_up": "6b07c83d63939e1d0076796d"
@@ -1184,13 +1185,13 @@
   ],
   "buffer_id": "6b02823bc72676f5e9077394",
   "metrics": {
-   "views": 109,
+   "views": 114,
    "likes": 0,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 1.96,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "avg_watch_s": 1.95,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1214,13 +1215,13 @@
   ],
   "buffer_id": "6b02823c0247969092288a57",
   "metrics": {
-   "views": 281,
-   "likes": 3,
+   "views": 354,
+   "likes": 4,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 4,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "avg_watch_s": 3.99,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1244,13 +1245,13 @@
   ],
   "buffer_id": "6b02823dd864a011059d5fbd",
   "metrics": {
-   "views": 259,
+   "views": 268,
    "likes": 2,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 3.67,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "avg_watch_s": 3.69,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1275,13 +1276,13 @@
   "buffer_id": "6b03d3c2d864a0110524a9c2",
   "caption": "Day job by day, garage startup by night, then shares and a private jet. Free on the App Store: Startup Legacy. #entrepreneur #startup #sidehustle #success #simulationgame",
   "metrics": {
-   "views": 287,
+   "views": 301,
    "likes": 3,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 4.44,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "avg_watch_s": 4.45,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1309,13 +1310,13 @@
   "buffer_id": "6b03d3c3cc364169c1b3e26e",
   "caption": "Ad returns, cost per customer vs lifetime value, and price. Which do you check first? Free on the App Store: Startup Legacy. #entrepreneur #business #marketing #smallbusiness #simulationgame",
   "metrics": {
-   "views": 84,
+   "views": 92,
    "likes": 1,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 1.91,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.996Z"
+   "avg_watch_s": 1.97,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1341,13 +1342,13 @@
   "caption": "A share market that reacts to the news, ad spend, hiring, sports clubs and a private jet in the shop. How far would you get? Free on the App Store: Startup Legacy. #stocks #entrepreneur #businessgame #investing #simulationgame",
   "note": "weekly-review extra (23 Nov review): modelled on the week's top post, Full Game \"Breaking news. Your shares jumped.\" (6afd3c7daa3b065dd97762d4), in the Luxury Unlocks slot (weakest model this week, avg 107 views)",
   "metrics": {
-   "views": 19,
-   "likes": 2,
+   "views": 227,
+   "likes": 4,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 2.84,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-26T13:01:07.995Z"
+   "avg_watch_s": 3.43,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1372,13 +1373,13 @@
   "buffer_id": "6b05252a286252d73837b1e0",
   "caption": "Two job offers on the same morning. I took the one that paid less, then a headhunter called with a CEO role. A or B? Free on the App Store: Startup Legacy. #career #jobs #ceo #careeradvice #simulationgame",
   "metrics": {
-   "views": 0,
+   "views": 77,
    "likes": 0,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 0,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-24T05:48:26.891Z"
+   "avg_watch_s": 1.85,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.485Z"
   }
  },
  {
@@ -1403,13 +1404,13 @@
   "buffer_id": "6b05252bca4899309e5f9c73",
   "caption": "Pick from 29 industries, set your price and ad spend, ride a share market that reacts to news, then shop for a private jet. Free on the App Store: Startup Legacy. #entrepreneur #businessgame #startup #howtogetrich #simulationgame",
   "metrics": {
-   "views": 0,
+   "views": 42,
    "likes": 0,
    "comments": 0,
    "shares": 0,
-   "avg_watch_s": 0,
-   "checked": "2026-11-27T16:44+11:00",
-   "metrics_updated": "2026-11-24T05:48:27.548Z"
+   "avg_watch_s": 3.81,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.484Z"
   }
  },
  {
@@ -1437,7 +1438,16 @@
    "cta"
   ],
   "buffer_id": "6b05252c286252d73837b24c",
-  "caption": "Ticket price, wage bill, coach and a star signing, then a league table to climb. Could you win the title? Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #sports #simulationgame"
+  "caption": "Ticket price, wage bill, coach and a star signing, then a league table to climb. Could you win the title? Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #sports #simulationgame",
+  "metrics": {
+   "views": 6,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "avg_watch_s": 1.94,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-27T12:02:03.484Z"
+  }
  },
  {
   "date": "2026-11-28",
@@ -1464,7 +1474,16 @@
    "cta"
   ],
   "buffer_id": "6b0676ed40e1d58d1200812b",
-  "caption": "My bank balance, year by year, from broke to a private jet. Swipe to year 10. Free on the App Store: Startup Legacy. #entrepreneur #startup #moneytok #success #simulationgame"
+  "caption": "My bank balance, year by year, from broke to a private jet. Swipe to year 10. Free on the App Store: Startup Legacy. #entrepreneur #startup #moneytok #success #simulationgame",
+  "metrics": {
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "avg_watch_s": 0,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-25T05:49:33.019Z"
+  }
  },
  {
   "date": "2026-11-28",
@@ -1485,7 +1504,16 @@
    "cta"
   ],
   "buffer_id": "6b0676ed9cddd8483ab1b12c",
-  "caption": "I tested prices from $19 to $99, scaled the ads, and watched cost per customer against lifetime value. What would you charge? Free on the App Store: Startup Legacy. #entrepreneur #pricing #business #smallbusiness #simulationgame"
+  "caption": "I tested prices from $19 to $99, scaled the ads, and watched cost per customer against lifetime value. What would you charge? Free on the App Store: Startup Legacy. #entrepreneur #pricing #business #smallbusiness #simulationgame",
+  "metrics": {
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "avg_watch_s": 0,
+   "checked": "2026-11-28T16:44+11:00",
+   "metrics_updated": "2026-11-25T05:49:33.664Z"
+  }
  },
  {
   "date": "2026-11-28",
@@ -1653,5 +1681,75 @@
    "cta"
   ],
   "buffer_id": "6b0919ba062ed764a8e97a97"
+ },
+ {
+  "date": "2026-12-01",
+  "slot": "06:00",
+  "model": "The Numbers",
+  "format": "video",
+  "style_group": 2,
+  "spec": "specs/2026-12-01-0600-num-45in.json",
+  "files": [
+   "posts/2026-12-01/num-45in.mp4"
+  ],
+  "hook": "$45 per customer. $540 back.",
+  "scenes": [
+   "unit",
+   "pricing",
+   "marketing",
+   "pnl",
+   "cta"
+  ],
+  "buffer_id": "6b0a6b032a2e4f66ca028ac4",
+  "caption": "$45 to win a customer, $540 back over their lifetime. Then the price test, bigger ads and the monthly profit. Could you top it? Free on the App Store: Startup Legacy. #entrepreneur #business #marketing #finance #simulationgame",
+  "follow_up_of": "6afe8d9cf6b6aa0cd4a541cf",
+  "note": "Follow-up of winner '$38 in. $412 back.' (522 views, 2.5x the 212 median of posts live 24 h+); takes the Job Offer slot (weakest model, avg ~95 views over 7 days), so the day's photo set moved to 22:00."
+ },
+ {
+  "date": "2026-12-01",
+  "slot": "14:00",
+  "model": "Full Game",
+  "format": "video",
+  "style_group": 1,
+  "spec": "specs/2026-12-01-1400-game-buyone.json",
+  "files": [
+   "posts/2026-12-01/game-buyone.mp4"
+  ],
+  "hook": "Why start from zero? Buy a business.",
+  "scenes": [
+   "garage",
+   "office",
+   "trading",
+   "jet",
+   "mansion",
+   "cta"
+  ],
+  "buffer_id": "6b0a6b0323fb5b7700224fa6",
+  "caption": "Start a company or buy one that already runs, set prices and ad spend, ride a share market that reacts to news, then buy a private jet. Free on the App Store: Startup Legacy. #entrepreneur #businessgame #startup #mobilegames #simulationgame"
+ },
+ {
+  "date": "2026-12-01",
+  "slot": "22:00",
+  "model": "Club Owner",
+  "format": "photos",
+  "style_group": 2,
+  "spec": "specs/2026-12-01-2200-club-howwewon.json",
+  "files": [
+   "posts/2026-12-01/club-howwewon/slide-1.jpg",
+   "posts/2026-12-01/club-howwewon/slide-2.jpg",
+   "posts/2026-12-01/club-howwewon/slide-3.jpg",
+   "posts/2026-12-01/club-howwewon/slide-4.jpg",
+   "posts/2026-12-01/club-howwewon/slide-5.jpg"
+  ],
+  "hook": "We won the league. 3 things I changed:",
+  "scenes": [
+   "trophy",
+   "clubmoney",
+   "stadium",
+   "club",
+   "cta"
+  ],
+  "buffer_id": "6b0a6b04eab081a3f529335d",
+  "caption": "Coach, wage bill, a star signing and ticket prices: three changes that took my club to the title. What would you change? Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #sports #simulationgame"
  }
 ]
