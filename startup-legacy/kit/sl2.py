@@ -65,10 +65,10 @@ def marketing(c, t):
 
 
 # ---------------------------------------------------------------- unit economics
-def unit_econ(c, t):
+def unit_econ(c, t, cac='$38', ltv='$412', payback='2.4 months', ratio='10.8x', foot='Every $1 of ads brings back $10.80'):
     ui_bg(c, t, '#0f1720', '#16212d')
     for i in range(7): c.drawLine(0, 520 + i * 160, W, 520 + i * 160, P('#ffffff', 10, stroke=2))
-    rows = [('Cost per customer', '$38', '#ffffff'), ('Lifetime value', '$412', '#3ee08a'), ('Payback', '2.4 months', '#ffffff')]
+    rows = [('Cost per customer', cac, '#ffffff'), ('Lifetime value', ltv, '#3ee08a'), ('Payback', payback, '#ffffff')]
     for i, (lab, val, col) in enumerate(rows):
         k = ease((t - .2 - i * .35) / .5); y = 500 + i * 150
         rr(c, 60 + (1 - k) * 200, y, 960, 124, 30, P('#1d2a38', 255 * k))
@@ -77,18 +77,19 @@ def unit_econ(c, t):
     k = pop(clamp((t - 1.5) / .5))
     if k > 0:
         c.save(); c.translate(540, 1000); c.scale(k, k)
-        rr(c, -330, -70, 660, 140, 70, P('#3ee08a')); num(c, 'LTV : CAC  =  10.8x', 0, 20, 56, '#0f1720', 'c'); c.restore()
+        rr(c, -330, -70, 660, 140, 70, P('#3ee08a')); num(c, 'LTV : CAC  =  ' + ratio, 0, 20, 56, '#0f1720', 'c'); c.restore()
     if t > 2.0:
-        a = 255 * ease((t - 2.0) / .4); text(c, 'Every $1 of ads brings back $10.80', 540, 1130, 40, '#9fb2c2', 700, 'c', a=a)
+        a = 255 * ease((t - 2.0) / .4); text(c, foot, 540, 1130, 40, '#9fb2c2', 700, 'c', a=a)
 
 
 # ---------------------------------------------------------------- profit and loss
-def pnl(c, t):
+def pnl(c, t, rows=None, profit=None):
     ui_bg(c, t)
     card(c, 60, 480, 960, 700)
     text(c, 'THIS MONTH', 100, 545, 28, MUTED, 800); text(c, 'Profit & loss', 100, 610, 54, INK, 900)
-    rows = [('Revenue', 91400, GREEN_D), ('Cost of goods', -18300, RED), ('Wages + super', -24600, RED), ('Rent', -6200, RED),
+    rows = [(l, v, GREEN_D if v > 0 else RED) for l, v in rows] if rows else [('Revenue', 91400, GREEN_D), ('Cost of goods', -18300, RED), ('Wages + super', -24600, RED), ('Rent', -6200, RED),
             ('Marketing', -12000, RED), ('Tax', -7600, RED)]
+    profit = sum(v for _, v, _ in rows) if profit is None else profit
     for i, (lab, v, col) in enumerate(rows):
         k = ease((t - .2 - i * .22) / .35); y = 660 + i * 66
         text(c, lab, 100, y + 30, 38, INK, 700, a=255 * k)
@@ -97,7 +98,7 @@ def pnl(c, t):
     k = pop(clamp((t - 1.8) / .45))
     if k > 0:
         c.save(); c.translate(540, 1130); c.scale(k, k)
-        rr(c, -440, -50, 880, 100, 50, P(GREEN)); text(c, 'Profit', -400, 18, 44, '#ffffff', 900); num(c, '+$22,700', 400, 20, 52, '#ffffff', 'r'); c.restore()
+        rr(c, -440, -50, 880, 100, 50, P(GREEN)); text(c, 'Profit', -400, 18, 44, '#ffffff', 900); num(c, '+' + money(profit), 400, 20, 52, '#ffffff', 'r'); c.restore()
 
 
 # ---------------------------------------------------------------- price vs demand

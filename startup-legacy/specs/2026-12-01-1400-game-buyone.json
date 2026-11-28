@@ -1,0 +1,14 @@
+{
+ "model": "Full Game",
+ "format": "video",
+ "style": "upbeat",
+ "scenes": [
+  {"scene": "garage", "dur": 3.0, "head": ["Why start from zero?", "Buy a business."], "hud": [1, 60000, 1, 60000], "toasts": [[0.9, 2.5, "Business bought", "Staff included"]], "voice": "Why start from zero? Buy a business."},
+  {"scene": "office", "dur": 3.0, "head": ["Set the price.", "Set the ad spend."], "hud": [1, 60000, 2, 480000], "voice": "Set the price. Set the ad spend."},
+  {"scene": "trading", "dur": 3.2, "head": ["Big news?", "Your shares move."], "hud": [2, 480000, 3, 2600000], "voice": "Big news? Your shares move."},
+  {"scene": "jet", "dur": 3.0, "head": ["Rich enough?", "Buy a private jet."], "hud": [3, 2600000, 4, 16000000], "voice": "Rich enough? Buy a private jet."},
+  {"scene": "mansion", "dur": 3.2, "car_in": false, "head": ["The end:", "your life report."], "hud": [4, 16000000, 4, 31000000], "voice": "The end. Your whole life report."},
+  {"scene": "cta", "dur": 3.4, "voice": "Startup Legacy. Free on the App Store."}
+ ],
+ "caption": "Start a company or buy one that already runs, set prices and ad spend, ride a share market that reacts to news, then buy a private jet. Free on the App Store: Startup Legacy. #entrepreneur #businessgame #startup #mobilegames #simulationgame"
+}

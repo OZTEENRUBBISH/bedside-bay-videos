@@ -1,0 +1,13 @@
+{
+ "model": "The Numbers",
+ "format": "video",
+ "style": "tense",
+ "scenes": [
+  {"scene": "unit", "dur": 3.6, "head": ["$45 per customer.", "$540 back."], "args": {"cac": "$45", "ltv": "$540", "payback": "2.1 months", "ratio": "12x", "foot": "Every $1 of ads brings back $12"}, "hud": [2, 520000, 2, 520000], "voice": "Forty five dollars per customer. Five hundred and forty back."},
+  {"scene": "pricing", "dur": 3.2, "head": ["First I found", "the sweet spot."], "hud": [2, 520000, 2, 900000], "voice": "First I found the sweet spot."},
+  {"scene": "marketing", "dur": 3.2, "head": ["Then I turned", "the ads way up."], "hud": [2, 900000, 3, 2100000], "voice": "Then I turned the ads way up."},
+  {"scene": "pnl", "dur": 3.4, "head": ["Profit:", "$26,500 a month."], "args": {"rows": [["Revenue", 118600], ["Cost of goods", -23700], ["Wages + super", -31200], ["Rent", -7400], ["Marketing", -20000], ["Tax", -9800]]}, "hud": [3, 2100000, 3, 3600000], "voice": "Profit. Twenty six thousand five hundred a month."},
+  {"scene": "cta", "dur": 3.4, "voice": "Could you top that? Startup Legacy."}
+ ],
+ "caption": "$45 to win a customer, $540 back over their lifetime. Then the price test, bigger ads and the monthly profit. Could you top it? Free on the App Store: Startup Legacy. #entrepreneur #business #marketing #finance #simulationgame"
+}

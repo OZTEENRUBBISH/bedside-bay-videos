@@ -1,0 +1,12 @@
+{
+ "model": "Club Owner",
+ "format": "photos",
+ "scenes": [
+  {"scene": "trophy", "dur": 3.0, "head": ["We won the league.", "3 things I changed:"], "hud": [4, 14800000, 4, 14800000], "photo_t": 2.0},
+  {"scene": "clubmoney", "dur": 3.0, "head": ["1. Elite coach,", "bigger wage bill"], "photo_t": 2.6},
+  {"scene": "stadium", "dur": 3.0, "head": ["2. A star signing", "who scores"], "args": {"score": [3, 0], "opp": "Corvenhall"}, "photo_t": 2.0},
+  {"scene": "club", "dur": 3.0, "head": ["3. Fans, sponsors", "and TV money"], "photo_t": 2.8},
+  {"scene": "cta", "dur": 3.4, "photo_t": 2.5}
+ ],
+ "caption": "Coach, wage bill, a star signing and ticket prices: three changes that took my club to the title. What would you change? Free on the App Store: Startup Legacy. #football #clubowner #sportsbusiness #sports #simulationgame"
+}
